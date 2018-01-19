@@ -1,0 +1,9 @@
+{
+    "_states": {
+        "action-jaxon": {
+            "cpu_state": false,
+            "up_state": false,
+            "down_state": false
+        }
+    }
+}

@@ -1,0 +1,1738 @@
+[2017-11-02 20:00:57.834] NIO [INFO] [ClientMetrics.PublishClientCPU] Setting status to configured
+[2017-11-02 20:00:57.858] NIO [INFO] [ClientMetrics.PublishClientCPU] Setting status to starting
+[2017-11-02 20:00:57.858] NIO [INFO] [ClientMetrics.PublishClientCPU] Setting status to started
+[2017-11-02 20:01:08.987] NIO [ERROR] [pubkeeper.communication.WebsocketClientCommunication] Unable to read message
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/pubkeeper/communication/websocket/client.py", line 140, in read_messages
+    self._on_message(msg)
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/pubkeeper/brew/websocket/brew.py", line 44, in on_message
+    data=frame['data'])
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/pubkeeper/patron/patron.py", line 77, in _handle_callback
+    brewer_id))
+ValueError: Patron is not patronizing brewer(573bd953-6fee-4e33-b4cf-0f2f76196c98)
+[2017-11-02 20:02:30.493] NIO [ERROR] [pubkeeper.communication.WebsocketClientCommunication] Unable to read message
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/pubkeeper/communication/websocket/client.py", line 140, in read_messages
+    self._on_message(msg)
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/pubkeeper/brew/websocket/brew.py", line 44, in on_message
+    data=frame['data'])
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/pubkeeper/patron/patron.py", line 77, in _handle_callback
+    brewer_id))
+ValueError: Patron is not patronizing brewer(672b95ac-8cc9-4349-9298-e95c74e7879d)
+[2017-11-02 20:02:45.588] NIO [ERROR] [pubkeeper.communication.WebsocketClientCommunication] Unable to read message
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/pubkeeper/communication/websocket/client.py", line 140, in read_messages
+    self._on_message(msg)
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/pubkeeper/brew/websocket/brew.py", line 44, in on_message
+    data=frame['data'])
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/pubkeeper/patron/patron.py", line 77, in _handle_callback
+    brewer_id))
+ValueError: Patron is not patronizing brewer(27f5d362-3625-468f-aac9-b260072dfbad)
+[2017-11-02 20:05:00.387] NIO [ERROR] [pubkeeper.communication.WebsocketClientCommunication] Unable to read message
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/pubkeeper/communication/websocket/client.py", line 140, in read_messages
+    self._on_message(msg)
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/pubkeeper/brew/websocket/brew.py", line 44, in on_message
+    data=frame['data'])
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/pubkeeper/patron/patron.py", line 77, in _handle_callback
+    brewer_id))
+ValueError: Patron is not patronizing brewer(43233882-0447-4086-bf6e-34945001da20)
+[2017-11-02 20:39:22.011] NIO [ERROR] [pubkeeper.communication.WebsocketClientCommunication] Unable to read message
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/pubkeeper/communication/websocket/client.py", line 140, in read_messages
+    self._on_message(msg)
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/pubkeeper/brew/websocket/brew.py", line 44, in on_message
+    data=frame['data'])
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/pubkeeper/patron/patron.py", line 77, in _handle_callback
+    brewer_id))
+ValueError: Patron is not patronizing brewer(ad1aba5a-d240-4766-876f-924aa0e81a0a)
+[2017-11-02 20:43:15.186] NIO [ERROR] [pubkeeper.communication.WebsocketClientCommunication] Unable to read message
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/pubkeeper/communication/websocket/client.py", line 140, in read_messages
+    self._on_message(msg)
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/pubkeeper/brew/websocket/brew.py", line 44, in on_message
+    data=frame['data'])
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/pubkeeper/patron/patron.py", line 77, in _handle_callback
+    brewer_id))
+ValueError: Patron is not patronizing brewer(3b8d3b71-d889-4582-b34d-0239351fbc47)
+[2017-11-02 20:44:17.608] NIO [ERROR] [pubkeeper.communication.WebsocketClientCommunication] Unable to read message
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/pubkeeper/communication/websocket/client.py", line 140, in read_messages
+    self._on_message(msg)
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/pubkeeper/brew/websocket/brew.py", line 44, in on_message
+    data=frame['data'])
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/pubkeeper/patron/patron.py", line 77, in _handle_callback
+    brewer_id))
+ValueError: Patron is not patronizing brewer(4d686ee2-6c18-4498-807c-db66aa13e73d)
+[2017-11-02 20:49:33.128] NIO [ERROR] [pubkeeper.communication.WebsocketClientCommunication] Unable to read message
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/pubkeeper/communication/websocket/client.py", line 140, in read_messages
+    self._on_message(msg)
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/pubkeeper/brew/websocket/brew.py", line 44, in on_message
+    data=frame['data'])
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/pubkeeper/patron/patron.py", line 77, in _handle_callback
+    brewer_id))
+ValueError: Patron is not patronizing brewer(aabc50b1-e95a-4c77-8f91-4415bb07f3fe)
+[2017-11-02 20:51:40.775] NIO [ERROR] [pubkeeper.communication.WebsocketClientCommunication] Unable to read message
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/pubkeeper/communication/websocket/client.py", line 140, in read_messages
+    self._on_message(msg)
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/pubkeeper/brew/websocket/brew.py", line 44, in on_message
+    data=frame['data'])
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/pubkeeper/patron/patron.py", line 77, in _handle_callback
+    brewer_id))
+ValueError: Patron is not patronizing brewer(36727b1c-a020-42c8-8504-64a373c8e9bc)
+[2017-11-02 20:55:24.932] NIO [ERROR] [pubkeeper.communication.WebsocketClientCommunication] Unable to read message
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/pubkeeper/communication/websocket/client.py", line 140, in read_messages
+    self._on_message(msg)
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/pubkeeper/brew/websocket/brew.py", line 44, in on_message
+    data=frame['data'])
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/pubkeeper/patron/patron.py", line 77, in _handle_callback
+    brewer_id))
+ValueError: Patron is not patronizing brewer(8f2f5f1e-2614-44e5-8b3a-5f1a2bf860e1)
+[2017-11-02 20:57:34.073] NIO [ERROR] [pubkeeper.communication.WebsocketClientCommunication] Unable to read message
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/pubkeeper/communication/websocket/client.py", line 140, in read_messages
+    self._on_message(msg)
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/pubkeeper/brew/websocket/brew.py", line 44, in on_message
+    data=frame['data'])
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/pubkeeper/patron/patron.py", line 77, in _handle_callback
+    brewer_id))
+ValueError: Patron is not patronizing brewer(b06ec095-de8b-4201-813f-74f07472d0b7)
+[2017-11-02 20:58:23.975] NIO [ERROR] [pubkeeper.communication.WebsocketClientCommunication] Unable to read message
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/pubkeeper/communication/websocket/client.py", line 140, in read_messages
+    self._on_message(msg)
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/pubkeeper/brew/websocket/brew.py", line 44, in on_message
+    data=frame['data'])
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/pubkeeper/patron/patron.py", line 77, in _handle_callback
+    brewer_id))
+ValueError: Patron is not patronizing brewer(42b8aae3-79df-4c5a-b007-16b7c4283f02)
+[2017-11-02 21:00:21.597] NIO [ERROR] [pubkeeper.communication.WebsocketClientCommunication] Unable to read message
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/pubkeeper/communication/websocket/client.py", line 140, in read_messages
+    self._on_message(msg)
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/pubkeeper/brew/websocket/brew.py", line 44, in on_message
+    data=frame['data'])
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/pubkeeper/patron/patron.py", line 77, in _handle_callback
+    brewer_id))
+ValueError: Patron is not patronizing brewer(f1258f81-2f19-41ac-8db6-2ee73cc03114)
+[2017-11-02 21:02:45.268] NIO [ERROR] [pubkeeper.communication.WebsocketClientCommunication] Unable to read message
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/pubkeeper/communication/websocket/client.py", line 140, in read_messages
+    self._on_message(msg)
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/pubkeeper/brew/websocket/brew.py", line 44, in on_message
+    data=frame['data'])
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/pubkeeper/patron/patron.py", line 77, in _handle_callback
+    brewer_id))
+ValueError: Patron is not patronizing brewer(14b5c180-a3f2-4429-b2ff-b6e99dde4e0b)
+[2017-11-02 21:03:46.629] NIO [ERROR] [pubkeeper.communication.WebsocketClientCommunication] Unable to read message
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/pubkeeper/communication/websocket/client.py", line 140, in read_messages
+    self._on_message(msg)
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/pubkeeper/brew/websocket/brew.py", line 44, in on_message
+    data=frame['data'])
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/pubkeeper/patron/patron.py", line 77, in _handle_callback
+    brewer_id))
+ValueError: Patron is not patronizing brewer(0259f390-0767-47a8-8fa4-ee5b7d4370bc)
+[2017-11-02 21:05:10.037] NIO [ERROR] [pubkeeper.communication.WebsocketClientCommunication] Unable to read message
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/pubkeeper/communication/websocket/client.py", line 140, in read_messages
+    self._on_message(msg)
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/pubkeeper/brew/websocket/brew.py", line 44, in on_message
+    data=frame['data'])
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/pubkeeper/patron/patron.py", line 77, in _handle_callback
+    brewer_id))
+ValueError: Patron is not patronizing brewer(409cd066-c1d9-4eaf-88c8-944ace5ec12c)
+[2017-11-02 21:11:14.830] NIO [ERROR] [pubkeeper.communication.WebsocketClientCommunication] Unable to read message
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/pubkeeper/communication/websocket/client.py", line 140, in read_messages
+    self._on_message(msg)
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/pubkeeper/brew/websocket/brew.py", line 44, in on_message
+    data=frame['data'])
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/pubkeeper/patron/patron.py", line 77, in _handle_callback
+    brewer_id))
+ValueError: Patron is not patronizing brewer(dad5f01e-f6bd-4040-8d1a-416bb802d7aa)
+[2017-11-02 21:13:13.900] NIO [ERROR] [pubkeeper.communication.WebsocketClientCommunication] Unable to read message
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/pubkeeper/communication/websocket/client.py", line 140, in read_messages
+    self._on_message(msg)
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/pubkeeper/brew/websocket/brew.py", line 44, in on_message
+    data=frame['data'])
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/pubkeeper/patron/patron.py", line 77, in _handle_callback
+    brewer_id))
+ValueError: Patron is not patronizing brewer(c9cb0666-4c6c-42c8-8d1a-d9f63b1e1d12)
+[2017-11-02 21:14:01.308] NIO [ERROR] [pubkeeper.communication.WebsocketClientCommunication] Unable to read message
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/pubkeeper/communication/websocket/client.py", line 140, in read_messages
+    self._on_message(msg)
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/pubkeeper/brew/websocket/brew.py", line 44, in on_message
+    data=frame['data'])
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/pubkeeper/patron/patron.py", line 77, in _handle_callback
+    brewer_id))
+ValueError: Patron is not patronizing brewer(39eb2267-613d-4c73-af89-5b78e6b83b79)
+[2017-11-02 21:15:11.152] NIO [ERROR] [pubkeeper.communication.WebsocketClientCommunication] Unable to read message
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/pubkeeper/communication/websocket/client.py", line 140, in read_messages
+    self._on_message(msg)
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/pubkeeper/brew/websocket/brew.py", line 44, in on_message
+    data=frame['data'])
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/pubkeeper/patron/patron.py", line 77, in _handle_callback
+    brewer_id))
+ValueError: Patron is not patronizing brewer(6ddf1dfe-dea1-406a-a46f-07cf12eb0acd)
+[2017-11-02 21:18:30.468] NIO [ERROR] [pubkeeper.communication.WebsocketClientCommunication] Unable to read message
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/pubkeeper/communication/websocket/client.py", line 140, in read_messages
+    self._on_message(msg)
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/pubkeeper/brew/websocket/brew.py", line 44, in on_message
+    data=frame['data'])
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/pubkeeper/patron/patron.py", line 77, in _handle_callback
+    brewer_id))
+ValueError: Patron is not patronizing brewer(82e15d10-de4e-4330-a278-b3f402efc58a)
+[2017-11-02 21:18:39.363] NIO [ERROR] [pubkeeper.communication.WebsocketClientCommunication] Unable to read message
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/pubkeeper/communication/websocket/client.py", line 140, in read_messages
+    self._on_message(msg)
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/pubkeeper/brew/websocket/brew.py", line 44, in on_message
+    data=frame['data'])
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/pubkeeper/patron/patron.py", line 77, in _handle_callback
+    brewer_id))
+ValueError: Patron is not patronizing brewer(0b3d2cfb-afd5-49ff-93e7-1bad571c11af)
+[2017-11-02 21:19:36.749] NIO [ERROR] [pubkeeper.communication.WebsocketClientCommunication] Unable to read message
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/pubkeeper/communication/websocket/client.py", line 140, in read_messages
+    self._on_message(msg)
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/pubkeeper/brew/websocket/brew.py", line 44, in on_message
+    data=frame['data'])
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/pubkeeper/patron/patron.py", line 77, in _handle_callback
+    brewer_id))
+ValueError: Patron is not patronizing brewer(9507e5d3-55ae-4c20-b556-7df9f3b76e2b)
+[2017-11-02 21:21:02.409] NIO [ERROR] [pubkeeper.communication.WebsocketClientCommunication] Unable to read message
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/pubkeeper/communication/websocket/client.py", line 140, in read_messages
+    self._on_message(msg)
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/pubkeeper/brew/websocket/brew.py", line 44, in on_message
+    data=frame['data'])
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/pubkeeper/patron/patron.py", line 77, in _handle_callback
+    brewer_id))
+ValueError: Patron is not patronizing brewer(c3e45e2b-da3e-458c-8d54-c5d474d64b6c)
+[2017-11-02 21:23:37.055] NIO [ERROR] [pubkeeper.communication.WebsocketClientCommunication] Unable to read message
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/pubkeeper/communication/websocket/client.py", line 140, in read_messages
+    self._on_message(msg)
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/pubkeeper/brew/websocket/brew.py", line 44, in on_message
+    data=frame['data'])
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/pubkeeper/patron/patron.py", line 77, in _handle_callback
+    brewer_id))
+ValueError: Patron is not patronizing brewer(072833c2-491c-45c9-b550-1b569b0e470b)
+[2017-11-02 21:25:55.988] NIO [ERROR] [pubkeeper.communication.WebsocketClientCommunication] Unable to read message
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/pubkeeper/communication/websocket/client.py", line 140, in read_messages
+    self._on_message(msg)
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/pubkeeper/brew/websocket/brew.py", line 44, in on_message
+    data=frame['data'])
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/pubkeeper/patron/patron.py", line 77, in _handle_callback
+    brewer_id))
+ValueError: Patron is not patronizing brewer(434b0686-3645-4303-a1df-67649a8116c0)
+[2017-11-02 21:26:36.658] NIO [ERROR] [pubkeeper.communication.WebsocketClientCommunication] Unable to read message
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/pubkeeper/communication/websocket/client.py", line 140, in read_messages
+    self._on_message(msg)
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/pubkeeper/brew/websocket/brew.py", line 44, in on_message
+    data=frame['data'])
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/pubkeeper/patron/patron.py", line 77, in _handle_callback
+    brewer_id))
+ValueError: Patron is not patronizing brewer(bcec8511-406f-4e3c-825d-059a3700f92a)
+[2017-11-02 21:28:56.964] NIO [ERROR] [pubkeeper.communication.WebsocketClientCommunication] Unable to read message
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/pubkeeper/communication/websocket/client.py", line 140, in read_messages
+    self._on_message(msg)
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/pubkeeper/brew/websocket/brew.py", line 44, in on_message
+    data=frame['data'])
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/pubkeeper/patron/patron.py", line 77, in _handle_callback
+    brewer_id))
+ValueError: Patron is not patronizing brewer(18ce7c63-0edb-41b2-a5f8-747849ddac38)
+[2017-11-02 21:29:24.328] NIO [ERROR] [pubkeeper.communication.WebsocketClientCommunication] Unable to read message
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/pubkeeper/communication/websocket/client.py", line 140, in read_messages
+    self._on_message(msg)
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/pubkeeper/brew/websocket/brew.py", line 44, in on_message
+    data=frame['data'])
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/pubkeeper/patron/patron.py", line 77, in _handle_callback
+    brewer_id))
+ValueError: Patron is not patronizing brewer(ecb3650d-687a-48d2-ad1a-d31c4f6efb7f)
+[2017-11-02 21:29:42.397] NIO [ERROR] [pubkeeper.communication.WebsocketClientCommunication] Unable to read message
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/pubkeeper/communication/websocket/client.py", line 140, in read_messages
+    self._on_message(msg)
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/pubkeeper/brew/websocket/brew.py", line 44, in on_message
+    data=frame['data'])
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/pubkeeper/patron/patron.py", line 77, in _handle_callback
+    brewer_id))
+ValueError: Patron is not patronizing brewer(3bd853cc-b932-405b-9289-eac8a5335608)
+[2017-11-02 21:30:27.157] NIO [ERROR] [pubkeeper.communication.WebsocketClientCommunication] Unable to read message
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/pubkeeper/communication/websocket/client.py", line 140, in read_messages
+    self._on_message(msg)
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/pubkeeper/brew/websocket/brew.py", line 44, in on_message
+    data=frame['data'])
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/pubkeeper/patron/patron.py", line 77, in _handle_callback
+    brewer_id))
+ValueError: Patron is not patronizing brewer(d51c1bd3-b931-4f3a-b951-fa2ce3083ebc)
+[2017-11-02 21:32:15.717] NIO [ERROR] [pubkeeper.communication.WebsocketClientCommunication] Unable to read message
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/pubkeeper/communication/websocket/client.py", line 140, in read_messages
+    self._on_message(msg)
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/pubkeeper/brew/websocket/brew.py", line 44, in on_message
+    data=frame['data'])
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/pubkeeper/patron/patron.py", line 77, in _handle_callback
+    brewer_id))
+ValueError: Patron is not patronizing brewer(42e899a6-2511-42a0-8f03-d490654413e4)
+[2017-11-02 23:11:01.951] NIO [ERROR] [pubkeeper.communication.WebsocketClientCommunication] Unable to read message
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/pubkeeper/communication/websocket/client.py", line 140, in read_messages
+    self._on_message(msg)
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/pubkeeper/brew/websocket/brew.py", line 44, in on_message
+    data=frame['data'])
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/pubkeeper/patron/patron.py", line 77, in _handle_callback
+    brewer_id))
+ValueError: Patron is not patronizing brewer(3401bde9-ced0-46e1-8dd7-a445ac8e8b37)
+[2017-11-03 00:04:32.902] NIO [WARNING] [pubkeeper.communication.WebsocketClientCommunication] Connection Failure: ([Errno 8] nodename nor servname provided, or not known)
+[2017-11-03 00:04:32.903] NIO [ERROR] [pubkeeper.communication.WebsocketClientCommunication] Connection Failure
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/pubkeeper/communication/websocket/client.py", line 71, in _check_connection
+    ping_interval=self.config['websocket_ping_interval']
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/gen.py", line 1055, in run
+    value = future.result()
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/concurrent.py", line 238, in result
+    raise_exc_info(self._exc_info)
+  File "<string>", line 4, in raise_exc_info
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/stack_context.py", line 316, in wrapped
+    ret = fn(*args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/gen.py", line 289, in <lambda>
+    future, lambda future: callback(future.result()))
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/concurrent.py", line 238, in result
+    raise_exc_info(self._exc_info)
+  File "<string>", line 4, in raise_exc_info
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/gen.py", line 1063, in run
+    yielded = self.gen.throw(*exc_info)
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/tcpclient.py", line 177, in connect
+    addrinfo = yield self.resolver.resolve(host, port, af)
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/gen.py", line 1055, in run
+    value = future.result()
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/concurrent.py", line 238, in result
+    raise_exc_info(self._exc_info)
+  File "<string>", line 4, in raise_exc_info
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/concurrent.py", line 363, in submit
+    future.set_result(fn(*args, **kwargs))
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/netutil.py", line 391, in resolve
+    addrinfo = socket.getaddrinfo(host, port, family, socket.SOCK_STREAM)
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/socket.py", line 732, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+[2017-11-03 00:04:37.670] NIO [WARNING] [pubkeeper.communication.WebsocketClientCommunication] Connection Failure: ([Errno 8] nodename nor servname provided, or not known)
+[2017-11-03 00:04:37.670] NIO [ERROR] [pubkeeper.communication.WebsocketClientCommunication] Connection Failure
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/pubkeeper/communication/websocket/client.py", line 71, in _check_connection
+    ping_interval=self.config['websocket_ping_interval']
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/gen.py", line 1055, in run
+    value = future.result()
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/concurrent.py", line 238, in result
+    raise_exc_info(self._exc_info)
+  File "<string>", line 4, in raise_exc_info
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/stack_context.py", line 316, in wrapped
+    ret = fn(*args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/gen.py", line 289, in <lambda>
+    future, lambda future: callback(future.result()))
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/concurrent.py", line 238, in result
+    raise_exc_info(self._exc_info)
+  File "<string>", line 4, in raise_exc_info
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/gen.py", line 1063, in run
+    yielded = self.gen.throw(*exc_info)
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/tcpclient.py", line 177, in connect
+    addrinfo = yield self.resolver.resolve(host, port, af)
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/gen.py", line 1055, in run
+    value = future.result()
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/concurrent.py", line 238, in result
+    raise_exc_info(self._exc_info)
+  File "<string>", line 4, in raise_exc_info
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/concurrent.py", line 363, in submit
+    future.set_result(fn(*args, **kwargs))
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/netutil.py", line 391, in resolve
+    addrinfo = socket.getaddrinfo(host, port, family, socket.SOCK_STREAM)
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/socket.py", line 732, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+[2017-11-03 00:04:42.923] NIO [WARNING] [pubkeeper.communication.WebsocketClientCommunication] Connection Failure: ([Errno 8] nodename nor servname provided, or not known)
+[2017-11-03 00:04:42.923] NIO [ERROR] [pubkeeper.communication.WebsocketClientCommunication] Connection Failure
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/pubkeeper/communication/websocket/client.py", line 71, in _check_connection
+    ping_interval=self.config['websocket_ping_interval']
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/gen.py", line 1055, in run
+    value = future.result()
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/concurrent.py", line 238, in result
+    raise_exc_info(self._exc_info)
+  File "<string>", line 4, in raise_exc_info
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/stack_context.py", line 316, in wrapped
+    ret = fn(*args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/gen.py", line 289, in <lambda>
+    future, lambda future: callback(future.result()))
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/concurrent.py", line 238, in result
+    raise_exc_info(self._exc_info)
+  File "<string>", line 4, in raise_exc_info
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/gen.py", line 1063, in run
+    yielded = self.gen.throw(*exc_info)
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/tcpclient.py", line 177, in connect
+    addrinfo = yield self.resolver.resolve(host, port, af)
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/gen.py", line 1055, in run
+    value = future.result()
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/concurrent.py", line 238, in result
+    raise_exc_info(self._exc_info)
+  File "<string>", line 4, in raise_exc_info
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/concurrent.py", line 363, in submit
+    future.set_result(fn(*args, **kwargs))
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/netutil.py", line 391, in resolve
+    addrinfo = socket.getaddrinfo(host, port, family, socket.SOCK_STREAM)
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/socket.py", line 732, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+[2017-11-03 00:04:47.676] NIO [WARNING] [pubkeeper.communication.WebsocketClientCommunication] Connection Failure: ([Errno 8] nodename nor servname provided, or not known)
+[2017-11-03 00:04:47.676] NIO [ERROR] [pubkeeper.communication.WebsocketClientCommunication] Connection Failure
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/pubkeeper/communication/websocket/client.py", line 71, in _check_connection
+    ping_interval=self.config['websocket_ping_interval']
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/gen.py", line 1055, in run
+    value = future.result()
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/concurrent.py", line 238, in result
+    raise_exc_info(self._exc_info)
+  File "<string>", line 4, in raise_exc_info
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/stack_context.py", line 316, in wrapped
+    ret = fn(*args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/gen.py", line 289, in <lambda>
+    future, lambda future: callback(future.result()))
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/concurrent.py", line 238, in result
+    raise_exc_info(self._exc_info)
+  File "<string>", line 4, in raise_exc_info
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/gen.py", line 1063, in run
+    yielded = self.gen.throw(*exc_info)
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/tcpclient.py", line 177, in connect
+    addrinfo = yield self.resolver.resolve(host, port, af)
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/gen.py", line 1055, in run
+    value = future.result()
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/concurrent.py", line 238, in result
+    raise_exc_info(self._exc_info)
+  File "<string>", line 4, in raise_exc_info
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/concurrent.py", line 363, in submit
+    future.set_result(fn(*args, **kwargs))
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/netutil.py", line 391, in resolve
+    addrinfo = socket.getaddrinfo(host, port, family, socket.SOCK_STREAM)
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/socket.py", line 732, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+[2017-11-03 00:05:06.579] NIO [WARNING] [pubkeeper.communication.WebsocketClientCommunication] Connection Failure: ([Errno 8] nodename nor servname provided, or not known)
+[2017-11-03 00:05:06.580] NIO [ERROR] [pubkeeper.communication.WebsocketClientCommunication] Connection Failure
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/pubkeeper/communication/websocket/client.py", line 71, in _check_connection
+    ping_interval=self.config['websocket_ping_interval']
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/gen.py", line 1055, in run
+    value = future.result()
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/concurrent.py", line 238, in result
+    raise_exc_info(self._exc_info)
+  File "<string>", line 4, in raise_exc_info
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/stack_context.py", line 316, in wrapped
+    ret = fn(*args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/gen.py", line 289, in <lambda>
+    future, lambda future: callback(future.result()))
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/concurrent.py", line 238, in result
+    raise_exc_info(self._exc_info)
+  File "<string>", line 4, in raise_exc_info
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/gen.py", line 1063, in run
+    yielded = self.gen.throw(*exc_info)
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/tcpclient.py", line 177, in connect
+    addrinfo = yield self.resolver.resolve(host, port, af)
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/gen.py", line 1055, in run
+    value = future.result()
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/concurrent.py", line 238, in result
+    raise_exc_info(self._exc_info)
+  File "<string>", line 4, in raise_exc_info
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/concurrent.py", line 363, in submit
+    future.set_result(fn(*args, **kwargs))
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/netutil.py", line 391, in resolve
+    addrinfo = socket.getaddrinfo(host, port, family, socket.SOCK_STREAM)
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/socket.py", line 732, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+[2017-11-03 00:05:06.581] NIO [WARNING] [pubkeeper.communication.WebsocketClientCommunication] Connection Failure: ([Errno 8] nodename nor servname provided, or not known)
+[2017-11-03 00:05:06.581] NIO [ERROR] [pubkeeper.communication.WebsocketClientCommunication] Connection Failure
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/pubkeeper/communication/websocket/client.py", line 71, in _check_connection
+    ping_interval=self.config['websocket_ping_interval']
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/gen.py", line 1055, in run
+    value = future.result()
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/concurrent.py", line 238, in result
+    raise_exc_info(self._exc_info)
+  File "<string>", line 4, in raise_exc_info
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/stack_context.py", line 316, in wrapped
+    ret = fn(*args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/gen.py", line 289, in <lambda>
+    future, lambda future: callback(future.result()))
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/concurrent.py", line 238, in result
+    raise_exc_info(self._exc_info)
+  File "<string>", line 4, in raise_exc_info
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/gen.py", line 1063, in run
+    yielded = self.gen.throw(*exc_info)
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/tcpclient.py", line 177, in connect
+    addrinfo = yield self.resolver.resolve(host, port, af)
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/gen.py", line 1055, in run
+    value = future.result()
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/concurrent.py", line 238, in result
+    raise_exc_info(self._exc_info)
+  File "<string>", line 4, in raise_exc_info
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/concurrent.py", line 363, in submit
+    future.set_result(fn(*args, **kwargs))
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/netutil.py", line 391, in resolve
+    addrinfo = socket.getaddrinfo(host, port, family, socket.SOCK_STREAM)
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/socket.py", line 732, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+[2017-11-03 00:05:16.593] NIO [WARNING] [pubkeeper.communication.WebsocketClientCommunication] Connection Failure: ([Errno 8] nodename nor servname provided, or not known)
+[2017-11-03 00:05:16.594] NIO [ERROR] [pubkeeper.communication.WebsocketClientCommunication] Connection Failure
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/pubkeeper/communication/websocket/client.py", line 71, in _check_connection
+    ping_interval=self.config['websocket_ping_interval']
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/gen.py", line 1055, in run
+    value = future.result()
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/concurrent.py", line 238, in result
+    raise_exc_info(self._exc_info)
+  File "<string>", line 4, in raise_exc_info
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/stack_context.py", line 316, in wrapped
+    ret = fn(*args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/gen.py", line 289, in <lambda>
+    future, lambda future: callback(future.result()))
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/concurrent.py", line 238, in result
+    raise_exc_info(self._exc_info)
+  File "<string>", line 4, in raise_exc_info
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/gen.py", line 1063, in run
+    yielded = self.gen.throw(*exc_info)
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/tcpclient.py", line 177, in connect
+    addrinfo = yield self.resolver.resolve(host, port, af)
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/gen.py", line 1055, in run
+    value = future.result()
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/concurrent.py", line 238, in result
+    raise_exc_info(self._exc_info)
+  File "<string>", line 4, in raise_exc_info
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/concurrent.py", line 363, in submit
+    future.set_result(fn(*args, **kwargs))
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/netutil.py", line 391, in resolve
+    addrinfo = socket.getaddrinfo(host, port, family, socket.SOCK_STREAM)
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/socket.py", line 732, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+[2017-11-03 00:05:16.597] NIO [WARNING] [pubkeeper.communication.WebsocketClientCommunication] Connection Failure: ([Errno 8] nodename nor servname provided, or not known)
+[2017-11-03 00:05:16.598] NIO [ERROR] [pubkeeper.communication.WebsocketClientCommunication] Connection Failure
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/pubkeeper/communication/websocket/client.py", line 71, in _check_connection
+    ping_interval=self.config['websocket_ping_interval']
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/gen.py", line 1055, in run
+    value = future.result()
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/concurrent.py", line 238, in result
+    raise_exc_info(self._exc_info)
+  File "<string>", line 4, in raise_exc_info
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/stack_context.py", line 316, in wrapped
+    ret = fn(*args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/gen.py", line 289, in <lambda>
+    future, lambda future: callback(future.result()))
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/concurrent.py", line 238, in result
+    raise_exc_info(self._exc_info)
+  File "<string>", line 4, in raise_exc_info
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/gen.py", line 1063, in run
+    yielded = self.gen.throw(*exc_info)
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/tcpclient.py", line 177, in connect
+    addrinfo = yield self.resolver.resolve(host, port, af)
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/gen.py", line 1055, in run
+    value = future.result()
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/concurrent.py", line 238, in result
+    raise_exc_info(self._exc_info)
+  File "<string>", line 4, in raise_exc_info
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/concurrent.py", line 363, in submit
+    future.set_result(fn(*args, **kwargs))
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/netutil.py", line 391, in resolve
+    addrinfo = socket.getaddrinfo(host, port, family, socket.SOCK_STREAM)
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/socket.py", line 732, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+[2017-11-03 00:05:26.609] NIO [WARNING] [pubkeeper.communication.WebsocketClientCommunication] Connection Failure: ([Errno 8] nodename nor servname provided, or not known)
+[2017-11-03 00:05:26.609] NIO [ERROR] [pubkeeper.communication.WebsocketClientCommunication] Connection Failure
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/pubkeeper/communication/websocket/client.py", line 71, in _check_connection
+    ping_interval=self.config['websocket_ping_interval']
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/gen.py", line 1055, in run
+    value = future.result()
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/concurrent.py", line 238, in result
+    raise_exc_info(self._exc_info)
+  File "<string>", line 4, in raise_exc_info
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/stack_context.py", line 316, in wrapped
+    ret = fn(*args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/gen.py", line 289, in <lambda>
+    future, lambda future: callback(future.result()))
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/concurrent.py", line 238, in result
+    raise_exc_info(self._exc_info)
+  File "<string>", line 4, in raise_exc_info
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/gen.py", line 1063, in run
+    yielded = self.gen.throw(*exc_info)
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/tcpclient.py", line 177, in connect
+    addrinfo = yield self.resolver.resolve(host, port, af)
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/gen.py", line 1055, in run
+    value = future.result()
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/concurrent.py", line 238, in result
+    raise_exc_info(self._exc_info)
+  File "<string>", line 4, in raise_exc_info
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/concurrent.py", line 363, in submit
+    future.set_result(fn(*args, **kwargs))
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/netutil.py", line 391, in resolve
+    addrinfo = socket.getaddrinfo(host, port, family, socket.SOCK_STREAM)
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/socket.py", line 732, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+[2017-11-03 00:05:26.610] NIO [WARNING] [pubkeeper.communication.WebsocketClientCommunication] Connection Failure: ([Errno 8] nodename nor servname provided, or not known)
+[2017-11-03 00:05:26.611] NIO [ERROR] [pubkeeper.communication.WebsocketClientCommunication] Connection Failure
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/pubkeeper/communication/websocket/client.py", line 71, in _check_connection
+    ping_interval=self.config['websocket_ping_interval']
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/gen.py", line 1055, in run
+    value = future.result()
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/concurrent.py", line 238, in result
+    raise_exc_info(self._exc_info)
+  File "<string>", line 4, in raise_exc_info
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/stack_context.py", line 316, in wrapped
+    ret = fn(*args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/gen.py", line 289, in <lambda>
+    future, lambda future: callback(future.result()))
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/concurrent.py", line 238, in result
+    raise_exc_info(self._exc_info)
+  File "<string>", line 4, in raise_exc_info
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/gen.py", line 1063, in run
+    yielded = self.gen.throw(*exc_info)
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/tcpclient.py", line 177, in connect
+    addrinfo = yield self.resolver.resolve(host, port, af)
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/gen.py", line 1055, in run
+    value = future.result()
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/concurrent.py", line 238, in result
+    raise_exc_info(self._exc_info)
+  File "<string>", line 4, in raise_exc_info
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/concurrent.py", line 363, in submit
+    future.set_result(fn(*args, **kwargs))
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/netutil.py", line 391, in resolve
+    addrinfo = socket.getaddrinfo(host, port, family, socket.SOCK_STREAM)
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/socket.py", line 732, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+[2017-11-03 00:05:36.619] NIO [WARNING] [pubkeeper.communication.WebsocketClientCommunication] Connection Failure: ([Errno 8] nodename nor servname provided, or not known)
+[2017-11-03 00:05:36.619] NIO [ERROR] [pubkeeper.communication.WebsocketClientCommunication] Connection Failure
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/pubkeeper/communication/websocket/client.py", line 71, in _check_connection
+    ping_interval=self.config['websocket_ping_interval']
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/gen.py", line 1055, in run
+    value = future.result()
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/concurrent.py", line 238, in result
+    raise_exc_info(self._exc_info)
+  File "<string>", line 4, in raise_exc_info
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/stack_context.py", line 316, in wrapped
+    ret = fn(*args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/gen.py", line 289, in <lambda>
+    future, lambda future: callback(future.result()))
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/concurrent.py", line 238, in result
+    raise_exc_info(self._exc_info)
+  File "<string>", line 4, in raise_exc_info
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/gen.py", line 1063, in run
+    yielded = self.gen.throw(*exc_info)
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/tcpclient.py", line 177, in connect
+    addrinfo = yield self.resolver.resolve(host, port, af)
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/gen.py", line 1055, in run
+    value = future.result()
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/concurrent.py", line 238, in result
+    raise_exc_info(self._exc_info)
+  File "<string>", line 4, in raise_exc_info
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/concurrent.py", line 363, in submit
+    future.set_result(fn(*args, **kwargs))
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/netutil.py", line 391, in resolve
+    addrinfo = socket.getaddrinfo(host, port, family, socket.SOCK_STREAM)
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/socket.py", line 732, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+[2017-11-03 00:05:36.621] NIO [WARNING] [pubkeeper.communication.WebsocketClientCommunication] Connection Failure: ([Errno 8] nodename nor servname provided, or not known)
+[2017-11-03 00:05:36.621] NIO [ERROR] [pubkeeper.communication.WebsocketClientCommunication] Connection Failure
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/pubkeeper/communication/websocket/client.py", line 71, in _check_connection
+    ping_interval=self.config['websocket_ping_interval']
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/gen.py", line 1055, in run
+    value = future.result()
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/concurrent.py", line 238, in result
+    raise_exc_info(self._exc_info)
+  File "<string>", line 4, in raise_exc_info
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/stack_context.py", line 316, in wrapped
+    ret = fn(*args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/gen.py", line 289, in <lambda>
+    future, lambda future: callback(future.result()))
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/concurrent.py", line 238, in result
+    raise_exc_info(self._exc_info)
+  File "<string>", line 4, in raise_exc_info
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/gen.py", line 1063, in run
+    yielded = self.gen.throw(*exc_info)
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/tcpclient.py", line 177, in connect
+    addrinfo = yield self.resolver.resolve(host, port, af)
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/gen.py", line 1055, in run
+    value = future.result()
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/concurrent.py", line 238, in result
+    raise_exc_info(self._exc_info)
+  File "<string>", line 4, in raise_exc_info
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/concurrent.py", line 363, in submit
+    future.set_result(fn(*args, **kwargs))
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/netutil.py", line 391, in resolve
+    addrinfo = socket.getaddrinfo(host, port, family, socket.SOCK_STREAM)
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/socket.py", line 732, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+[2017-11-03 00:05:46.631] NIO [WARNING] [pubkeeper.communication.WebsocketClientCommunication] Connection Failure: ([Errno 8] nodename nor servname provided, or not known)
+[2017-11-03 00:05:46.631] NIO [ERROR] [pubkeeper.communication.WebsocketClientCommunication] Connection Failure
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/pubkeeper/communication/websocket/client.py", line 71, in _check_connection
+    ping_interval=self.config['websocket_ping_interval']
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/gen.py", line 1055, in run
+    value = future.result()
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/concurrent.py", line 238, in result
+    raise_exc_info(self._exc_info)
+  File "<string>", line 4, in raise_exc_info
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/stack_context.py", line 316, in wrapped
+    ret = fn(*args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/gen.py", line 289, in <lambda>
+    future, lambda future: callback(future.result()))
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/concurrent.py", line 238, in result
+    raise_exc_info(self._exc_info)
+  File "<string>", line 4, in raise_exc_info
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/gen.py", line 1063, in run
+    yielded = self.gen.throw(*exc_info)
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/tcpclient.py", line 177, in connect
+    addrinfo = yield self.resolver.resolve(host, port, af)
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/gen.py", line 1055, in run
+    value = future.result()
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/concurrent.py", line 238, in result
+    raise_exc_info(self._exc_info)
+  File "<string>", line 4, in raise_exc_info
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/concurrent.py", line 363, in submit
+    future.set_result(fn(*args, **kwargs))
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/netutil.py", line 391, in resolve
+    addrinfo = socket.getaddrinfo(host, port, family, socket.SOCK_STREAM)
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/socket.py", line 732, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+[2017-11-03 00:05:46.633] NIO [WARNING] [pubkeeper.communication.WebsocketClientCommunication] Connection Failure: ([Errno 8] nodename nor servname provided, or not known)
+[2017-11-03 00:05:46.633] NIO [ERROR] [pubkeeper.communication.WebsocketClientCommunication] Connection Failure
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/pubkeeper/communication/websocket/client.py", line 71, in _check_connection
+    ping_interval=self.config['websocket_ping_interval']
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/gen.py", line 1055, in run
+    value = future.result()
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/concurrent.py", line 238, in result
+    raise_exc_info(self._exc_info)
+  File "<string>", line 4, in raise_exc_info
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/stack_context.py", line 316, in wrapped
+    ret = fn(*args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/gen.py", line 289, in <lambda>
+    future, lambda future: callback(future.result()))
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/concurrent.py", line 238, in result
+    raise_exc_info(self._exc_info)
+  File "<string>", line 4, in raise_exc_info
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/gen.py", line 1063, in run
+    yielded = self.gen.throw(*exc_info)
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/tcpclient.py", line 177, in connect
+    addrinfo = yield self.resolver.resolve(host, port, af)
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/gen.py", line 1055, in run
+    value = future.result()
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/concurrent.py", line 238, in result
+    raise_exc_info(self._exc_info)
+  File "<string>", line 4, in raise_exc_info
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/concurrent.py", line 363, in submit
+    future.set_result(fn(*args, **kwargs))
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/netutil.py", line 391, in resolve
+    addrinfo = socket.getaddrinfo(host, port, family, socket.SOCK_STREAM)
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/socket.py", line 732, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+[2017-11-03 00:11:25.217] NIO [WARNING] [pubkeeper.communication.WebsocketClientCommunication] Connection Failure: ([Errno 8] nodename nor servname provided, or not known)
+[2017-11-03 00:11:25.217] NIO [ERROR] [pubkeeper.communication.WebsocketClientCommunication] Connection Failure
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/pubkeeper/communication/websocket/client.py", line 71, in _check_connection
+    ping_interval=self.config['websocket_ping_interval']
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/gen.py", line 1055, in run
+    value = future.result()
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/concurrent.py", line 238, in result
+    raise_exc_info(self._exc_info)
+  File "<string>", line 4, in raise_exc_info
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/stack_context.py", line 316, in wrapped
+    ret = fn(*args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/gen.py", line 289, in <lambda>
+    future, lambda future: callback(future.result()))
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/concurrent.py", line 238, in result
+    raise_exc_info(self._exc_info)
+  File "<string>", line 4, in raise_exc_info
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/gen.py", line 1063, in run
+    yielded = self.gen.throw(*exc_info)
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/tcpclient.py", line 177, in connect
+    addrinfo = yield self.resolver.resolve(host, port, af)
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/gen.py", line 1055, in run
+    value = future.result()
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/concurrent.py", line 238, in result
+    raise_exc_info(self._exc_info)
+  File "<string>", line 4, in raise_exc_info
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/concurrent.py", line 363, in submit
+    future.set_result(fn(*args, **kwargs))
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/netutil.py", line 391, in resolve
+    addrinfo = socket.getaddrinfo(host, port, family, socket.SOCK_STREAM)
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/socket.py", line 732, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+[2017-11-03 00:11:25.219] NIO [WARNING] [pubkeeper.communication.WebsocketClientCommunication] Connection Failure: ([Errno 8] nodename nor servname provided, or not known)
+[2017-11-03 00:11:25.219] NIO [ERROR] [pubkeeper.communication.WebsocketClientCommunication] Connection Failure
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/pubkeeper/communication/websocket/client.py", line 71, in _check_connection
+    ping_interval=self.config['websocket_ping_interval']
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/gen.py", line 1055, in run
+    value = future.result()
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/concurrent.py", line 238, in result
+    raise_exc_info(self._exc_info)
+  File "<string>", line 4, in raise_exc_info
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/stack_context.py", line 316, in wrapped
+    ret = fn(*args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/gen.py", line 289, in <lambda>
+    future, lambda future: callback(future.result()))
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/concurrent.py", line 238, in result
+    raise_exc_info(self._exc_info)
+  File "<string>", line 4, in raise_exc_info
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/gen.py", line 1063, in run
+    yielded = self.gen.throw(*exc_info)
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/tcpclient.py", line 177, in connect
+    addrinfo = yield self.resolver.resolve(host, port, af)
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/gen.py", line 1055, in run
+    value = future.result()
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/concurrent.py", line 238, in result
+    raise_exc_info(self._exc_info)
+  File "<string>", line 4, in raise_exc_info
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/concurrent.py", line 363, in submit
+    future.set_result(fn(*args, **kwargs))
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/netutil.py", line 391, in resolve
+    addrinfo = socket.getaddrinfo(host, port, family, socket.SOCK_STREAM)
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/socket.py", line 732, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+[2017-11-03 00:11:55.230] NIO [WARNING] [pubkeeper.communication.WebsocketClientCommunication] Connection Failure: (HTTP 599: Timeout while connecting)
+[2017-11-03 00:11:55.230] NIO [ERROR] [pubkeeper.communication.WebsocketClientCommunication] Connection Failure
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/pubkeeper/communication/websocket/client.py", line 71, in _check_connection
+    ping_interval=self.config['websocket_ping_interval']
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/gen.py", line 1055, in run
+    value = future.result()
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/concurrent.py", line 238, in result
+    raise_exc_info(self._exc_info)
+  File "<string>", line 4, in raise_exc_info
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/stack_context.py", line 316, in wrapped
+    ret = fn(*args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/simple_httpclient.py", line 307, in _on_timeout
+    raise HTTPError(599, error_message)
+tornado.httpclient.HTTPError: HTTP 599: Timeout while connecting
+[2017-11-03 00:11:55.234] NIO [WARNING] [pubkeeper.communication.WebsocketClientCommunication] Connection Failure: (HTTP 599: Timeout while connecting)
+[2017-11-03 00:11:55.234] NIO [ERROR] [pubkeeper.communication.WebsocketClientCommunication] Connection Failure
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/pubkeeper/communication/websocket/client.py", line 71, in _check_connection
+    ping_interval=self.config['websocket_ping_interval']
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/gen.py", line 1055, in run
+    value = future.result()
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/concurrent.py", line 238, in result
+    raise_exc_info(self._exc_info)
+  File "<string>", line 4, in raise_exc_info
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/stack_context.py", line 316, in wrapped
+    ret = fn(*args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/simple_httpclient.py", line 307, in _on_timeout
+    raise HTTPError(599, error_message)
+tornado.httpclient.HTTPError: HTTP 599: Timeout while connecting
+[2017-11-03 00:16:06.385] NIO [WARNING] [pubkeeper.communication.WebsocketClientCommunication] Connection Failure: (HTTP 599: Timeout while connecting)
+[2017-11-03 00:16:06.385] NIO [ERROR] [pubkeeper.communication.WebsocketClientCommunication] Connection Failure
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/pubkeeper/communication/websocket/client.py", line 71, in _check_connection
+    ping_interval=self.config['websocket_ping_interval']
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/gen.py", line 1055, in run
+    value = future.result()
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/concurrent.py", line 238, in result
+    raise_exc_info(self._exc_info)
+  File "<string>", line 4, in raise_exc_info
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/stack_context.py", line 316, in wrapped
+    ret = fn(*args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/simple_httpclient.py", line 307, in _on_timeout
+    raise HTTPError(599, error_message)
+tornado.httpclient.HTTPError: HTTP 599: Timeout while connecting
+[2017-11-03 00:16:06.386] NIO [WARNING] [pubkeeper.communication.WebsocketClientCommunication] Connection Failure: (HTTP 599: Timeout while connecting)
+[2017-11-03 00:16:06.387] NIO [ERROR] [pubkeeper.communication.WebsocketClientCommunication] Connection Failure
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/pubkeeper/communication/websocket/client.py", line 71, in _check_connection
+    ping_interval=self.config['websocket_ping_interval']
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/gen.py", line 1055, in run
+    value = future.result()
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/concurrent.py", line 238, in result
+    raise_exc_info(self._exc_info)
+  File "<string>", line 4, in raise_exc_info
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/stack_context.py", line 316, in wrapped
+    ret = fn(*args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/simple_httpclient.py", line 307, in _on_timeout
+    raise HTTPError(599, error_message)
+tornado.httpclient.HTTPError: HTTP 599: Timeout while connecting
+[2017-11-03 00:16:45.353] NIO [WARNING] [pubkeeper.communication.WebsocketClientCommunication] Connection Failure: ([Errno 8] nodename nor servname provided, or not known)
+[2017-11-03 00:16:45.353] NIO [ERROR] [pubkeeper.communication.WebsocketClientCommunication] Connection Failure
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/pubkeeper/communication/websocket/client.py", line 71, in _check_connection
+    ping_interval=self.config['websocket_ping_interval']
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/gen.py", line 1055, in run
+    value = future.result()
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/concurrent.py", line 238, in result
+    raise_exc_info(self._exc_info)
+  File "<string>", line 4, in raise_exc_info
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/stack_context.py", line 316, in wrapped
+    ret = fn(*args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/gen.py", line 289, in <lambda>
+    future, lambda future: callback(future.result()))
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/concurrent.py", line 238, in result
+    raise_exc_info(self._exc_info)
+  File "<string>", line 4, in raise_exc_info
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/gen.py", line 1063, in run
+    yielded = self.gen.throw(*exc_info)
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/tcpclient.py", line 177, in connect
+    addrinfo = yield self.resolver.resolve(host, port, af)
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/gen.py", line 1055, in run
+    value = future.result()
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/concurrent.py", line 238, in result
+    raise_exc_info(self._exc_info)
+  File "<string>", line 4, in raise_exc_info
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/concurrent.py", line 363, in submit
+    future.set_result(fn(*args, **kwargs))
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/netutil.py", line 391, in resolve
+    addrinfo = socket.getaddrinfo(host, port, family, socket.SOCK_STREAM)
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/socket.py", line 732, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+[2017-11-03 00:16:45.355] NIO [WARNING] [pubkeeper.communication.WebsocketClientCommunication] Connection Failure: ([Errno 8] nodename nor servname provided, or not known)
+[2017-11-03 00:16:45.355] NIO [ERROR] [pubkeeper.communication.WebsocketClientCommunication] Connection Failure
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/pubkeeper/communication/websocket/client.py", line 71, in _check_connection
+    ping_interval=self.config['websocket_ping_interval']
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/gen.py", line 1055, in run
+    value = future.result()
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/concurrent.py", line 238, in result
+    raise_exc_info(self._exc_info)
+  File "<string>", line 4, in raise_exc_info
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/stack_context.py", line 316, in wrapped
+    ret = fn(*args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/gen.py", line 289, in <lambda>
+    future, lambda future: callback(future.result()))
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/concurrent.py", line 238, in result
+    raise_exc_info(self._exc_info)
+  File "<string>", line 4, in raise_exc_info
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/gen.py", line 1063, in run
+    yielded = self.gen.throw(*exc_info)
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/tcpclient.py", line 177, in connect
+    addrinfo = yield self.resolver.resolve(host, port, af)
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/gen.py", line 1055, in run
+    value = future.result()
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/concurrent.py", line 238, in result
+    raise_exc_info(self._exc_info)
+  File "<string>", line 4, in raise_exc_info
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/concurrent.py", line 363, in submit
+    future.set_result(fn(*args, **kwargs))
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/netutil.py", line 391, in resolve
+    addrinfo = socket.getaddrinfo(host, port, family, socket.SOCK_STREAM)
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/socket.py", line 732, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+[2017-11-03 00:22:52.326] NIO [WARNING] [pubkeeper.communication.WebsocketClientCommunication] Connection Failure: (HTTP 599: Timeout during request)
+[2017-11-03 00:22:52.326] NIO [ERROR] [pubkeeper.communication.WebsocketClientCommunication] Connection Failure
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/pubkeeper/communication/websocket/client.py", line 71, in _check_connection
+    ping_interval=self.config['websocket_ping_interval']
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/gen.py", line 1055, in run
+    value = future.result()
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/concurrent.py", line 238, in result
+    raise_exc_info(self._exc_info)
+  File "<string>", line 4, in raise_exc_info
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/stack_context.py", line 316, in wrapped
+    ret = fn(*args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/simple_httpclient.py", line 307, in _on_timeout
+    raise HTTPError(599, error_message)
+tornado.httpclient.HTTPError: HTTP 599: Timeout during request
+[2017-11-03 00:22:52.328] NIO [WARNING] [pubkeeper.communication.WebsocketClientCommunication] Connection Failure: (HTTP 599: Timeout while connecting)
+[2017-11-03 00:22:52.328] NIO [ERROR] [pubkeeper.communication.WebsocketClientCommunication] Connection Failure
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/pubkeeper/communication/websocket/client.py", line 71, in _check_connection
+    ping_interval=self.config['websocket_ping_interval']
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/gen.py", line 1055, in run
+    value = future.result()
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/concurrent.py", line 238, in result
+    raise_exc_info(self._exc_info)
+  File "<string>", line 4, in raise_exc_info
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/stack_context.py", line 316, in wrapped
+    ret = fn(*args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/simple_httpclient.py", line 307, in _on_timeout
+    raise HTTPError(599, error_message)
+tornado.httpclient.HTTPError: HTTP 599: Timeout while connecting
+[2017-11-03 00:34:01.154] NIO [WARNING] [pubkeeper.communication.WebsocketClientCommunication] Connection Failure: ([Errno 60] Operation timed out)
+[2017-11-03 00:34:01.155] NIO [ERROR] [pubkeeper.communication.WebsocketClientCommunication] Connection Failure
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/pubkeeper/communication/websocket/client.py", line 71, in _check_connection
+    ping_interval=self.config['websocket_ping_interval']
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/gen.py", line 1055, in run
+    value = future.result()
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/concurrent.py", line 238, in result
+    raise_exc_info(self._exc_info)
+  File "<string>", line 4, in raise_exc_info
+TimeoutError: [Errno 60] Operation timed out
+[2017-11-03 00:34:03.127] NIO [WARNING] [pubkeeper.communication.WebsocketClientCommunication] Connection Failure: (HTTP 599: Timeout during request)
+[2017-11-03 00:34:03.128] NIO [ERROR] [pubkeeper.communication.WebsocketClientCommunication] Connection Failure
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/pubkeeper/communication/websocket/client.py", line 71, in _check_connection
+    ping_interval=self.config['websocket_ping_interval']
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/gen.py", line 1055, in run
+    value = future.result()
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/concurrent.py", line 238, in result
+    raise_exc_info(self._exc_info)
+  File "<string>", line 4, in raise_exc_info
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/stack_context.py", line 316, in wrapped
+    ret = fn(*args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/simple_httpclient.py", line 307, in _on_timeout
+    raise HTTPError(599, error_message)
+tornado.httpclient.HTTPError: HTTP 599: Timeout during request
+[2017-11-03 00:35:22.471] NIO [WARNING] [pubkeeper.communication.WebsocketClientCommunication] Connection Failure: ([Errno 8] nodename nor servname provided, or not known)
+[2017-11-03 00:35:22.472] NIO [ERROR] [pubkeeper.communication.WebsocketClientCommunication] Connection Failure
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/pubkeeper/communication/websocket/client.py", line 71, in _check_connection
+    ping_interval=self.config['websocket_ping_interval']
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/gen.py", line 1055, in run
+    value = future.result()
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/concurrent.py", line 238, in result
+    raise_exc_info(self._exc_info)
+  File "<string>", line 4, in raise_exc_info
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/stack_context.py", line 316, in wrapped
+    ret = fn(*args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/gen.py", line 289, in <lambda>
+    future, lambda future: callback(future.result()))
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/concurrent.py", line 238, in result
+    raise_exc_info(self._exc_info)
+  File "<string>", line 4, in raise_exc_info
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/gen.py", line 1063, in run
+    yielded = self.gen.throw(*exc_info)
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/tcpclient.py", line 177, in connect
+    addrinfo = yield self.resolver.resolve(host, port, af)
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/gen.py", line 1055, in run
+    value = future.result()
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/concurrent.py", line 238, in result
+    raise_exc_info(self._exc_info)
+  File "<string>", line 4, in raise_exc_info
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/concurrent.py", line 363, in submit
+    future.set_result(fn(*args, **kwargs))
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/netutil.py", line 391, in resolve
+    addrinfo = socket.getaddrinfo(host, port, family, socket.SOCK_STREAM)
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/socket.py", line 732, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+[2017-11-03 00:35:22.473] NIO [WARNING] [pubkeeper.communication.WebsocketClientCommunication] Connection Failure: ([Errno 8] nodename nor servname provided, or not known)
+[2017-11-03 00:35:22.473] NIO [ERROR] [pubkeeper.communication.WebsocketClientCommunication] Connection Failure
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/pubkeeper/communication/websocket/client.py", line 71, in _check_connection
+    ping_interval=self.config['websocket_ping_interval']
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/gen.py", line 1055, in run
+    value = future.result()
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/concurrent.py", line 238, in result
+    raise_exc_info(self._exc_info)
+  File "<string>", line 4, in raise_exc_info
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/stack_context.py", line 316, in wrapped
+    ret = fn(*args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/gen.py", line 289, in <lambda>
+    future, lambda future: callback(future.result()))
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/concurrent.py", line 238, in result
+    raise_exc_info(self._exc_info)
+  File "<string>", line 4, in raise_exc_info
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/gen.py", line 1063, in run
+    yielded = self.gen.throw(*exc_info)
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/tcpclient.py", line 177, in connect
+    addrinfo = yield self.resolver.resolve(host, port, af)
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/gen.py", line 1055, in run
+    value = future.result()
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/concurrent.py", line 238, in result
+    raise_exc_info(self._exc_info)
+  File "<string>", line 4, in raise_exc_info
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/concurrent.py", line 363, in submit
+    future.set_result(fn(*args, **kwargs))
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/netutil.py", line 391, in resolve
+    addrinfo = socket.getaddrinfo(host, port, family, socket.SOCK_STREAM)
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/socket.py", line 732, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+[2017-11-03 00:35:32.480] NIO [WARNING] [pubkeeper.communication.WebsocketClientCommunication] Connection Failure: ([Errno 8] nodename nor servname provided, or not known)
+[2017-11-03 00:35:32.481] NIO [ERROR] [pubkeeper.communication.WebsocketClientCommunication] Connection Failure
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/pubkeeper/communication/websocket/client.py", line 71, in _check_connection
+    ping_interval=self.config['websocket_ping_interval']
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/gen.py", line 1055, in run
+    value = future.result()
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/concurrent.py", line 238, in result
+    raise_exc_info(self._exc_info)
+  File "<string>", line 4, in raise_exc_info
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/stack_context.py", line 316, in wrapped
+    ret = fn(*args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/gen.py", line 289, in <lambda>
+    future, lambda future: callback(future.result()))
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/concurrent.py", line 238, in result
+    raise_exc_info(self._exc_info)
+  File "<string>", line 4, in raise_exc_info
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/gen.py", line 1063, in run
+    yielded = self.gen.throw(*exc_info)
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/tcpclient.py", line 177, in connect
+    addrinfo = yield self.resolver.resolve(host, port, af)
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/gen.py", line 1055, in run
+    value = future.result()
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/concurrent.py", line 238, in result
+    raise_exc_info(self._exc_info)
+  File "<string>", line 4, in raise_exc_info
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/concurrent.py", line 363, in submit
+    future.set_result(fn(*args, **kwargs))
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/netutil.py", line 391, in resolve
+    addrinfo = socket.getaddrinfo(host, port, family, socket.SOCK_STREAM)
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/socket.py", line 732, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+[2017-11-03 00:35:32.484] NIO [WARNING] [pubkeeper.communication.WebsocketClientCommunication] Connection Failure: ([Errno 8] nodename nor servname provided, or not known)
+[2017-11-03 00:35:32.484] NIO [ERROR] [pubkeeper.communication.WebsocketClientCommunication] Connection Failure
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/pubkeeper/communication/websocket/client.py", line 71, in _check_connection
+    ping_interval=self.config['websocket_ping_interval']
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/gen.py", line 1055, in run
+    value = future.result()
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/concurrent.py", line 238, in result
+    raise_exc_info(self._exc_info)
+  File "<string>", line 4, in raise_exc_info
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/stack_context.py", line 316, in wrapped
+    ret = fn(*args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/gen.py", line 289, in <lambda>
+    future, lambda future: callback(future.result()))
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/concurrent.py", line 238, in result
+    raise_exc_info(self._exc_info)
+  File "<string>", line 4, in raise_exc_info
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/gen.py", line 1063, in run
+    yielded = self.gen.throw(*exc_info)
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/tcpclient.py", line 177, in connect
+    addrinfo = yield self.resolver.resolve(host, port, af)
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/gen.py", line 1055, in run
+    value = future.result()
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/concurrent.py", line 238, in result
+    raise_exc_info(self._exc_info)
+  File "<string>", line 4, in raise_exc_info
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/concurrent.py", line 363, in submit
+    future.set_result(fn(*args, **kwargs))
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/netutil.py", line 391, in resolve
+    addrinfo = socket.getaddrinfo(host, port, family, socket.SOCK_STREAM)
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/socket.py", line 732, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+[2017-11-03 00:35:42.494] NIO [WARNING] [pubkeeper.communication.WebsocketClientCommunication] Connection Failure: ([Errno 8] nodename nor servname provided, or not known)
+[2017-11-03 00:35:42.494] NIO [ERROR] [pubkeeper.communication.WebsocketClientCommunication] Connection Failure
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/pubkeeper/communication/websocket/client.py", line 71, in _check_connection
+    ping_interval=self.config['websocket_ping_interval']
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/gen.py", line 1055, in run
+    value = future.result()
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/concurrent.py", line 238, in result
+    raise_exc_info(self._exc_info)
+  File "<string>", line 4, in raise_exc_info
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/stack_context.py", line 316, in wrapped
+    ret = fn(*args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/gen.py", line 289, in <lambda>
+    future, lambda future: callback(future.result()))
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/concurrent.py", line 238, in result
+    raise_exc_info(self._exc_info)
+  File "<string>", line 4, in raise_exc_info
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/gen.py", line 1063, in run
+    yielded = self.gen.throw(*exc_info)
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/tcpclient.py", line 177, in connect
+    addrinfo = yield self.resolver.resolve(host, port, af)
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/gen.py", line 1055, in run
+    value = future.result()
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/concurrent.py", line 238, in result
+    raise_exc_info(self._exc_info)
+  File "<string>", line 4, in raise_exc_info
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/concurrent.py", line 363, in submit
+    future.set_result(fn(*args, **kwargs))
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/netutil.py", line 391, in resolve
+    addrinfo = socket.getaddrinfo(host, port, family, socket.SOCK_STREAM)
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/socket.py", line 732, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+[2017-11-03 00:35:42.495] NIO [WARNING] [pubkeeper.communication.WebsocketClientCommunication] Connection Failure: ([Errno 8] nodename nor servname provided, or not known)
+[2017-11-03 00:35:42.496] NIO [ERROR] [pubkeeper.communication.WebsocketClientCommunication] Connection Failure
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/pubkeeper/communication/websocket/client.py", line 71, in _check_connection
+    ping_interval=self.config['websocket_ping_interval']
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/gen.py", line 1055, in run
+    value = future.result()
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/concurrent.py", line 238, in result
+    raise_exc_info(self._exc_info)
+  File "<string>", line 4, in raise_exc_info
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/stack_context.py", line 316, in wrapped
+    ret = fn(*args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/gen.py", line 289, in <lambda>
+    future, lambda future: callback(future.result()))
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/concurrent.py", line 238, in result
+    raise_exc_info(self._exc_info)
+  File "<string>", line 4, in raise_exc_info
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/gen.py", line 1063, in run
+    yielded = self.gen.throw(*exc_info)
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/tcpclient.py", line 177, in connect
+    addrinfo = yield self.resolver.resolve(host, port, af)
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/gen.py", line 1055, in run
+    value = future.result()
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/concurrent.py", line 238, in result
+    raise_exc_info(self._exc_info)
+  File "<string>", line 4, in raise_exc_info
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/concurrent.py", line 363, in submit
+    future.set_result(fn(*args, **kwargs))
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/netutil.py", line 391, in resolve
+    addrinfo = socket.getaddrinfo(host, port, family, socket.SOCK_STREAM)
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/socket.py", line 732, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+[2017-11-03 00:35:52.509] NIO [WARNING] [pubkeeper.communication.WebsocketClientCommunication] Connection Failure: ([Errno 8] nodename nor servname provided, or not known)
+[2017-11-03 00:35:52.509] NIO [ERROR] [pubkeeper.communication.WebsocketClientCommunication] Connection Failure
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/pubkeeper/communication/websocket/client.py", line 71, in _check_connection
+    ping_interval=self.config['websocket_ping_interval']
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/gen.py", line 1055, in run
+    value = future.result()
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/concurrent.py", line 238, in result
+    raise_exc_info(self._exc_info)
+  File "<string>", line 4, in raise_exc_info
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/stack_context.py", line 316, in wrapped
+    ret = fn(*args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/gen.py", line 289, in <lambda>
+    future, lambda future: callback(future.result()))
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/concurrent.py", line 238, in result
+    raise_exc_info(self._exc_info)
+  File "<string>", line 4, in raise_exc_info
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/gen.py", line 1063, in run
+    yielded = self.gen.throw(*exc_info)
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/tcpclient.py", line 177, in connect
+    addrinfo = yield self.resolver.resolve(host, port, af)
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/gen.py", line 1055, in run
+    value = future.result()
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/concurrent.py", line 238, in result
+    raise_exc_info(self._exc_info)
+  File "<string>", line 4, in raise_exc_info
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/concurrent.py", line 363, in submit
+    future.set_result(fn(*args, **kwargs))
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/netutil.py", line 391, in resolve
+    addrinfo = socket.getaddrinfo(host, port, family, socket.SOCK_STREAM)
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/socket.py", line 732, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+[2017-11-03 00:35:52.510] NIO [WARNING] [pubkeeper.communication.WebsocketClientCommunication] Connection Failure: ([Errno 8] nodename nor servname provided, or not known)
+[2017-11-03 00:35:52.510] NIO [ERROR] [pubkeeper.communication.WebsocketClientCommunication] Connection Failure
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/pubkeeper/communication/websocket/client.py", line 71, in _check_connection
+    ping_interval=self.config['websocket_ping_interval']
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/gen.py", line 1055, in run
+    value = future.result()
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/concurrent.py", line 238, in result
+    raise_exc_info(self._exc_info)
+  File "<string>", line 4, in raise_exc_info
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/stack_context.py", line 316, in wrapped
+    ret = fn(*args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/gen.py", line 289, in <lambda>
+    future, lambda future: callback(future.result()))
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/concurrent.py", line 238, in result
+    raise_exc_info(self._exc_info)
+  File "<string>", line 4, in raise_exc_info
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/gen.py", line 1063, in run
+    yielded = self.gen.throw(*exc_info)
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/tcpclient.py", line 177, in connect
+    addrinfo = yield self.resolver.resolve(host, port, af)
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/gen.py", line 1055, in run
+    value = future.result()
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/concurrent.py", line 238, in result
+    raise_exc_info(self._exc_info)
+  File "<string>", line 4, in raise_exc_info
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/concurrent.py", line 363, in submit
+    future.set_result(fn(*args, **kwargs))
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/netutil.py", line 391, in resolve
+    addrinfo = socket.getaddrinfo(host, port, family, socket.SOCK_STREAM)
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/socket.py", line 732, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+[2017-11-03 00:36:23.653] NIO [WARNING] [pubkeeper.communication.WebsocketClientCommunication] Connection Failure: ([Errno 8] nodename nor servname provided, or not known)
+[2017-11-03 00:36:23.653] NIO [ERROR] [pubkeeper.communication.WebsocketClientCommunication] Connection Failure
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/pubkeeper/communication/websocket/client.py", line 71, in _check_connection
+    ping_interval=self.config['websocket_ping_interval']
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/gen.py", line 1055, in run
+    value = future.result()
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/concurrent.py", line 238, in result
+    raise_exc_info(self._exc_info)
+  File "<string>", line 4, in raise_exc_info
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/stack_context.py", line 316, in wrapped
+    ret = fn(*args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/gen.py", line 289, in <lambda>
+    future, lambda future: callback(future.result()))
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/concurrent.py", line 238, in result
+    raise_exc_info(self._exc_info)
+  File "<string>", line 4, in raise_exc_info
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/gen.py", line 1063, in run
+    yielded = self.gen.throw(*exc_info)
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/tcpclient.py", line 177, in connect
+    addrinfo = yield self.resolver.resolve(host, port, af)
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/gen.py", line 1055, in run
+    value = future.result()
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/concurrent.py", line 238, in result
+    raise_exc_info(self._exc_info)
+  File "<string>", line 4, in raise_exc_info
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/concurrent.py", line 363, in submit
+    future.set_result(fn(*args, **kwargs))
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/netutil.py", line 391, in resolve
+    addrinfo = socket.getaddrinfo(host, port, family, socket.SOCK_STREAM)
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/socket.py", line 732, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+[2017-11-03 00:36:23.655] NIO [WARNING] [pubkeeper.communication.WebsocketClientCommunication] Connection Failure: ([Errno 8] nodename nor servname provided, or not known)
+[2017-11-03 00:36:23.655] NIO [ERROR] [pubkeeper.communication.WebsocketClientCommunication] Connection Failure
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/pubkeeper/communication/websocket/client.py", line 71, in _check_connection
+    ping_interval=self.config['websocket_ping_interval']
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/gen.py", line 1055, in run
+    value = future.result()
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/concurrent.py", line 238, in result
+    raise_exc_info(self._exc_info)
+  File "<string>", line 4, in raise_exc_info
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/stack_context.py", line 316, in wrapped
+    ret = fn(*args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/gen.py", line 289, in <lambda>
+    future, lambda future: callback(future.result()))
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/concurrent.py", line 238, in result
+    raise_exc_info(self._exc_info)
+  File "<string>", line 4, in raise_exc_info
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/gen.py", line 1063, in run
+    yielded = self.gen.throw(*exc_info)
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/tcpclient.py", line 177, in connect
+    addrinfo = yield self.resolver.resolve(host, port, af)
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/gen.py", line 1055, in run
+    value = future.result()
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/concurrent.py", line 238, in result
+    raise_exc_info(self._exc_info)
+  File "<string>", line 4, in raise_exc_info
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/concurrent.py", line 363, in submit
+    future.set_result(fn(*args, **kwargs))
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/netutil.py", line 391, in resolve
+    addrinfo = socket.getaddrinfo(host, port, family, socket.SOCK_STREAM)
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/socket.py", line 732, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+[2017-11-03 00:41:35.031] NIO [WARNING] [pubkeeper.communication.WebsocketClientCommunication] Connection Failure: ([Errno 50] Network is down)
+[2017-11-03 00:41:35.037] NIO [ERROR] [pubkeeper.communication.WebsocketClientCommunication] Connection Failure
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/pubkeeper/communication/websocket/client.py", line 71, in _check_connection
+    ping_interval=self.config['websocket_ping_interval']
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/gen.py", line 1055, in run
+    value = future.result()
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/concurrent.py", line 238, in result
+    raise_exc_info(self._exc_info)
+  File "<string>", line 4, in raise_exc_info
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/iostream.py", line 1112, in connect
+    self.socket.connect(address)
+OSError: [Errno 50] Network is down
+[2017-11-03 00:41:55.634] NIO [WARNING] [pubkeeper.communication.WebsocketClientCommunication] Connection Failure: ([Errno 8] nodename nor servname provided, or not known)
+[2017-11-03 00:41:55.634] NIO [ERROR] [pubkeeper.communication.WebsocketClientCommunication] Connection Failure
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/pubkeeper/communication/websocket/client.py", line 71, in _check_connection
+    ping_interval=self.config['websocket_ping_interval']
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/gen.py", line 1055, in run
+    value = future.result()
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/concurrent.py", line 238, in result
+    raise_exc_info(self._exc_info)
+  File "<string>", line 4, in raise_exc_info
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/stack_context.py", line 316, in wrapped
+    ret = fn(*args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/gen.py", line 289, in <lambda>
+    future, lambda future: callback(future.result()))
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/concurrent.py", line 238, in result
+    raise_exc_info(self._exc_info)
+  File "<string>", line 4, in raise_exc_info
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/gen.py", line 1063, in run
+    yielded = self.gen.throw(*exc_info)
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/tcpclient.py", line 177, in connect
+    addrinfo = yield self.resolver.resolve(host, port, af)
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/gen.py", line 1055, in run
+    value = future.result()
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/concurrent.py", line 238, in result
+    raise_exc_info(self._exc_info)
+  File "<string>", line 4, in raise_exc_info
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/concurrent.py", line 363, in submit
+    future.set_result(fn(*args, **kwargs))
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/netutil.py", line 391, in resolve
+    addrinfo = socket.getaddrinfo(host, port, family, socket.SOCK_STREAM)
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/socket.py", line 732, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+[2017-11-03 00:43:50.945] NIO [WARNING] [pubkeeper.communication.WebsocketClientCommunication] Connection Failure: ([Errno 8] nodename nor servname provided, or not known)
+[2017-11-03 00:43:50.945] NIO [ERROR] [pubkeeper.communication.WebsocketClientCommunication] Connection Failure
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/pubkeeper/communication/websocket/client.py", line 71, in _check_connection
+    ping_interval=self.config['websocket_ping_interval']
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/gen.py", line 1055, in run
+    value = future.result()
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/concurrent.py", line 238, in result
+    raise_exc_info(self._exc_info)
+  File "<string>", line 4, in raise_exc_info
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/stack_context.py", line 316, in wrapped
+    ret = fn(*args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/gen.py", line 289, in <lambda>
+    future, lambda future: callback(future.result()))
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/concurrent.py", line 238, in result
+    raise_exc_info(self._exc_info)
+  File "<string>", line 4, in raise_exc_info
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/gen.py", line 1063, in run
+    yielded = self.gen.throw(*exc_info)
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/tcpclient.py", line 177, in connect
+    addrinfo = yield self.resolver.resolve(host, port, af)
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/gen.py", line 1055, in run
+    value = future.result()
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/concurrent.py", line 238, in result
+    raise_exc_info(self._exc_info)
+  File "<string>", line 4, in raise_exc_info
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/concurrent.py", line 363, in submit
+    future.set_result(fn(*args, **kwargs))
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/netutil.py", line 391, in resolve
+    addrinfo = socket.getaddrinfo(host, port, family, socket.SOCK_STREAM)
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/socket.py", line 732, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+[2017-11-03 00:43:51.069] NIO [WARNING] [pubkeeper.communication.WebsocketClientCommunication] Connection Failure: ([Errno 8] nodename nor servname provided, or not known)
+[2017-11-03 00:43:51.070] NIO [ERROR] [pubkeeper.communication.WebsocketClientCommunication] Connection Failure
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/pubkeeper/communication/websocket/client.py", line 71, in _check_connection
+    ping_interval=self.config['websocket_ping_interval']
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/gen.py", line 1055, in run
+    value = future.result()
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/concurrent.py", line 238, in result
+    raise_exc_info(self._exc_info)
+  File "<string>", line 4, in raise_exc_info
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/stack_context.py", line 316, in wrapped
+    ret = fn(*args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/gen.py", line 289, in <lambda>
+    future, lambda future: callback(future.result()))
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/concurrent.py", line 238, in result
+    raise_exc_info(self._exc_info)
+  File "<string>", line 4, in raise_exc_info
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/gen.py", line 1063, in run
+    yielded = self.gen.throw(*exc_info)
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/tcpclient.py", line 177, in connect
+    addrinfo = yield self.resolver.resolve(host, port, af)
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/gen.py", line 1055, in run
+    value = future.result()
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/concurrent.py", line 238, in result
+    raise_exc_info(self._exc_info)
+  File "<string>", line 4, in raise_exc_info
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/concurrent.py", line 363, in submit
+    future.set_result(fn(*args, **kwargs))
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/netutil.py", line 391, in resolve
+    addrinfo = socket.getaddrinfo(host, port, family, socket.SOCK_STREAM)
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/socket.py", line 732, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+[2017-11-03 00:44:00.956] NIO [WARNING] [pubkeeper.communication.WebsocketClientCommunication] Connection Failure: ([Errno 8] nodename nor servname provided, or not known)
+[2017-11-03 00:44:00.956] NIO [ERROR] [pubkeeper.communication.WebsocketClientCommunication] Connection Failure
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/pubkeeper/communication/websocket/client.py", line 71, in _check_connection
+    ping_interval=self.config['websocket_ping_interval']
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/gen.py", line 1055, in run
+    value = future.result()
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/concurrent.py", line 238, in result
+    raise_exc_info(self._exc_info)
+  File "<string>", line 4, in raise_exc_info
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/stack_context.py", line 316, in wrapped
+    ret = fn(*args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/gen.py", line 289, in <lambda>
+    future, lambda future: callback(future.result()))
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/concurrent.py", line 238, in result
+    raise_exc_info(self._exc_info)
+  File "<string>", line 4, in raise_exc_info
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/gen.py", line 1063, in run
+    yielded = self.gen.throw(*exc_info)
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/tcpclient.py", line 177, in connect
+    addrinfo = yield self.resolver.resolve(host, port, af)
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/gen.py", line 1055, in run
+    value = future.result()
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/concurrent.py", line 238, in result
+    raise_exc_info(self._exc_info)
+  File "<string>", line 4, in raise_exc_info
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/concurrent.py", line 363, in submit
+    future.set_result(fn(*args, **kwargs))
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/netutil.py", line 391, in resolve
+    addrinfo = socket.getaddrinfo(host, port, family, socket.SOCK_STREAM)
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/socket.py", line 732, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+[2017-11-03 00:44:01.075] NIO [WARNING] [pubkeeper.communication.WebsocketClientCommunication] Connection Failure: ([Errno 8] nodename nor servname provided, or not known)
+[2017-11-03 00:44:01.075] NIO [ERROR] [pubkeeper.communication.WebsocketClientCommunication] Connection Failure
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/pubkeeper/communication/websocket/client.py", line 71, in _check_connection
+    ping_interval=self.config['websocket_ping_interval']
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/gen.py", line 1055, in run
+    value = future.result()
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/concurrent.py", line 238, in result
+    raise_exc_info(self._exc_info)
+  File "<string>", line 4, in raise_exc_info
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/stack_context.py", line 316, in wrapped
+    ret = fn(*args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/gen.py", line 289, in <lambda>
+    future, lambda future: callback(future.result()))
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/concurrent.py", line 238, in result
+    raise_exc_info(self._exc_info)
+  File "<string>", line 4, in raise_exc_info
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/gen.py", line 1063, in run
+    yielded = self.gen.throw(*exc_info)
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/tcpclient.py", line 177, in connect
+    addrinfo = yield self.resolver.resolve(host, port, af)
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/gen.py", line 1055, in run
+    value = future.result()
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/concurrent.py", line 238, in result
+    raise_exc_info(self._exc_info)
+  File "<string>", line 4, in raise_exc_info
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/concurrent.py", line 363, in submit
+    future.set_result(fn(*args, **kwargs))
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/netutil.py", line 391, in resolve
+    addrinfo = socket.getaddrinfo(host, port, family, socket.SOCK_STREAM)
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/socket.py", line 732, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+[2017-11-03 00:50:01.423] NIO [WARNING] [pubkeeper.communication.WebsocketClientCommunication] Connection Failure: ([Errno 8] nodename nor servname provided, or not known)
+[2017-11-03 00:50:01.423] NIO [ERROR] [pubkeeper.communication.WebsocketClientCommunication] Connection Failure
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/pubkeeper/communication/websocket/client.py", line 71, in _check_connection
+    ping_interval=self.config['websocket_ping_interval']
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/gen.py", line 1055, in run
+    value = future.result()
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/concurrent.py", line 238, in result
+    raise_exc_info(self._exc_info)
+  File "<string>", line 4, in raise_exc_info
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/stack_context.py", line 316, in wrapped
+    ret = fn(*args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/gen.py", line 289, in <lambda>
+    future, lambda future: callback(future.result()))
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/concurrent.py", line 238, in result
+    raise_exc_info(self._exc_info)
+  File "<string>", line 4, in raise_exc_info
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/gen.py", line 1063, in run
+    yielded = self.gen.throw(*exc_info)
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/tcpclient.py", line 177, in connect
+    addrinfo = yield self.resolver.resolve(host, port, af)
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/gen.py", line 1055, in run
+    value = future.result()
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/concurrent.py", line 238, in result
+    raise_exc_info(self._exc_info)
+  File "<string>", line 4, in raise_exc_info
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/concurrent.py", line 363, in submit
+    future.set_result(fn(*args, **kwargs))
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/netutil.py", line 391, in resolve
+    addrinfo = socket.getaddrinfo(host, port, family, socket.SOCK_STREAM)
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/socket.py", line 732, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+[2017-11-03 00:50:01.902] NIO [WARNING] [pubkeeper.communication.WebsocketClientCommunication] Connection Failure: ([Errno 8] nodename nor servname provided, or not known)
+[2017-11-03 00:50:01.903] NIO [ERROR] [pubkeeper.communication.WebsocketClientCommunication] Connection Failure
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/pubkeeper/communication/websocket/client.py", line 71, in _check_connection
+    ping_interval=self.config['websocket_ping_interval']
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/gen.py", line 1055, in run
+    value = future.result()
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/concurrent.py", line 238, in result
+    raise_exc_info(self._exc_info)
+  File "<string>", line 4, in raise_exc_info
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/stack_context.py", line 316, in wrapped
+    ret = fn(*args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/gen.py", line 289, in <lambda>
+    future, lambda future: callback(future.result()))
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/concurrent.py", line 238, in result
+    raise_exc_info(self._exc_info)
+  File "<string>", line 4, in raise_exc_info
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/gen.py", line 1063, in run
+    yielded = self.gen.throw(*exc_info)
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/tcpclient.py", line 177, in connect
+    addrinfo = yield self.resolver.resolve(host, port, af)
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/gen.py", line 1055, in run
+    value = future.result()
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/concurrent.py", line 238, in result
+    raise_exc_info(self._exc_info)
+  File "<string>", line 4, in raise_exc_info
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/concurrent.py", line 363, in submit
+    future.set_result(fn(*args, **kwargs))
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/netutil.py", line 391, in resolve
+    addrinfo = socket.getaddrinfo(host, port, family, socket.SOCK_STREAM)
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/socket.py", line 732, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+[2017-11-03 00:50:11.432] NIO [WARNING] [pubkeeper.communication.WebsocketClientCommunication] Connection Failure: ([Errno 8] nodename nor servname provided, or not known)
+[2017-11-03 00:50:11.433] NIO [ERROR] [pubkeeper.communication.WebsocketClientCommunication] Connection Failure
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/pubkeeper/communication/websocket/client.py", line 71, in _check_connection
+    ping_interval=self.config['websocket_ping_interval']
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/gen.py", line 1055, in run
+    value = future.result()
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/concurrent.py", line 238, in result
+    raise_exc_info(self._exc_info)
+  File "<string>", line 4, in raise_exc_info
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/stack_context.py", line 316, in wrapped
+    ret = fn(*args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/gen.py", line 289, in <lambda>
+    future, lambda future: callback(future.result()))
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/concurrent.py", line 238, in result
+    raise_exc_info(self._exc_info)
+  File "<string>", line 4, in raise_exc_info
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/gen.py", line 1063, in run
+    yielded = self.gen.throw(*exc_info)
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/tcpclient.py", line 177, in connect
+    addrinfo = yield self.resolver.resolve(host, port, af)
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/gen.py", line 1055, in run
+    value = future.result()
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/concurrent.py", line 238, in result
+    raise_exc_info(self._exc_info)
+  File "<string>", line 4, in raise_exc_info
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/concurrent.py", line 363, in submit
+    future.set_result(fn(*args, **kwargs))
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/netutil.py", line 391, in resolve
+    addrinfo = socket.getaddrinfo(host, port, family, socket.SOCK_STREAM)
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/socket.py", line 732, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+[2017-11-03 00:50:11.912] NIO [WARNING] [pubkeeper.communication.WebsocketClientCommunication] Connection Failure: ([Errno 8] nodename nor servname provided, or not known)
+[2017-11-03 00:50:11.913] NIO [ERROR] [pubkeeper.communication.WebsocketClientCommunication] Connection Failure
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/pubkeeper/communication/websocket/client.py", line 71, in _check_connection
+    ping_interval=self.config['websocket_ping_interval']
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/gen.py", line 1055, in run
+    value = future.result()
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/concurrent.py", line 238, in result
+    raise_exc_info(self._exc_info)
+  File "<string>", line 4, in raise_exc_info
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/stack_context.py", line 316, in wrapped
+    ret = fn(*args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/gen.py", line 289, in <lambda>
+    future, lambda future: callback(future.result()))
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/concurrent.py", line 238, in result
+    raise_exc_info(self._exc_info)
+  File "<string>", line 4, in raise_exc_info
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/gen.py", line 1063, in run
+    yielded = self.gen.throw(*exc_info)
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/tcpclient.py", line 177, in connect
+    addrinfo = yield self.resolver.resolve(host, port, af)
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/gen.py", line 1055, in run
+    value = future.result()
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/concurrent.py", line 238, in result
+    raise_exc_info(self._exc_info)
+  File "<string>", line 4, in raise_exc_info
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/concurrent.py", line 363, in submit
+    future.set_result(fn(*args, **kwargs))
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/netutil.py", line 391, in resolve
+    addrinfo = socket.getaddrinfo(host, port, family, socket.SOCK_STREAM)
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/socket.py", line 732, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+[2017-11-03 00:57:41.591] NIO [WARNING] [pubkeeper.communication.WebsocketClientCommunication] Connection Failure: ([Errno 8] nodename nor servname provided, or not known)
+[2017-11-03 00:57:41.591] NIO [ERROR] [pubkeeper.communication.WebsocketClientCommunication] Connection Failure
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/pubkeeper/communication/websocket/client.py", line 71, in _check_connection
+    ping_interval=self.config['websocket_ping_interval']
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/gen.py", line 1055, in run
+    value = future.result()
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/concurrent.py", line 238, in result
+    raise_exc_info(self._exc_info)
+  File "<string>", line 4, in raise_exc_info
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/stack_context.py", line 316, in wrapped
+    ret = fn(*args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/gen.py", line 289, in <lambda>
+    future, lambda future: callback(future.result()))
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/concurrent.py", line 238, in result
+    raise_exc_info(self._exc_info)
+  File "<string>", line 4, in raise_exc_info
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/gen.py", line 1063, in run
+    yielded = self.gen.throw(*exc_info)
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/tcpclient.py", line 177, in connect
+    addrinfo = yield self.resolver.resolve(host, port, af)
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/gen.py", line 1055, in run
+    value = future.result()
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/concurrent.py", line 238, in result
+    raise_exc_info(self._exc_info)
+  File "<string>", line 4, in raise_exc_info
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/concurrent.py", line 363, in submit
+    future.set_result(fn(*args, **kwargs))
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/netutil.py", line 391, in resolve
+    addrinfo = socket.getaddrinfo(host, port, family, socket.SOCK_STREAM)
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/socket.py", line 732, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+[2017-11-03 00:57:41.592] NIO [WARNING] [pubkeeper.communication.WebsocketClientCommunication] Connection Failure: ([Errno 8] nodename nor servname provided, or not known)
+[2017-11-03 00:57:41.593] NIO [ERROR] [pubkeeper.communication.WebsocketClientCommunication] Connection Failure
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/pubkeeper/communication/websocket/client.py", line 71, in _check_connection
+    ping_interval=self.config['websocket_ping_interval']
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/gen.py", line 1055, in run
+    value = future.result()
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/concurrent.py", line 238, in result
+    raise_exc_info(self._exc_info)
+  File "<string>", line 4, in raise_exc_info
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/stack_context.py", line 316, in wrapped
+    ret = fn(*args, **kwargs)
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/gen.py", line 289, in <lambda>
+    future, lambda future: callback(future.result()))
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/concurrent.py", line 238, in result
+    raise_exc_info(self._exc_info)
+  File "<string>", line 4, in raise_exc_info
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/gen.py", line 1063, in run
+    yielded = self.gen.throw(*exc_info)
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/tcpclient.py", line 177, in connect
+    addrinfo = yield self.resolver.resolve(host, port, af)
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/gen.py", line 1055, in run
+    value = future.result()
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/concurrent.py", line 238, in result
+    raise_exc_info(self._exc_info)
+  File "<string>", line 4, in raise_exc_info
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/concurrent.py", line 363, in submit
+    future.set_result(fn(*args, **kwargs))
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/tornado/netutil.py", line 391, in resolve
+    addrinfo = socket.getaddrinfo(host, port, family, socket.SOCK_STREAM)
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/socket.py", line 732, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+[2017-11-03 14:58:57.695] NIO [ERROR] [pubkeeper.communication.WebsocketClientCommunication] Unable to read message
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/pubkeeper/communication/websocket/client.py", line 140, in read_messages
+    self._on_message(msg)
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/pubkeeper/brew/websocket/brew.py", line 44, in on_message
+    data=frame['data'])
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/pubkeeper/patron/patron.py", line 77, in _handle_callback
+    brewer_id))
+ValueError: Patron is not patronizing brewer(9a900ac6-740e-4e20-ab84-6b84473474cf)
+[2017-11-03 15:16:05.292] NIO [ERROR] [pubkeeper.communication.WebsocketClientCommunication] Unable to read message
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/pubkeeper/communication/websocket/client.py", line 140, in read_messages
+    self._on_message(msg)
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/pubkeeper/brew/websocket/brew.py", line 44, in on_message
+    data=frame['data'])
+  File "/Library/Frameworks/Python.framework/Versions/3.5/lib/python3.5/site-packages/pubkeeper/patron/patron.py", line 77, in _handle_callback
+    brewer_id))
+ValueError: Patron is not patronizing brewer(355a02d1-0b32-4058-b643-1d7383006e42)
+[2017-11-03 16:22:12.426] NIO [INFO] [ClientMetrics.PublishClientCPU] Setting status to stopping
+[2017-11-03 16:22:12.427] NIO [INFO] [ClientMetrics.PublishClientCPU] Setting status to stopped
+[2017-11-03 16:22:17.427] NIO [WARNING] [ClientMetrics.ServiceLauncher] Service did not stop on time
+[2017-11-03 16:22:23.463] NIO [WARNING] [ClientMetrics.ServiceLauncher] Communications with core are broken, stopping by itself

@@ -1,0 +1,7 @@
+{
+  "nio/Sleep": {
+    "language": "Python",
+    "url": "git://github.com/nio-blocks/sleep.git",
+    "version": "0.1.0"
+  }
+}

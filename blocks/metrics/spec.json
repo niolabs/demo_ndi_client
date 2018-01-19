@@ -1,0 +1,97 @@
+{
+  "nio/HostMetrics": {
+    "version": "0.1.0",
+    "description": "Get general statistics about the computer.",
+    "categories": [
+      "Hardware"
+    ],
+    "properties": {
+      "menu": {
+        "title": "Menu",
+        "type": "ObjectType",
+        "description": "Flags for turning off/on various metrics.",
+        "default": {
+          "cpu_perc": true,
+          "disk_io_ct": true,
+          "disk_usage": true,
+          "net_io_ct": true,
+          "pids": false,
+          "sensors": false,
+          "skt_conns": false,
+          "swap_mem": true,
+          "virtual_mem": true
+        }
+      }
+    },
+    "inputs": {
+      "default": {
+        "description": "Any list of signals."
+      }
+    },
+    "outputs": {
+      "default": {
+        "description": "An attribute is added for each metric read. Attribute names are the menu name followed by an underscore and then then specific metric name."
+      }
+    },
+    "commands": {
+      "cpu": {
+        "params": {},
+        "description": "Returns the overall cpu usage."
+      },
+      "platform": {
+        "params": {},
+        "description": "Returns the platform data."
+      },
+      "report": {
+        "params": {},
+        "description": "Returns an overall report of the gathered statistics."
+      },
+      "timestamp": {
+        "params": {},
+        "description": "Returns the current system timestamp."
+      }
+    }
+  },
+  "nio/ProcessMetrics": {
+    "version": "0.1.0",
+    "description": "Get statistics about a process running on the computer.",
+    "categories": [
+      "Hardware"
+    ],
+    "properties": {
+      "menu": {
+        "title": "Menu",
+        "type": "ObjectType",
+        "description": "Flags for turning off/on various metrics.",
+        "default": {
+          "children": false,
+          "cpu_percent": true,
+          "cmd_line": false,
+          "is_running": true,
+          "memory_percent": true,
+          "num_ctx_switches": true,
+          "num_fds": true,
+          "threads": false,
+          "virtual_memory": true
+        }
+      },
+      "pid": {
+        "title": "PID",
+        "type": "IntType",
+        "description": "Process identifier for metrics to be queried on.",
+        "default": null
+      }
+    },
+    "inputs": {
+      "default": {
+        "description": "Any list of signals."
+      }
+    },
+    "outputs": {
+      "default": {
+        "description": "A signal with metrics about the specific process."
+      }
+    },
+    "commands": {}
+  }
+}

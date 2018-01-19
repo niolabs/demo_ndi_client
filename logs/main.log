@@ -1,0 +1,40 @@
+[2017-11-02 20:00:57.112] NIO [INFO] [main.WebServer] Server configured on 0.0.0.0:8181
+[2017-11-02 20:00:57.112] NIO [INFO] [main.ServiceManager] Setting status to created
+[2017-11-02 20:00:57.112] NIO [INFO] [main.ServiceManager] Component: ServiceManager status changed from:  to: created
+[2017-11-02 20:00:57.153] NIO [INFO] [pubkeeper.client] Authenticated to Pubkeeper
+[2017-11-02 20:00:57.256] NIO [INFO] [main.ServiceManager] Setting status to configuring
+[2017-11-02 20:00:57.257] NIO [INFO] [main.ServiceManager] Component: ServiceManager status changed from: created to: configuring
+[2017-11-02 20:00:57.259] NIO [INFO] [main.ServiceManager] Setting status to configured
+[2017-11-02 20:00:57.259] NIO [INFO] [main.ServiceManager] Component: ServiceManager status changed from: configuring to: configured
+[2017-11-02 20:00:57.262] NIO [INFO] [main.WebServer] Starting server on 0.0.0.0:8181
+[2017-11-02 20:00:57.369] NIO [INFO] [main.WebServer] Server 0.0.0.0:8181 started on 0.0.0.0:8181
+[2017-11-02 20:00:57.370] NIO [INFO] [main.WebServer] Web engine started
+[2017-11-02 20:00:57.371] NIO [INFO] [main.ServiceManager] Setting status to starting
+[2017-11-02 20:00:57.371] NIO [INFO] [main.ServiceManager] Component: ServiceManager status changed from: configured to: starting
+[2017-11-02 20:00:57.388] NIO [INFO] [main.ServiceManager] Setting status to started
+[2017-11-02 20:00:57.389] NIO [INFO] [main.ServiceManager] Component: ServiceManager status changed from: starting to: started
+[2017-11-02 20:00:57.865] NIO [INFO] [main.ServiceManager] Service: ClientMetrics with process identifier(pid): 48301 has started
+[2017-11-03 00:16:56.068] NIO [INFO] [pubkeeper.client] Authenticated to Pubkeeper
+[2017-11-03 00:22:59.705] NIO [INFO] [pubkeeper.client] Authenticated to Pubkeeper
+[2017-11-03 00:24:44.914] NIO [INFO] [pubkeeper.client] Authenticated to Pubkeeper
+[2017-11-03 00:33:41.039] NIO [INFO] [pubkeeper.client] Authenticated to Pubkeeper
+[2017-11-03 00:36:33.729] NIO [INFO] [pubkeeper.client] Authenticated to Pubkeeper
+[2017-11-03 00:42:05.986] NIO [INFO] [pubkeeper.client] Authenticated to Pubkeeper
+[2017-11-03 00:44:46.516] NIO [INFO] [pubkeeper.client] Authenticated to Pubkeeper
+[2017-11-03 00:57:51.821] NIO [INFO] [pubkeeper.client] Authenticated to Pubkeeper
+[2017-11-03 04:14:26.930] NIO [INFO] [pubkeeper.client] Authenticated to Pubkeeper
+[2017-11-03 06:14:51.985] NIO [INFO] [pubkeeper.client] Authenticated to Pubkeeper
+[2017-11-03 08:15:07.135] NIO [INFO] [pubkeeper.client] Authenticated to Pubkeeper
+[2017-11-03 11:14:35.451] NIO [INFO] [pubkeeper.client] Authenticated to Pubkeeper
+[2017-11-03 14:58:51.404] NIO [INFO] [pubkeeper.client] Authenticated to Pubkeeper
+[2017-11-03 15:24:26.501] NIO [INFO] [pubkeeper.client] Authenticated to Pubkeeper
+[2017-11-03 15:38:51.606] NIO [INFO] [pubkeeper.client] Authenticated to Pubkeeper
+[2017-11-03 16:22:12.415] NIO [INFO] [main.ServiceManager] Stopping service: ClientMetrics
+[2017-11-03 16:22:12.417] NIO [INFO] [main.WebServer] Server 0.0.0.0:8181 stopped
+[2017-11-03 16:22:12.418] NIO [INFO] [main.ServiceManager] Setting status to stopping
+[2017-11-03 16:22:12.419] NIO [INFO] [main.ServiceManager] Component: ServiceManager status changed from: started to: stopping
+[2017-11-03 16:22:12.419] NIO [INFO] [main.ServiceManager] Setting status to stopped
+[2017-11-03 16:22:12.419] NIO [INFO] [main.ServiceManager] Component: ServiceManager status changed from: stopping to: stopped
+[2017-11-03 16:22:12.420] NIO [INFO] [main.WebServer] Server 0.0.0.0:8181 stopped
+[2017-11-03 16:22:12.420] NIO [INFO] [main.WebServer] Server 0.0.0.0:8181 stopped
+[2017-11-03 16:22:22.459] NIO [WARNING] [main.ServiceProcess.ClientMetrics] Service: 'ClientMetrics' failed to terminate on time

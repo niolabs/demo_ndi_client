@@ -1,0 +1,102 @@
+{
+  "nio/LocalPublisher": {
+    "version": "0.1.1",
+    "description": "Publish input signals to the configured topic. Only LocalSubscriber blocks on the same nio instance can subscribe to this data. Unlike the regular Publisher block, these signals do not need to contain data this is valid JSON.",
+    "categories": [
+      "Communication"
+    ],
+    "properties": {
+      "local_identifier": {
+        "title": "Local Identifier",
+        "type": "StringType",
+        "description": "Unique identifier of this instance in the nio system.",
+        "default": "[[INSTANCE_ID]]"
+      },
+      "topic": {
+        "title": "Topic",
+        "type": "StringType",
+        "description": "Hierarchical topic string to publish to",
+        "default": ""
+      }
+    },
+    "inputs": {
+      "default": {
+        "description": "Any list of signals."
+      }
+    },
+    "outputs": {},
+    "commands": {}
+  },
+  "nio/LocalSubscriber": {
+    "version": "0.1.1",
+    "description": "Subscribe to the configured topic and output signals received. Only LocalSubscriber blocks on the same nio instance can subscribe to this data. Unlike the regular Publisher block, these signals do not need to contain data this is valid JSON.",
+    "categories": [
+      "Communication"
+    ],
+    "properties": {
+      "local_identifier": {
+        "title": "Local Identifier",
+        "type": "StringType",
+        "description": "Unique identifier of this instance in the nio system.",
+        "default": "[[INSTANCE_ID]]"
+      },
+      "topic": {
+        "title": "Topic",
+        "type": "StringType",
+        "description": "Hierarchical topic string to publish to",
+        "default": ""
+      }
+    },
+    "inputs": {},
+    "outputs": {
+      "default": {
+        "description": "A signal of the message published to the configured topic."
+      }
+    },
+    "commands": {}
+  },
+  "nio/Publisher": {
+    "version": "1.0.0",
+    "description": "Publish input signals to the configured topic",
+    "categories": [
+      "Communication"
+    ],
+    "properties": {
+      "topic": {
+        "title": "Topic",
+        "type": "StringType",
+        "description": "Hierarchical topic string to publish to",
+        "default": null
+      }
+    },
+    "inputs": {
+      "default": {
+        "description": "Each input signal will be sent along to the appropriate Subscribers based on the *topic*."
+      }
+    },
+    "outputs": {},
+    "commands": {}
+  },
+  "nio/Subscriber": {
+    "version": "1.0.1",
+    "description": "Subscribe to the configured topic and output signals received",
+    "categories": [
+      "Communication"
+    ],
+    "properties": {
+      "topic": {
+        "title": "Topic",
+        "type": "StringType",
+        "description": "Hierarchical topic string to subscribe to",
+        "default": null
+      }
+    },
+    "inputs": {},
+    "outputs": {
+      "default": {
+        "description": "Signal list for each message received on topic"
+      }
+    },
+    "commands": {}
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "nio/AppendState": {
+    "language": "Python",
+    "url": "git://github.com/nio-blocks/state.git",
+    "version": "0.1.1"
+  },
+  "nio/StateChange": {
+    "language": "Python",
+    "url": "git://github.com/nio-blocks/state.git",
+    "version": "0.1.1"
+  },
+  "nio/Switch": {
+    "language": "Python",
+    "url": "git://github.com/nio-blocks/state.git",
+    "version": "0.1.1"
+  }
+}

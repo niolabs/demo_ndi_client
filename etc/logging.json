@@ -1,0 +1,65 @@
+{
+    "version": 1,
+    "formatters": {
+        "default": {
+            "format": "[%(niotime)s] NIO [%(levelname)s] [%(context)s] %(message)s"
+        }
+    },
+    "filters": {
+        "niofilter": {
+            "()": "nio.util.logging.filter.NIOFilter"
+        },
+        "log_signal_filter": {
+            "()": "nio.util.logging.handlers.publisher.log_signal_filter.LogSignalFilter"
+        },
+        "cache_filter": {
+            "()": "nio.util.logging.handlers.publisher.cache_filter.CacheFilter",
+            "expire_interval": 1
+        }
+    },
+    "handlers": {
+        "default": {
+            "level": "DEBUG",
+            "class": "logging.StreamHandler",
+            "stream": "ext://sys.stdout",
+            "formatter": "default",
+            "filters": ["niofilter"]
+        },
+        "file": {
+            "level": "DEBUG",
+            "class": "nio.util.logging.handlers.file_handler.NIOFileHandler",
+            "filename": "__service_name__",
+            "dirname": "[[PROJECT_ROOT]]/logs",
+            "formatter": "default",
+            "filters": ["niofilter"]
+        },
+        "comm": {
+            "level": "ERROR",
+            "class": "nio.util.logging.handlers.publisher.handler.PublisherHandler",
+            "topic": "nio_logging.[[INSTANCE_ID]].__service_name__",
+            "formatter": "default",
+            "filters": ["niofilter", "log_signal_filter", "cache_filter"]
+        }
+    },
+    "root": {
+        "handlers": ["default", "file", "comm"],
+        "level": "WARNING"
+    },
+    "loggers": {
+        "main": {
+            "level": "NOTSET"
+        },
+        "main.WebServer": {
+            "level": "INFO"
+        },
+        "main.ServiceManager": {
+            "level": "INFO"
+        },
+        "pubkeeper.client": {
+            "level": "INFO"
+        },
+        "pubkeeper.protocol": {
+            "level": "INFO"
+        }
+    }
+}

@@ -1,0 +1,41 @@
+{
+    "_signals": {
+        "__dct__": [
+            [
+                null,
+                {
+                    "input_2": {},
+                    "input_1": {
+                        "project": "",
+                        "os": "Darwin",
+                        "network": {
+                            "down": 0.8057519999999999,
+                            "up": 0.67124
+                        },
+                        "violations": {
+                            "down": false,
+                            "up": false,
+                            "cpu": false
+                        },
+                        "tag": [
+                            "edge",
+                            "laptop"
+                        ],
+                        "name": "action-jaxon",
+                        "MAC": "C4B301D48239",
+                        "RAM": {
+                            "available": 7.221595764160156,
+                            "total": 16.0,
+                            "used": 8.778404235839844
+                        },
+                        "CPU": {
+                            "cores": 8,
+                            "clock": 2200.0,
+                            "used": 16.6
+                        }
+                    }
+                }
+            ]
+        ]
+    }
+}
