@@ -1,0 +1,7 @@
+{
+  "nio/Replicator": {
+    "language": "Python",
+    "url": "git://github.com/nio-blocks/replicator.git",
+    "version": "1.0.0"
+  }
+}

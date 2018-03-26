@@ -1,0 +1,67 @@
+{
+  "nio/Join": {
+    "version": "1.0.0",
+    "description": "Group a list of input signals into one signal. The output signal will contain an attribute for each evaluated `key` and the `value` of the key will be a **list** containing each value with a matching key.",
+    "categories": [
+      "Signal Flow",
+      "Signal Modifier"
+    ],
+    "properties": {
+      "enrich": {
+        "title": "Signal Enrichment",
+        "type": "ObjectType",
+        "description": "If true, the original incoming signal will be included in the output signal.",
+        "default": {
+          "enrich_field": "",
+          "exclude_existing": true
+        }
+      },
+      "group_attr": {
+        "title": "Group Attribute Name",
+        "type": "StringType",
+        "description": "When `group_by` is used, this is the value that will be stored in a signal attribute called, in this case, `group`.",
+        "default": "group"
+      },
+      "group_by": {
+        "title": "Group By",
+        "type": "Type",
+        "description": "Incoming signal attribute to group signals by.",
+        "default": null
+      },
+      "key": {
+        "title": "Key",
+        "type": "StringType",
+        "description": "Evaluates to a key attribute on output signal.",
+        "default": "{{ $key }}"
+      },
+      "one_value": {
+        "title": "One Value Per Key",
+        "type": "BoolType",
+        "description": "If true, each attribute on the output signal has a value that is a single item instead of a list of all matching values.",
+        "default": false
+      },
+      "value": {
+        "title": "Value",
+        "type": "Type",
+        "description": "Evaluates to a value in a list of values with a matching key.",
+        "default": "{{ $value }}"
+      }
+    },
+    "inputs": {
+      "default": {
+        "description": "Any list of signals."
+      }
+    },
+    "outputs": {
+      "default": {
+        "description": "One output signal that has an attribute for each `key` and that attribute is a **list** containing a `value` for each matching key found in an input signal."
+      }
+    },
+    "commands": {
+      "groups": {
+        "description": "Display a list of the signal groupings.",
+        "params": {}
+      }
+    }
+  }
+}

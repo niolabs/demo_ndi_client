@@ -1,0 +1,183 @@
+{
+  "nio/HTTPRequests": {
+    "version": "0.1.0",
+    "description": "A Block that makes HTTP requests.  One request is made for every input signal. For each successful request, an output signal is created with the url that was hit.",
+    "categories": [
+      "Communication",
+      "Web Data"
+    ],
+    "properties": {
+      "basic_auth_creds": {
+        "title": "Credentials (BasicAuth)",
+        "type": "ObjectType",
+        "description": "When making a request that needs Basic Authentication, enter the username and password.",
+        "default": {
+          "password": null,
+          "username": null
+        }
+      },
+      "data": {
+        "title": "Parameters",
+        "type": "ObjectType",
+        "description": "URL Parameters. Keys and Values are Expression Properties.",
+        "default": {
+          "form_encode_data": false,
+          "params": []
+        }
+      },
+      "enrich": {
+        "title": "Signal Enrichment",
+        "type": "ObjectType",
+        "description": "If true, include the original signal along with the output signal.",
+        "default": {
+          "exclude_existing": true,
+          "enrich_field": ""
+        }
+      },
+      "headers": {
+        "title": "Headers",
+        "type": "ListType",
+        "description": "Custom Headers. Keys and Values are Expression Properties.",
+        "default": []
+      },
+      "http_method": {
+        "title": "HTTP Method",
+        "type": "SelectType",
+        "description": "HTTP Method (e.g. GET|POST|PUT|DELETE).",
+        "default": "get"
+      },
+      "require_json": {
+        "title": "Require JSON Response",
+        "type": "BoolType",
+        "description": "If True and response is not json, log warning and do not emit a signals. If False and response is not json, emit a signal of format {'raw': response.text}.",
+        "default": false
+      },
+      "retry_options": {
+        "title": "Retry Options",
+        "type": "ObjectType",
+        "description": "Configurables for retrying to connect on request failure.",
+        "default": {
+          "max_retry": 5,
+          "strategy": "linear",
+          "indefinite": false,
+          "multiplier": 1
+        }
+      },
+      "timeout": {
+        "title": "Request Timeout",
+        "type": "IntType",
+        "description": "Timeout in seconds for each request, if empty or 0 then requests will not time out.",
+        "default": 0
+      },
+      "url": {
+        "title": "URL Target",
+        "type": "Type",
+        "description": "URL to make request to.",
+        "default": "http://127.0.0.1:8181"
+      },
+      "verify": {
+        "title": "Verify host's SSL certificate",
+        "type": "BoolType",
+        "description": "For https, check a host's SSL certificate. Default value for the block is True, the same as the requests library.",
+        "default": true
+      }
+    },
+    "inputs": {
+      "default": {
+        "description": "Any list of signals. Signal attributes can be used for `url` and `data`."
+      }
+    },
+    "outputs": {
+      "default": {
+        "description": "If the response body is json, then the body is output as a new Signal.  If the response body is a list of json, then a list is output with a new Signal for each json dict in the body.  If the response body is not json, then the raw text of the response is output on a new Signal as `raw`."
+      }
+    },
+    "commands": {}
+  },
+  "nio/HTTPRequestsPostSignal": {
+    "version": "0.1.1",
+    "description": "Similar to the HTTPRequests block.  One request is made for every signal input.  The input signal will be used as the body of the post request.",
+    "categories": [
+      "Communication",
+      "Web Data"
+    ],
+    "properties": {
+      "basic_auth_creds": {
+        "title": "Credentials (BasicAuth)",
+        "type": "ObjectType",
+        "description": "When making a request that needs Basic Authentication, enter the username and password.",
+        "default": {
+          "password": null,
+          "username": null
+        }
+      },
+      "enrich": {
+        "title": "Signal Enrichment",
+        "type": "ObjectType",
+        "description": "If true, the output signal will include the original signal sent into the block",
+        "default": {
+          "exclude_existing": true,
+          "enrich_field": ""
+        }
+      },
+      "headers": {
+        "title": "Headers",
+        "type": "ListType",
+        "description": "Custom Headers. Keys and Values are Expression Properties.",
+        "default": []
+      },
+      "http_method": {
+        "title": "HTTP Method",
+        "type": "SelectType",
+        "description": "HTTP Method (e.g. GET|POST|PUT|DELETE).",
+        "default": "post"
+      },
+      "require_json": {
+        "title": "Require JSON Response",
+        "type": "BoolType",
+        "description": "If `True` and response is not json, log warning and do not emit a signals. If `False` and response is not json, emit a signal of format `{'raw': response.text}`.",
+        "default": false
+      },
+      "retry_options": {
+        "title": "Retry Options",
+        "type": "ObjectType",
+        "description": "How many times to retry to HTTP request",
+        "default": {
+          "max_retry": 5,
+          "strategy": "linear",
+          "indefinite": false,
+          "multiplier": 1
+        }
+      },
+      "timeout": {
+        "title": "Request Timeout",
+        "type": "IntType",
+        "description": "Timeout in seconds for each request, if empty or 0 then requests will not time out.",
+        "default": 0
+      },
+      "url": {
+        "title": "URL Target",
+        "type": "Type",
+        "description": "URL to make request to.",
+        "default": "http://127.0.0.1:8181"
+      },
+      "verify": {
+        "title": "Verify host's SSL certificate",
+        "type": "BoolType",
+        "description": "For https, check a host's SSL certificate. Default value for the block is `True`, the same as the requests library.",
+        "default": true
+      }
+    },
+    "inputs": {
+      "default": {
+        "description": "Any list of signals. Signal attributes can be used for `url` and `data`."
+      }
+    },
+    "outputs": {
+      "default": {
+        "description": "If the response body is json, then the body is output as a new Signal.  If the response body is a list of json, then a list is output with a new Signal for each json dict in the body.  If the response body is not json, then the raw text of the response is output on a new Signal as `raw`."
+      }
+    },
+    "commands": {}
+  }
+}

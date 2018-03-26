@@ -1,0 +1,26 @@
+{
+  "nio/Replicator": {
+    "version": "1.0.0",
+    "description": "Each incoming signal is replicated x times, where x is the number of items in the list that `list` evaluates to. Each output signal will be the same as the input signal with a new attribute, `title`, set to a value of the list.",
+    "categories": [
+      "Signal Modifier"
+    ],
+    "properties": {
+      "list": {
+        "title": "List",
+        "type": "Type",
+        "description": "An expression property that needs to evaluate to a list. A signal will be notified from the block for each item in the list.",
+        "default": ""
+      },
+      "title": {
+        "title": "Attribute Title",
+        "type": "StringType",
+        "description": "Name of attribute to be added with list value.",
+        "default": ""
+      }
+    },
+    "inputs": {},
+    "outputs": {},
+    "commands": {}
+  }
+}

@@ -6,32 +6,32 @@
                 {
                     "input_2": {},
                     "input_1": {
-                        "project": "",
-                        "os": "Darwin",
-                        "network": {
-                            "down": 0.8057519999999999,
-                            "up": 0.67124
+                        "name": "dni-network-server",
+                        "os": "Linux",
+                        "CPU": {
+                            "used": 12.8,
+                            "cores": 4,
+                            "clock": 2400.0
                         },
+                        "RAM": {
+                            "used": 0.6642189025878906,
+                            "total": 7.602451324462891,
+                            "available": 6.938232421875
+                        },
+                        "project": "",
+                        "MAC": "155D645B14",
+                        "tag": [
+                            "server",
+                            "internal"
+                        ],
                         "violations": {
                             "down": false,
                             "up": false,
                             "cpu": false
                         },
-                        "tag": [
-                            "edge",
-                            "laptop"
-                        ],
-                        "name": "action-jaxon",
-                        "MAC": "C4B301D48239",
-                        "RAM": {
-                            "available": 7.221595764160156,
-                            "total": 16.0,
-                            "used": 8.778404235839844
-                        },
-                        "CPU": {
-                            "cores": 8,
-                            "clock": 2200.0,
-                            "used": 16.6
+                        "network": {
+                            "down": 0.560904,
+                            "up": 0.17907199999999998
                         }
                     }
                 }

@@ -1,0 +1,275 @@
+{
+    "_signals": {
+        "__dct__": [
+            [
+                null,
+                {
+                    "input_2": {
+                        "client_info": [
+                            {
+                                "MAC": "40:4e:36:81:59:02",
+                                "name": null,
+                                "network_down": 82.0,
+                                "network_up": 323.0
+                            },
+                            {
+                                "MAC": "a4:f1:e8:1a:5e:49",
+                                "name": "Hanss-iPhone-2",
+                                "network_down": 829.0,
+                                "network_up": 14636.0
+                            },
+                            {
+                                "MAC": "bc:6e:64:e3:fb:10",
+                                "name": "android-d7e38f1576932bce",
+                                "network_down": 1122.0,
+                                "network_up": 5888.0
+                            },
+                            {
+                                "MAC": "00:90:c2:e3:35:1a",
+                                "name": null,
+                                "network_down": 336355.73,
+                                "network_up": 58489.54
+                            },
+                            {
+                                "MAC": "20:ab:37:d8:a9:8e",
+                                "name": "iPhone",
+                                "network_down": 394.0,
+                                "network_up": 4608.0
+                            },
+                            {
+                                "MAC": "98:01:a7:a8:a7:db",
+                                "name": "Trishas-MBP",
+                                "network_down": 60754.77,
+                                "network_up": 804312.53
+                            },
+                            {
+                                "MAC": "b8:53:ac:0b:4b:72",
+                                "name": "Hairyladyballs",
+                                "network_down": 7545.41,
+                                "network_up": 65611.27
+                            },
+                            {
+                                "MAC": "4c:32:75:9e:6f:ff",
+                                "name": "Lara",
+                                "network_down": 2856345.02,
+                                "network_up": 3798791.9
+                            },
+                            {
+                                "MAC": "b8:27:eb:69:50:93",
+                                "name": "raspberrypi",
+                                "network_down": 6575.19,
+                                "network_up": 33604.72
+                            },
+                            {
+                                "MAC": "98:00:c6:45:41:47",
+                                "name": "Laras-iPhone",
+                                "network_down": 68616.61,
+                                "network_up": 219689.5
+                            },
+                            {
+                                "MAC": "d4:dc:cd:bf:7e:f7",
+                                "name": "Alexas-iPhone",
+                                "network_down": 18265.38,
+                                "network_up": 137462.64
+                            },
+                            {
+                                "MAC": "4c:7c:5f:02:90:0d",
+                                "name": "AndrewJtsiPhone",
+                                "network_down": 495.0,
+                                "network_up": 443.0
+                            },
+                            {
+                                "MAC": "14:99:e2:1e:06:be",
+                                "name": "niocommityboard",
+                                "network_down": 12338.37,
+                                "network_up": 4271.79
+                            },
+                            {
+                                "MAC": "a8:86:dd:ae:71:27",
+                                "name": "nioMacMrontDoor",
+                                "network_down": 7781.06,
+                                "network_up": 269389.38
+                            },
+                            {
+                                "MAC": "b8:27:eb:5f:11:d2",
+                                "name": "raspberrypi",
+                                "network_down": 13842.65,
+                                "network_up": 13946.01
+                            },
+                            {
+                                "MAC": "e0:c7:67:89:f1:de",
+                                "name": "JH-iPhone",
+                                "network_down": 889.94,
+                                "network_up": 39109.74
+                            },
+                            {
+                                "MAC": "a8:86:dd:af:23:0f",
+                                "name": "nioMacMZWarRoom",
+                                "network_down": 380584.77,
+                                "network_up": 2114560.45
+                            },
+                            {
+                                "MAC": "6c:8d:c1:7c:3e:a5",
+                                "name": "Bills-iPhone-2",
+                                "network_down": 1624.6,
+                                "network_up": 33349.98
+                            },
+                            {
+                                "MAC": "78:fd:94:29:eb:51",
+                                "name": "SexualChocolate",
+                                "network_down": 158177.26,
+                                "network_up": 77051.38
+                            },
+                            {
+                                "MAC": "c4:b3:01:d4:82:39",
+                                "name": "sexual-chocolate",
+                                "network_down": 286703.64,
+                                "network_up": 5940086.08
+                            },
+                            {
+                                "MAC": "98:01:a7:8f:e6:fb",
+                                "name": "nio-mpb-lsosa",
+                                "network_down": 276640.39,
+                                "network_up": 4656115.32
+                            },
+                            {
+                                "MAC": "dc:2b:2a:45:86:fe",
+                                "name": "PSL",
+                                "network_down": 8719.85,
+                                "network_up": 127266.6
+                            },
+                            {
+                                "MAC": "7c:04:d0:6b:9a:84",
+                                "name": "Trishs-iPhone",
+                                "network_down": 10779.85,
+                                "network_up": 94717.53
+                            },
+                            {
+                                "MAC": "cc:08:8d:ac:a0:9a",
+                                "name": "Steves-iPhone-7",
+                                "network_down": 79.0,
+                                "network_up": 585.0
+                            },
+                            {
+                                "MAC": "98:01:a7:b0:45:fd",
+                                "name": "nio-mbp-sgerjets",
+                                "network_down": 398.0,
+                                "network_up": 335.0
+                            },
+                            {
+                                "MAC": "3c:15:c2:de:4b:ec",
+                                "name": "niombprickLewis",
+                                "network_down": 279510.4,
+                                "network_up": 1453611.14
+                            },
+                            {
+                                "MAC": "4c:32:75:9e:85:03",
+                                "name": "Bills-MBP",
+                                "network_down": 28769.77,
+                                "network_up": 3177972.02
+                            },
+                            {
+                                "MAC": "ac:37:43:46:6b:23",
+                                "name": null,
+                                "network_down": 5003.57,
+                                "network_up": 34459.82
+                            },
+                            {
+                                "MAC": "b8:27:eb:96:6b:8f",
+                                "name": "raspberrypi",
+                                "network_down": 209.0,
+                                "network_up": 226.0
+                            },
+                            {
+                                "MAC": "40:4e:36:84:3a:07",
+                                "name": null,
+                                "network_down": 4047.19,
+                                "network_up": 44777.4
+                            },
+                            {
+                                "MAC": "70:81:eb:8f:1b:9e",
+                                "name": "ClownPhone",
+                                "network_down": 22.0,
+                                "network_up": 238.0
+                            },
+                            {
+                                "MAC": "98:01:a7:8d:8d:47",
+                                "name": "nio-mbp-jsnell",
+                                "network_down": 261933.37,
+                                "network_up": 1066335.4
+                            },
+                            {
+                                "MAC": "4c:32:75:8e:61:0b",
+                                "name": "Scotts-MBP",
+                                "network_down": 144941.53,
+                                "network_up": 8388232.6
+                            },
+                            {
+                                "MAC": "9c:ef:d5:fe:64:dd",
+                                "name": null,
+                                "network_down": 25796.1,
+                                "network_up": 13271.07
+                            },
+                            {
+                                "MAC": "e4:a4:71:1a:54:91",
+                                "name": "Tom-PC",
+                                "network_down": 81966.0,
+                                "network_up": 285722.0
+                            },
+                            {
+                                "MAC": "70:ec:e4:10:35:30",
+                                "name": "KylieDaesiPhone",
+                                "network_down": 3854.0,
+                                "network_up": 90715.0
+                            },
+                            {
+                                "MAC": "4c:32:75:9c:93:cf",
+                                "name": "nio-mbp-dnoolas",
+                                "network_down": 110097.0,
+                                "network_up": 384010.0
+                            },
+                            {
+                                "MAC": "10:f1:f2:86:d0:92",
+                                "name": null,
+                                "network_down": 157.0,
+                                "network_up": 2878.0
+                            },
+                            {
+                                "MAC": "f4:5c:89:c5:fb:b1",
+                                "name": "nio-mbp-ajaime",
+                                "network_down": 704842.1,
+                                "network_up": 3351438.99
+                            },
+                            {
+                                "MAC": "b8:53:ac:47:82:a9",
+                                "name": "Jens-iPod",
+                                "network_down": 125.0,
+                                "network_up": 2799.0
+                            },
+                            {
+                                "MAC": "28:a0:2b:2d:71:23",
+                                "name": "KKo",
+                                "network_down": 20.0,
+                                "network_up": 22.0
+                            },
+                            {
+                                "MAC": "18:65:90:d8:ee:07",
+                                "name": "Aarons-MBP",
+                                "network_down": 0.0,
+                                "network_up": 14.0
+                            },
+                            {
+                                "MAC": "c8:e0:eb:19:6e:c9",
+                                "name": "KDale-MBP",
+                                "network_down": 88643.93,
+                                "network_up": 749272.18
+                            }
+                        ],
+                        "group": "Q2FD-FEGB-AVHT"
+                    },
+                    "input_1": {}
+                }
+            ]
+        ]
+    }
+}

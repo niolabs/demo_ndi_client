@@ -10,18 +10,16 @@ class TestClientMetrics(NioServiceTestCase):
     cpu_signal = [Signal({'cpu_limit': 25})]
     down_signal = [Signal({'down_limit': -1})]
     up_signal = [Signal({'up_limit': -2})]
-    ram_signal = [Signal({'ram_limit': 1})]
     instance_tag = 'edge|laptop'
-    project_url = 'https://www.thisisatest.niolabs.com'
+    project_url = 'https://www.thisisatest/niolabs.com'
 
     def publisher_topics(self):
         """Topics this service publishes to"""
-        return ['dni.client_state.' + hex(__import__('uuid').getnode())[2:].upper(),
-                'dni.client_stats.' + hex(__import__('uuid').getnode())[2:].upper()]
+        return ['dni.client_state', 'dni.client_status.123456789']
 
     def subscriber_topics(self):
         """Topics this service subscribes to"""
-        return ['dni.admin_limits', 'dni.newui']
+        return ['dni.admin_limits', 'dni.selected_client.' + hex(__import__('uuid').getnode())[2:].upper()]
 
     def env_vars(self):
         return {
@@ -40,10 +38,7 @@ class TestClientMetrics(NioServiceTestCase):
                                      'net_io_counters_bytes_recv': 200,
                                      'virtual_memory_available': 1e5,
                                      'virtual_memory_total': 1e10,
-                                     'virtual_memory_used': 6e9,
-                                     'disk_usage_free': 1e9,
-                                     'disk_usage_percent': 41.7,
-                                     'disk_usage_total': 16e9})])
+                                     'virtual_memory_used': 6e9})])
     def _mock_specs(self):
         self.notify_signals('GetOS',
                             [Signal({'system': 'Linux',
@@ -58,75 +53,54 @@ class TestClientMetrics(NioServiceTestCase):
         for block in self._blocks:
             self._blocks[block].logger = MagicMock()
         self.assertEqual(self.block_configs['ClientState']['group_by'],
-                         "{{ $name }}")
+                         "{{ __import__('socket').gethostname() }}")
         # Wait for sleep block
         self._scheduler.jump_ahead(1)
         # First Signal is Excluded on the Network Side
         self._scheduler.jump_ahead(1)
-        self.assert_num_signals_published(2)
+        # self.assert_num_signals_published(1)
         self.assertDictEqual(
-            self.published_signals[0].to_dict(),
-            {
+            self.published_signals[-1].to_dict(),
+            {'cpu_state': False,
+             'down_state': False,
+             'up_state': False,
              'CPU': {'clock': 2300.0, 'cores': 4, 'used': 50},
-             'RAM': {'available': 3.73,
-                     'total': 9.31,
-                     'used': 5.59},
-             'disk': {'total': 16.0, 'used': 41.7, 'available': 1.0},
-             'MAC': '12341234',
-             'network': {'down': 0.0, 'up': 0.0},
-             'name': self.instance,
-             'violations': {'cpu': False, 'down': False, 'up': False, 'ram': False},
-             })
-        self.assertDictEqual(
-            self.published_signals[1].to_dict(),
-            {
+             'RAM': {'available': 3.725290298461914,
+                     'total': 9.313225746154785,
+                     'used': 5.587935447692871},
              'os': 'Linux',
-             'name': self.instance,
-             'disk': {'used': 41.7, 'total': 16.0, 'available': 1.0},
-             'prev_state': None,
-             'state': {'cpu': False, 'up': False, 'ram': False, 'down': False},
              'MAC': '12341234',
-             'group': 'test',
              'tag': ['edge', 'laptop'],
-             'violations': {'cpu': False, 'up': False, 'ram': False, 'down': False}
-            }
-        )
+             'project': 'https://www.thisisatest/niolabs.com',
+             'name': self.instance,
+             'prev_state': None,
+             'state': {'cpu_state': False, 'down_state': False, 'up_state': False},
+             'group': self.instance})
         # Wait and make sure nothing is published until state change
-        #self._scheduler.jump_ahead(1)
+        self._scheduler.jump_ahead(1)
         self.publish_signals('dni.admin_limits', self.cpu_signal)
         self.publish_signals('dni.admin_limits', self.down_signal)
         self.publish_signals('dni.admin_limits', self.up_signal)
-        self.publish_signals('dni.admin_limits', self.ram_signal)
-
-        self._scheduler.jump_ahead(1.5)
-        self.assert_num_signals_published(4)
+        self._scheduler.jump_ahead(1)
+        self.assert_num_signals_published(2)
         self.assertDictEqual(
-            self.published_signals[2].to_dict(),
-            {'violations': {'cpu': True, 'down': True, 'up': True, 'ram': False},
+            self.published_signals[-1].to_dict(),
+            {'cpu_state': True,
+             'down_state': True,
+             'up_state': True,
              'CPU': {'clock': 2300.0, 'cores': 4, 'used': 50},
-             'RAM': {'available': 3.73,
-                     'total': 9.31,
-                     'used': 5.59},
-             'MAC': '12341234',
-             'name': self.instance,
-             'network': {'down': 0.0, 'up': 0.0},
-             'disk': {'available': 1.0, 'total': 16.0, 'used': 41.7}
-            })
-        print(self.published_signals[3].to_dict())
-        self.assertDictEqual(
-            self.published_signals[3].to_dict(),
-            {
+             'RAM': {'available': 3.725290298461914,
+                     'total': 9.313225746154785,
+                     'used': 5.587935447692871},
              'os': 'Linux',
-             'name': self.instance,
-             'disk': {'used': 41.7, 'total': 16.0, 'available': 1.0},
-             'prev_state': {'down': False, 'cpu': False, 'ram': False, 'up': False},
-             'state': {'cpu': True, 'up': True, 'ram': False, 'down': True},
              'MAC': '12341234',
-             'group': 'test',
              'tag': ['edge', 'laptop'],
-             'violations': {'cpu': True, 'up': True, 'ram': False, 'down': True}
-            }
-        )
+             'project': 'https://www.thisisatest/niolabs.com',
+             'prev_state': {'cpu_state': False, 'down_state': False, 'up_state': False},
+             'state': {'cpu_state': True, 'down_state': True, 'up_state': True},
+             'name': self.instance,
+             'group': self.instance,
+            })
         # Test for Exceptions from only receiving one limit from subscriber
-        # for block in self._blocks:
-        #     self.assertFalse(self._blocks[block].logger.exception.call_count)
+        for block in self._blocks:
+            self.assertFalse(self._blocks[block].logger.exception.call_count)
