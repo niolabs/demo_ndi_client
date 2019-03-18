@@ -25,7 +25,7 @@ class TestLocalPubSub(NIOBlockTestCase):
                 publisher, {"topic": topic, "local_identifier": instance_id})
             communication.assert_called_once_with(
                 topic="{}.{}".format(instance_id, topic))
-            communication.return_value.open.assert_called_once_with()
+            self.assertEqual(communication.return_value.open.call_count, 1)
 
             publisher.start()
 
@@ -57,7 +57,7 @@ class TestLocalPubSub(NIOBlockTestCase):
                 ANY, topic="{}.{}".format(instance_id, topic))
 
             subscriber.start()
-            communication.return_value.open.assert_called_once_with()
+            self.assertEqual(communication.return_value.open.call_count, 1)
 
             # call the subscriber handler with a signal and then check that
             # signals are notified for decoded, unpickled result
@@ -71,3 +71,41 @@ class TestLocalPubSub(NIOBlockTestCase):
 
             subscriber.stop()
             communication.return_value.close.assert_called_once_with()
+
+    def test_local_subscriber_nonlocal_publisher(self):
+        """ Ensure the LocalSubscriber can handle Publisher signals """
+        subscriber = Subscriber()
+
+        with patch(Subscriber.__module__ + '.NioSubscriber') as communication:
+            self.configure_block(
+                subscriber, {"topic": "topic", "local_identifier": "test"})
+            subscriber.start()
+
+        # call the subscriber handler with a raw list of signals, not the
+        # base64encoded signals that would come from the local publisher
+        communication.call_args[0][0](
+            [Signal({"key1": "val1"}), Signal({"key2": "val2"})])
+        self.assert_num_signals_notified(2)
+        self.assertDictEqual(
+            self.last_notified[DEFAULT_TERMINAL][0].to_dict(),
+            {"key1": "val1"}
+        )
+        self.assertDictEqual(
+            self.last_notified[DEFAULT_TERMINAL][1].to_dict(),
+            {"key2": "val2"}
+        )
+        subscriber.stop()
+
+
+    def test_no_local_id(self):
+        """ Make sure they can ignore the local id prefix if desired """
+        subscriber = Subscriber()
+        with patch(Subscriber.__module__ + '.NioSubscriber') as communication:
+            self.configure_block(
+                subscriber, {"topic": "topic", "local_identifier": ""})
+            communication.assert_called_once_with(ANY, topic="topic")
+        publisher = Publisher()
+        with patch(Publisher.__module__ + '.NioPublisher') as communication:
+            self.configure_block(
+                publisher, {"topic": "topic", "local_identifier": ""})
+            communication.assert_called_once_with(topic="topic")

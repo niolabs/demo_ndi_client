@@ -38,3 +38,1037 @@
 [2017-11-03 16:22:12.420] NIO [INFO] [main.WebServer] Server 0.0.0.0:8181 stopped
 [2017-11-03 16:22:12.420] NIO [INFO] [main.WebServer] Server 0.0.0.0:8181 stopped
 [2017-11-03 16:22:22.459] NIO [WARNING] [main.ServiceProcess.ClientMetrics] Service: 'ClientMetrics' failed to terminate on time
+[2019-03-18T21:22:49.141175Z] NIO [INFO] [pubkeeper.client] Pubkeeper Client Running (2 brews started)
+[2019-03-18T21:22:49.257761Z] NIO [INFO] [pubkeeper.client] Connected To Pubkeeper (1.1)
+[2019-03-18T21:22:49.274494Z] NIO [INFO] [main.WebServer] Server configured on 0.0.0.0:8188
+[2019-03-18T21:22:49.275057Z] NIO [INFO] [main.ServiceManager] Setting status to created
+[2019-03-18T21:22:49.275285Z] NIO [INFO] [main.ServiceManager] Component: ServiceManager status changed from:  to: created
+[2019-03-18T21:22:49.301210Z] NIO [INFO] [pubkeeper.protocol.v1] Authenticated to Pubkeeper
+[2019-03-18T21:22:50.141502Z] NIO [ERROR] [main.ResourceTypedCollection] Ignoring instance: 'PrimeConditions' with invalid type: 'ConditionalModifier'
+[2019-03-18T21:22:50.146586Z] NIO [ERROR] [main.ResourceTypedCollection] Ignoring instance: 'CheckForTimeout' with invalid type: 'SignalTimeout'
+[2019-03-18T21:22:50.147236Z] NIO [ERROR] [main.ResourceTypedCollection] Ignoring instance: 'BuildListOfPrimes' with invalid type: 'Buffer'
+[2019-03-18T21:22:50.148016Z] NIO [ERROR] [main.ResourceTypedCollection] Ignoring instance: 'CommandBufferEmit' with invalid type: 'NioCommand'
+[2019-03-18T21:22:50.148531Z] NIO [ERROR] [main.ResourceTypedCollection] Ignoring instance: 'JoinPrimes' with invalid type: 'Join'
+[2019-03-18T21:22:50.149451Z] NIO [ERROR] [main.ResourceTypedCollection] Ignoring instance: 'QueuePrimes' with invalid type: 'Queue'
+[2019-03-18T21:22:50.150044Z] NIO [INFO] [main.ServiceManager] Setting status to configuring
+[2019-03-18T21:22:50.150221Z] NIO [INFO] [main.ServiceManager] Component: ServiceManager status changed from: created to: configuring
+[2019-03-18T21:22:50.153567Z] NIO [INFO] [main.ServiceManager] Component: ServiceManager status changed from: configuring to: configured
+[2019-03-18T21:22:50.157829Z] NIO [INFO] [main.WebServer] Starting server on 0.0.0.0:8188
+[2019-03-18T21:22:50.260136Z] NIO [INFO] [main.WebServer] Server 0.0.0.0:8188 started on 0.0.0.0:8188
+[2019-03-18T21:22:50.261630Z] NIO [INFO] [main.WebServer] Web engine started
+[2019-03-18T21:22:50.262230Z] NIO [INFO] [main.ServiceManager] Component: ServiceManager status changed from: configured to: starting
+[2019-03-18T21:22:50.292100Z] NIO [INFO] [main.ServiceManager] Component: ServiceManager status changed from: starting to: started
+[2019-03-18T21:22:50.956257Z] NIO [INFO] [main.ServiceManager] Service: CalculatePrimes with process identifier(pid): 52164 has started
+[2019-03-18T21:22:51.019834Z] NIO [INFO] [main.ServiceManager] Service: ClientMetrics with process identifier(pid): 52163 has started
+[2019-03-18T21:58:06.478704Z] NIO [INFO] [main.WebServer] Server 0.0.0.0:8188 stopped
+[2019-03-18T21:58:06.495772Z] NIO [INFO] [main.ServiceManager] Component: ServiceManager status changed from: started to: stopping
+[2019-03-18T21:58:06.496006Z] NIO [INFO] [main.ServiceManager] Stopping service: CalculatePrimes
+[2019-03-18T21:58:07.502545Z] NIO [INFO] [main.ServiceManager] Stopping service: ClientMetrics
+[2019-03-18T21:58:08.510748Z] NIO [INFO] [main.ServiceManager] Component: ServiceManager status changed from: stopping to: stopped
+[2019-03-18T21:58:08.511538Z] NIO [INFO] [main.WebServer] Server 0.0.0.0:8188 stopped
+[2019-03-18T21:58:08.512469Z] NIO [INFO] [main.WebServer] Server 0.0.0.0:8188 stopped
+[2019-03-18T21:58:08.514204Z] NIO [INFO] [pubkeeper.client] Pubkeeper Client Shutting Down
+[2019-03-18T21:58:08.515714Z] NIO [INFO] [pubkeeper.client] Pubkeeper Client Shutdown
+[2019-03-18T21:58:10.371054Z] NIO [WARNING] [pubkeeper.client] Installed pubkeeper.protocol.v1 has no handler in this client version, skipping
+[2019-03-18T21:58:10.372037Z] NIO [INFO] [pubkeeper.client] Pubkeeper Client Running (2 brews started)
+[2019-03-18T21:58:10.437143Z] NIO [INFO] [main.WebServer] Server configured on 0.0.0.0:8188
+[2019-03-18T21:58:10.437643Z] NIO [INFO] [main.ServiceManager] Setting status to created
+[2019-03-18T21:58:10.437856Z] NIO [INFO] [main.ServiceManager] Component: ServiceManager status changed from:  to: created
+[2019-03-18T21:58:10.519118Z] NIO [ERROR] [main.ResourceTypedCollection] Ignoring instance: 'PrimeConditions' with invalid type: 'ConditionalModifier'
+[2019-03-18T21:58:10.519598Z] NIO [ERROR] [main.ResourceTypedCollection] Ignoring instance: 'CheckForTimeout' with invalid type: 'SignalTimeout'
+[2019-03-18T21:58:10.519936Z] NIO [ERROR] [main.ResourceTypedCollection] Ignoring instance: 'BuildListOfPrimes' with invalid type: 'Buffer'
+[2019-03-18T21:58:10.520531Z] NIO [ERROR] [main.ResourceTypedCollection] Ignoring instance: 'CommandBufferEmit' with invalid type: 'NioCommand'
+[2019-03-18T21:58:10.520797Z] NIO [ERROR] [main.ResourceTypedCollection] Ignoring instance: 'JoinPrimes' with invalid type: 'Join'
+[2019-03-18T21:58:10.521433Z] NIO [ERROR] [main.ResourceTypedCollection] Ignoring instance: 'QueuePrimes' with invalid type: 'Queue'
+[2019-03-18T21:58:10.521846Z] NIO [INFO] [main.ServiceManager] Setting status to configuring
+[2019-03-18T21:58:10.522016Z] NIO [INFO] [main.ServiceManager] Component: ServiceManager status changed from: created to: configuring
+[2019-03-18T21:58:10.526495Z] NIO [INFO] [main.ServiceManager] Component: ServiceManager status changed from: configuring to: configured
+[2019-03-18T21:58:10.530006Z] NIO [INFO] [main.WebServer] Starting server on 0.0.0.0:8188
+[2019-03-18T21:58:10.637178Z] NIO [INFO] [main.WebServer] Server 0.0.0.0:8188 started on 0.0.0.0:8188
+[2019-03-18T21:58:10.638423Z] NIO [INFO] [main.WebServer] Web engine started
+[2019-03-18T21:58:10.638926Z] NIO [INFO] [main.ServiceManager] Component: ServiceManager status changed from: configured to: starting
+[2019-03-18T21:58:10.660366Z] NIO [INFO] [main.ServiceManager] Component: ServiceManager status changed from: starting to: started
+[2019-03-18T21:58:10.787755Z] NIO [WARNING] [pubkeeper.utils.websocket] Connection Failure: wss://pks.demo.niolabs.com:443/ws ('NoneType' object has no attribute 'index')
+[2019-03-18T21:58:10.788742Z] NIO [INFO] [pubkeeper.client] Disconnected from Pubkeeper
+[2019-03-18T21:58:10.865371Z] NIO [INFO] [pubkeeper.client] Disconnected from Pubkeeper
+[2019-03-18T21:58:11.232659Z] NIO [INFO] [main.ServiceManager] Service: CalculatePrimes with process identifier(pid): 68918 has started
+[2019-03-18T21:58:11.294744Z] NIO [INFO] [main.ServiceManager] Service: ClientMetrics with process identifier(pid): 68919 has started
+[2019-03-18T21:58:15.462766Z] NIO [WARNING] [main.Publisher] No pubkeeper connection, discarding 6 queued messages
+[2019-03-18T21:58:15.529601Z] NIO [WARNING] [main.Publisher] No pubkeeper connection, discarding 8 queued messages
+[2019-03-18T22:04:09.717553Z] NIO [INFO] [main.WebServer] Server 0.0.0.0:8188 stopped
+[2019-03-18T22:04:09.766134Z] NIO [INFO] [main.ServiceManager] Component: ServiceManager status changed from: started to: stopping
+[2019-03-18T22:04:09.766672Z] NIO [INFO] [main.ServiceManager] Stopping service: CalculatePrimes
+[2019-03-18T22:04:09.768823Z] NIO [WARNING] [main.Publisher] Unable to send signals, no pubkeeper connection
+[2019-03-18T22:04:09.773499Z] NIO [WARNING] [main.Publisher] Unable to send signals, no pubkeeper connection
+[2019-03-18T22:04:09.890375Z] NIO [INFO] [main.WebServer] Server 0.0.0.0:8188 stopped
+[2019-03-18T22:04:10.010399Z] NIO [INFO] [main.WebServer] Server 0.0.0.0:8188 stopped
+[2019-03-18T22:04:10.170694Z] NIO [INFO] [main.WebServer] Server 0.0.0.0:8188 stopped
+[2019-03-18T22:04:10.771162Z] NIO [INFO] [main.ServiceManager] Stopping service: ClientMetrics
+[2019-03-18T22:04:10.773004Z] NIO [WARNING] [main.Publisher] Unable to send signals, no pubkeeper connection
+[2019-03-18T22:04:10.790260Z] NIO [WARNING] [main.Publisher] Unable to send signals, no pubkeeper connection
+[2019-03-18T22:04:11.777421Z] NIO [INFO] [main.ServiceManager] Component: ServiceManager status changed from: stopping to: stopped
+[2019-03-18T22:04:11.778200Z] NIO [INFO] [main.WebServer] Server 0.0.0.0:8188 stopped
+[2019-03-18T22:04:11.778743Z] NIO [INFO] [main.WebServer] Server 0.0.0.0:8188 stopped
+[2019-03-18T22:04:11.780484Z] NIO [INFO] [pubkeeper.client] Pubkeeper Client Shutting Down
+[2019-03-18T22:04:11.781189Z] NIO [INFO] [pubkeeper.client] Pubkeeper Client Shutdown
+[2019-03-18T22:04:14.009773Z] NIO [WARNING] [pubkeeper.client] Installed pubkeeper.protocol.v1 has no handler in this client version, skipping
+[2019-03-18T22:04:14.011044Z] NIO [INFO] [pubkeeper.client] Pubkeeper Client Running (2 brews started)
+[2019-03-18T22:04:14.079259Z] NIO [INFO] [main.WebServer] Server configured on 0.0.0.0:8188
+[2019-03-18T22:04:14.079929Z] NIO [INFO] [main.ServiceManager] Setting status to created
+[2019-03-18T22:04:14.080149Z] NIO [INFO] [main.ServiceManager] Component: ServiceManager status changed from:  to: created
+[2019-03-18T22:04:14.151122Z] NIO [ERROR] [main.ResourceTypedCollection] Ignoring instance: 'PrimeConditions' with invalid type: 'ConditionalModifier'
+[2019-03-18T22:04:14.151670Z] NIO [ERROR] [main.ResourceTypedCollection] Ignoring instance: 'CheckForTimeout' with invalid type: 'SignalTimeout'
+[2019-03-18T22:04:14.152032Z] NIO [ERROR] [main.ResourceTypedCollection] Ignoring instance: 'BuildListOfPrimes' with invalid type: 'Buffer'
+[2019-03-18T22:04:14.152604Z] NIO [ERROR] [main.ResourceTypedCollection] Ignoring instance: 'CommandBufferEmit' with invalid type: 'NioCommand'
+[2019-03-18T22:04:14.152880Z] NIO [ERROR] [main.ResourceTypedCollection] Ignoring instance: 'JoinPrimes' with invalid type: 'Join'
+[2019-03-18T22:04:14.153567Z] NIO [ERROR] [main.ResourceTypedCollection] Ignoring instance: 'QueuePrimes' with invalid type: 'Queue'
+[2019-03-18T22:04:14.153975Z] NIO [INFO] [main.ServiceManager] Setting status to configuring
+[2019-03-18T22:04:14.154144Z] NIO [INFO] [main.ServiceManager] Component: ServiceManager status changed from: created to: configuring
+[2019-03-18T22:04:14.157923Z] NIO [INFO] [main.ServiceManager] Component: ServiceManager status changed from: configuring to: configured
+[2019-03-18T22:04:14.161214Z] NIO [INFO] [main.WebServer] Starting server on 0.0.0.0:8188
+[2019-03-18T22:04:14.267420Z] NIO [INFO] [main.WebServer] Server 0.0.0.0:8188 started on 0.0.0.0:8188
+[2019-03-18T22:04:14.269050Z] NIO [INFO] [main.WebServer] Web engine started
+[2019-03-18T22:04:14.269644Z] NIO [INFO] [main.ServiceManager] Component: ServiceManager status changed from: configured to: starting
+[2019-03-18T22:04:14.301843Z] NIO [INFO] [main.ServiceManager] Component: ServiceManager status changed from: starting to: started
+[2019-03-18T22:04:14.347624Z] NIO [WARNING] [pubkeeper.utils.websocket] Connection Failure: wss://fc797ed2-4e92-47b9-b167-3276c0c62e63.pubkeeper.nio.works:443/ws ('NoneType' object has no attribute 'index')
+[2019-03-18T22:04:14.348106Z] NIO [INFO] [pubkeeper.client] Disconnected from Pubkeeper
+[2019-03-18T22:04:14.418542Z] NIO [INFO] [pubkeeper.client] Disconnected from Pubkeeper
+[2019-03-18T22:04:14.842371Z] NIO [INFO] [main.ServiceManager] Service: CalculatePrimes with process identifier(pid): 69663 has started
+[2019-03-18T22:04:14.907783Z] NIO [INFO] [main.ServiceManager] Service: ClientMetrics with process identifier(pid): 69664 has started
+[2019-03-18T22:04:19.103135Z] NIO [WARNING] [main.Publisher] No pubkeeper connection, discarding 6 queued messages
+[2019-03-18T22:04:19.159365Z] NIO [WARNING] [main.Publisher] No pubkeeper connection, discarding 8 queued messages
+[2019-03-18T22:05:09.089572Z] NIO [INFO] [main.WebServer] Server 0.0.0.0:8188 stopped
+[2019-03-18T22:05:09.110833Z] NIO [INFO] [main.ServiceManager] Component: ServiceManager status changed from: started to: stopping
+[2019-03-18T22:05:09.111721Z] NIO [INFO] [main.ServiceManager] Stopping service: CalculatePrimes
+[2019-03-18T22:05:09.114821Z] NIO [WARNING] [main.Publisher] Unable to send signals, no pubkeeper connection
+[2019-03-18T22:05:09.120688Z] NIO [WARNING] [main.Publisher] Unable to send signals, no pubkeeper connection
+[2019-03-18T22:05:10.117743Z] NIO [INFO] [main.ServiceManager] Stopping service: ClientMetrics
+[2019-03-18T22:05:10.119458Z] NIO [WARNING] [main.Publisher] Unable to send signals, no pubkeeper connection
+[2019-03-18T22:05:10.136495Z] NIO [WARNING] [main.Publisher] Unable to send signals, no pubkeeper connection
+[2019-03-18T22:05:11.122925Z] NIO [INFO] [main.ServiceManager] Component: ServiceManager status changed from: stopping to: stopped
+[2019-03-18T22:05:11.123673Z] NIO [INFO] [main.WebServer] Server 0.0.0.0:8188 stopped
+[2019-03-18T22:05:11.124212Z] NIO [INFO] [main.WebServer] Server 0.0.0.0:8188 stopped
+[2019-03-18T22:05:11.126279Z] NIO [INFO] [pubkeeper.client] Pubkeeper Client Shutting Down
+[2019-03-18T22:05:11.127079Z] NIO [INFO] [pubkeeper.client] Pubkeeper Client Shutdown
+[2019-03-18T22:05:13.411566Z] NIO [WARNING] [pubkeeper.client] Installed pubkeeper.protocol.v1 has no handler in this client version, skipping
+[2019-03-18T22:05:13.412624Z] NIO [INFO] [pubkeeper.client] Pubkeeper Client Running (2 brews started)
+[2019-03-18T22:05:13.476277Z] NIO [INFO] [main.WebServer] Server configured on 0.0.0.0:8188
+[2019-03-18T22:05:13.476909Z] NIO [INFO] [main.ServiceManager] Setting status to created
+[2019-03-18T22:05:13.477108Z] NIO [INFO] [main.ServiceManager] Component: ServiceManager status changed from:  to: created
+[2019-03-18T22:05:13.788068Z] NIO [WARNING] [pubkeeper.utils.websocket] Connection Failure: wss://fc797ed2-4e92-47b9-b167-3276c0c62e63.pubkeeper.nio.works:443/ws ('NoneType' object has no attribute 'index')
+[2019-03-18T22:05:13.788675Z] NIO [INFO] [pubkeeper.client] Disconnected from Pubkeeper
+[2019-03-18T22:05:13.875038Z] NIO [INFO] [pubkeeper.client] Disconnected from Pubkeeper
+[2019-03-18T22:05:16.668815Z] NIO [ERROR] [main.ResourceTypedCollection] Ignoring instance: 'AppendCPULimit' with invalid type: 'AppendState'
+[2019-03-18T22:05:16.669401Z] NIO [ERROR] [main.ResourceTypedCollection] Ignoring instance: 'ResponseForUI' with invalid type: 'Modifier'
+[2019-03-18T22:05:16.669646Z] NIO [ERROR] [main.ResourceTypedCollection] Ignoring instance: 'FormatHostSpecs' with invalid type: 'Modifier'
+[2019-03-18T22:05:16.669861Z] NIO [ERROR] [main.ResourceTypedCollection] Ignoring instance: 'PrimeConditions' with invalid type: 'ConditionalModifier'
+[2019-03-18T22:05:16.670060Z] NIO [ERROR] [main.ResourceTypedCollection] Ignoring instance: 'BytesToMegabits' with invalid type: 'Modifier'
+[2019-03-18T22:05:16.670362Z] NIO [ERROR] [main.ResourceTypedCollection] Ignoring instance: 'HasRAMLimit' with invalid type: 'Filter'
+[2019-03-18T22:05:16.670572Z] NIO [ERROR] [main.ResourceTypedCollection] Ignoring instance: 'CheckForTimeout' with invalid type: 'SignalTimeout'
+[2019-03-18T22:05:16.670773Z] NIO [ERROR] [main.ResourceTypedCollection] Ignoring instance: 'CalculatePrimeNumbers' with invalid type: 'Modifier'
+[2019-03-18T22:05:16.670974Z] NIO [ERROR] [main.ResourceTypedCollection] Ignoring instance: 'DownPrevStateIs0' with invalid type: 'Filter'
+[2019-03-18T22:05:16.671170Z] NIO [ERROR] [main.ResourceTypedCollection] Ignoring instance: 'FormatOutputSignal' with invalid type: 'AttributeSelector'
+[2019-03-18T22:05:16.671381Z] NIO [ERROR] [main.ResourceTypedCollection] Ignoring instance: 'CalculatePrimes' with invalid type: 'Modifier'
+[2019-03-18T22:05:16.671577Z] NIO [ERROR] [main.ResourceTypedCollection] Ignoring instance: 'FormatClientStatistics' with invalid type: 'AttributeSelector'
+[2019-03-18T22:05:16.671772Z] NIO [ERROR] [main.ResourceTypedCollection] Ignoring instance: 'BuildListOfPrimes' with invalid type: 'Buffer'
+[2019-03-18T22:05:16.671974Z] NIO [ERROR] [main.ResourceTypedCollection] Ignoring instance: 'UpPrevStateIs0' with invalid type: 'Filter'
+[2019-03-18T22:05:16.672169Z] NIO [ERROR] [main.ResourceTypedCollection] Ignoring instance: 'GetTime' with invalid type: 'Modifier'
+[2019-03-18T22:05:16.672360Z] NIO [ERROR] [main.ResourceTypedCollection] Ignoring instance: 'HasDownLimit' with invalid type: 'Filter'
+[2019-03-18T22:05:16.672550Z] NIO [ERROR] [main.ResourceTypedCollection] Ignoring instance: 'AppendUpLimit' with invalid type: 'AppendState'
+[2019-03-18T22:05:16.672745Z] NIO [ERROR] [main.ResourceTypedCollection] Ignoring instance: 'ConvertValues' with invalid type: 'Modifier'
+[2019-03-18T22:05:16.672939Z] NIO [ERROR] [main.ResourceTypedCollection] Ignoring instance: 'SubNewUI' with invalid type: 'Subscriber'
+[2019-03-18T22:05:16.673128Z] NIO [ERROR] [main.ResourceTypedCollection] Ignoring instance: 'SelectNumber' with invalid type: 'AttributeSelector'
+[2019-03-18T22:05:16.673329Z] NIO [ERROR] [main.ResourceTypedCollection] Ignoring instance: 'AppendPrevNetDown' with invalid type: 'AppendState'
+[2019-03-18T22:05:16.673521Z] NIO [ERROR] [main.ResourceTypedCollection] Ignoring instance: 'FormatRAMData' with invalid type: 'Modifier'
+[2019-03-18T22:05:16.673727Z] NIO [ERROR] [main.ResourceTypedCollection] Ignoring instance: 'ClientState' with invalid type: 'StateChange'
+[2019-03-18T22:05:16.673918Z] NIO [ERROR] [main.ResourceTypedCollection] Ignoring instance: 'AppendPrevNetUp' with invalid type: 'AppendState'
+[2019-03-18T22:05:16.674103Z] NIO [ERROR] [main.ResourceTypedCollection] Ignoring instance: 'MergeNetworkAndCPU' with invalid type: 'MergeStreams'
+[2019-03-18T22:05:16.674291Z] NIO [ERROR] [main.ResourceTypedCollection] Ignoring instance: 'IncrementByOne' with invalid type: 'Modifier'
+[2019-03-18T22:05:16.674479Z] NIO [ERROR] [main.ResourceTypedCollection] Ignoring instance: 'GetOS' with invalid type: 'HostSpecs'
+[2019-03-18T22:05:16.674714Z] NIO [ERROR] [main.ResourceTypedCollection] Ignoring instance: 'HasUpLimit' with invalid type: 'Filter'
+[2019-03-18T22:05:16.674927Z] NIO [ERROR] [main.ResourceTypedCollection] Ignoring instance: 'CommandBufferEmit' with invalid type: 'NioCommand'
+[2019-03-18T22:05:16.675137Z] NIO [ERROR] [main.ResourceTypedCollection] Ignoring instance: 'Sim' with invalid type: 'CounterIntervalSimulator'
+[2019-03-18T22:05:16.675322Z] NIO [ERROR] [main.ResourceTypedCollection] Ignoring instance: 'JoinPrimes' with invalid type: 'Join'
+[2019-03-18T22:05:16.675562Z] NIO [ERROR] [main.ResourceTypedCollection] Ignoring instance: 'Driver' with invalid type: 'CounterIntervalSimulator'
+[2019-03-18T22:05:16.675781Z] NIO [ERROR] [main.ResourceTypedCollection] Ignoring instance: 'MergeClient&UICall' with invalid type: 'MergeStreams'
+[2019-03-18T22:05:16.675987Z] NIO [ERROR] [main.ResourceTypedCollection] Ignoring instance: 'MergeStats&OS' with invalid type: 'MergeStreams'
+[2019-03-18T22:05:16.676184Z] NIO [ERROR] [main.ResourceTypedCollection] Ignoring instance: 'AppendDownLimit' with invalid type: 'AppendState'
+[2019-03-18T22:05:16.676380Z] NIO [ERROR] [main.ResourceTypedCollection] Ignoring instance: 'NamePrevState' with invalid type: 'Modifier'
+[2019-03-18T22:05:16.676568Z] NIO [ERROR] [main.ResourceTypedCollection] Ignoring instance: 'asdfasdf' with invalid type: 'Modifier'
+[2019-03-18T22:05:16.676755Z] NIO [ERROR] [main.ResourceTypedCollection] Ignoring instance: 'MergeNetworks' with invalid type: 'MergeStreams'
+[2019-03-18T22:05:16.676943Z] NIO [ERROR] [main.ResourceTypedCollection] Ignoring instance: 'PublishPrimesComplete' with invalid type: 'Publisher'
+[2019-03-18T22:05:16.677127Z] NIO [ERROR] [main.ResourceTypedCollection] Ignoring instance: 'IsPrime' with invalid type: 'Filter'
+[2019-03-18T22:05:16.677368Z] NIO [ERROR] [main.ResourceTypedCollection] Ignoring instance: 'AppendRAMLimit' with invalid type: 'AppendState'
+[2019-03-18T22:05:16.677634Z] NIO [ERROR] [main.ResourceTypedCollection] Ignoring instance: 'TestSub' with invalid type: 'LocalSubscriber'
+[2019-03-18T22:05:16.677838Z] NIO [ERROR] [main.ResourceTypedCollection] Ignoring instance: 'Add1' with invalid type: 'Modifier'
+[2019-03-18T22:05:16.678032Z] NIO [ERROR] [main.ResourceTypedCollection] Ignoring instance: 'HasCPULimit' with invalid type: 'Filter'
+[2019-03-18T22:05:16.678270Z] NIO [ERROR] [main.ResourceTypedCollection] Ignoring instance: 'SelectClientPrimes' with invalid type: 'AttributeSelector'
+[2019-03-18T22:05:16.678468Z] NIO [ERROR] [main.ResourceTypedCollection] Ignoring instance: 'FormatClientStateOutput' with invalid type: 'AttributeSelector'
+[2019-03-18T22:05:16.678650Z] NIO [ERROR] [main.ResourceTypedCollection] Ignoring instance: 'SubPrimeNumbers' with invalid type: 'Subscriber'
+[2019-03-18T22:05:16.678831Z] NIO [ERROR] [main.ResourceTypedCollection] Ignoring instance: 'SubscribeDivisionLimits' with invalid type: 'Subscriber'
+[2019-03-18T22:05:16.679006Z] NIO [ERROR] [main.ResourceTypedCollection] Ignoring instance: 'SimStart' with invalid type: 'CounterIntervalSimulator'
+[2019-03-18T22:05:16.679197Z] NIO [ERROR] [main.ResourceTypedCollection] Ignoring instance: 'CheckNumMagnitude' with invalid type: 'Filter'
+[2019-03-18T22:05:16.679378Z] NIO [ERROR] [main.ResourceTypedCollection] Ignoring instance: 'GetNumberofPrimes' with invalid type: 'Modifier'
+[2019-03-18T22:05:16.679600Z] NIO [ERROR] [main.ResourceTypedCollection] Ignoring instance: 'SelectMessage' with invalid type: 'AttributeSelector'
+[2019-03-18T22:05:16.679795Z] NIO [ERROR] [main.ResourceTypedCollection] Ignoring instance: 'AppendTimeout' with invalid type: 'AppendState'
+[2019-03-18T22:05:16.679987Z] NIO [ERROR] [main.ResourceTypedCollection] Ignoring instance: 'PubClientStatistics' with invalid type: 'Publisher'
+[2019-03-18T22:05:16.680173Z] NIO [ERROR] [main.ResourceTypedCollection] Ignoring instance: 'TestPub' with invalid type: 'LocalPublisher'
+[2019-03-18T22:05:16.680358Z] NIO [ERROR] [main.ResourceTypedCollection] Ignoring instance: 'QueuePrimes' with invalid type: 'Queue'
+[2019-03-18T22:05:16.680542Z] NIO [ERROR] [main.ResourceTypedCollection] Ignoring instance: 'FormatSelectedClientData' with invalid type: 'AttributeSelector'
+[2019-03-18T22:05:16.680727Z] NIO [ERROR] [main.ResourceTypedCollection] Ignoring instance: 'NamePrevUpState' with invalid type: 'Modifier'
+[2019-03-18T22:05:16.680912Z] NIO [ERROR] [main.ResourceTypedCollection] Ignoring instance: 'CalculateTimeDelta' with invalid type: 'Modifier'
+[2019-03-18T22:05:16.681166Z] NIO [ERROR] [main.ResourceTypedCollection] Ignoring instance: 'DetermineStates' with invalid type: 'Modifier'
+[2019-03-18T22:05:16.681371Z] NIO [ERROR] [main.ResourceTypedCollection] Ignoring instance: 'ServiceSwitch' with invalid type: 'Switch'
+[2019-03-18T22:05:16.681553Z] NIO [ERROR] [main.ResourceTypedCollection] Ignoring instance: 'PubClientState' with invalid type: 'Publisher'
+[2019-03-18T22:05:16.681885Z] NIO [INFO] [main.ServiceManager] Setting status to configuring
+[2019-03-18T22:05:16.682048Z] NIO [INFO] [main.ServiceManager] Component: ServiceManager status changed from: created to: configuring
+[2019-03-18T22:05:16.684634Z] NIO [INFO] [main.ServiceManager] Component: ServiceManager status changed from: configuring to: configured
+[2019-03-18T22:05:16.688226Z] NIO [INFO] [main.WebServer] Starting server on 0.0.0.0:8188
+[2019-03-18T22:05:16.796963Z] NIO [INFO] [main.WebServer] Server 0.0.0.0:8188 started on 0.0.0.0:8188
+[2019-03-18T22:05:16.798997Z] NIO [INFO] [main.WebServer] Web engine started
+[2019-03-18T22:05:16.799525Z] NIO [INFO] [main.ServiceManager] Component: ServiceManager status changed from: configured to: starting
+[2019-03-18T22:05:16.805561Z] NIO [ERROR] [main.BlockManager] No such block: ConvertValues
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/niocore/core/block/manager.py", line 74, in fetch_block_template
+    typed_configuration = self.get_info(id)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/niocore/core/typed.py", line 129, in get_info
+    if self.instances is not None else None
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/niocore/core/api/collections/typed.py", line 145, in get_info
+    return self._target[id]
+KeyError: 'ConvertValues'
+[2019-03-18T22:05:16.808462Z] NIO [ERROR] [main.ServiceManager] Service CalculatePrimes failed to start
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/niocore/core/block/manager.py", line 74, in fetch_block_template
+    typed_configuration = self.get_info(id)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/niocore/core/typed.py", line 129, in get_info
+    if self.instances is not None else None
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/niocore/core/api/collections/typed.py", line 145, in get_info
+    return self._target[id]
+KeyError: 'ConvertValues'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/niocore/core/service/manager.py", line 332, in start
+    self._start_service(item.config, not async_start)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/niocore/core/service/manager.py", line 405, in _start_service
+    core_pipe)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/niocore/core/service/manager.py", line 516, in _prepare_service_context
+    builder.prepare_context(context, configuration)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/niocore/core/service/builder/block.py", line 50, in prepare_context
+    context.blocks = self._get_service_blocks(configuration)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/niocore/core/service/builder/block.py", line 109, in _get_service_blocks
+    self._block_manager.fetch_block_template(source_id)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/niocore/core/block/manager.py", line 79, in fetch_block_template
+    raise MissingBlock("No such block: %s" % id, e)
+nio.router.base.MissingBlock: ('No such block: ConvertValues', KeyError('ConvertValues'))
+[2019-03-18T22:05:16.813957Z] NIO [ERROR] [main.BlockManager] No such block: PubClientStatistics
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/niocore/core/block/manager.py", line 74, in fetch_block_template
+    typed_configuration = self.get_info(id)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/niocore/core/typed.py", line 129, in get_info
+    if self.instances is not None else None
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/niocore/core/api/collections/typed.py", line 145, in get_info
+    return self._target[id]
+KeyError: 'PubClientStatistics'
+[2019-03-18T22:05:16.814293Z] NIO [ERROR] [main.ServiceManager] Service ClientMetrics failed to start
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/niocore/core/block/manager.py", line 74, in fetch_block_template
+    typed_configuration = self.get_info(id)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/niocore/core/typed.py", line 129, in get_info
+    if self.instances is not None else None
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/niocore/core/api/collections/typed.py", line 145, in get_info
+    return self._target[id]
+KeyError: 'PubClientStatistics'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/niocore/core/service/manager.py", line 332, in start
+    self._start_service(item.config, not async_start)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/niocore/core/service/manager.py", line 405, in _start_service
+    core_pipe)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/niocore/core/service/manager.py", line 516, in _prepare_service_context
+    builder.prepare_context(context, configuration)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/niocore/core/service/builder/block.py", line 50, in prepare_context
+    context.blocks = self._get_service_blocks(configuration)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/niocore/core/service/builder/block.py", line 109, in _get_service_blocks
+    self._block_manager.fetch_block_template(source_id)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/niocore/core/block/manager.py", line 79, in fetch_block_template
+    raise MissingBlock("No such block: %s" % id, e)
+nio.router.base.MissingBlock: ('No such block: PubClientStatistics', KeyError('PubClientStatistics'))
+[2019-03-18T22:05:16.814916Z] NIO [INFO] [main.ServiceManager] Component: ServiceManager status changed from: starting to: started
+[2019-03-18T22:05:18.507191Z] NIO [WARNING] [main.Publisher] No pubkeeper connection, discarding 66 queued messages
+[2019-03-18T22:06:05.158768Z] NIO [INFO] [main.WebServer] Server 0.0.0.0:8188 stopped
+[2019-03-18T22:06:05.167255Z] NIO [INFO] [main.ServiceManager] Component: ServiceManager status changed from: started to: stopping
+[2019-03-18T22:06:05.167520Z] NIO [INFO] [main.ServiceManager] Component: ServiceManager status changed from: stopping to: stopped
+[2019-03-18T22:06:05.167836Z] NIO [INFO] [main.WebServer] Server 0.0.0.0:8188 stopped
+[2019-03-18T22:06:05.168270Z] NIO [INFO] [main.WebServer] Server 0.0.0.0:8188 stopped
+[2019-03-18T22:06:05.169415Z] NIO [INFO] [pubkeeper.client] Pubkeeper Client Shutting Down
+[2019-03-18T22:06:05.170082Z] NIO [INFO] [pubkeeper.client] Pubkeeper Client Shutdown
+[2019-03-18T22:06:06.669576Z] NIO [WARNING] [pubkeeper.client] Installed pubkeeper.protocol.v1 has no handler in this client version, skipping
+[2019-03-18T22:06:06.670727Z] NIO [INFO] [pubkeeper.client] Pubkeeper Client Running (2 brews started)
+[2019-03-18T22:06:06.735287Z] NIO [INFO] [main.WebServer] Server configured on 0.0.0.0:8188
+[2019-03-18T22:06:06.735803Z] NIO [INFO] [main.ServiceManager] Setting status to created
+[2019-03-18T22:06:06.735986Z] NIO [INFO] [main.ServiceManager] Component: ServiceManager status changed from:  to: created
+[2019-03-18T22:06:06.827532Z] NIO [ERROR] [main.ResourceTypedCollection] Ignoring instance: 'PrimeConditions' with invalid type: 'ConditionalModifier'
+[2019-03-18T22:06:06.828009Z] NIO [ERROR] [main.ResourceTypedCollection] Ignoring instance: 'CheckForTimeout' with invalid type: 'SignalTimeout'
+[2019-03-18T22:06:06.828351Z] NIO [ERROR] [main.ResourceTypedCollection] Ignoring instance: 'BuildListOfPrimes' with invalid type: 'Buffer'
+[2019-03-18T22:06:06.828940Z] NIO [ERROR] [main.ResourceTypedCollection] Ignoring instance: 'CommandBufferEmit' with invalid type: 'NioCommand'
+[2019-03-18T22:06:06.829205Z] NIO [ERROR] [main.ResourceTypedCollection] Ignoring instance: 'JoinPrimes' with invalid type: 'Join'
+[2019-03-18T22:06:06.829827Z] NIO [ERROR] [main.ResourceTypedCollection] Ignoring instance: 'QueuePrimes' with invalid type: 'Queue'
+[2019-03-18T22:06:06.830239Z] NIO [INFO] [main.ServiceManager] Setting status to configuring
+[2019-03-18T22:06:06.830416Z] NIO [INFO] [main.ServiceManager] Component: ServiceManager status changed from: created to: configuring
+[2019-03-18T22:06:06.833855Z] NIO [INFO] [main.ServiceManager] Component: ServiceManager status changed from: configuring to: configured
+[2019-03-18T22:06:06.837134Z] NIO [INFO] [main.WebServer] Starting server on 0.0.0.0:8188
+[2019-03-18T22:06:06.944687Z] NIO [INFO] [main.WebServer] Server 0.0.0.0:8188 started on 0.0.0.0:8188
+[2019-03-18T22:06:06.945804Z] NIO [INFO] [main.WebServer] Web engine started
+[2019-03-18T22:06:06.946544Z] NIO [INFO] [main.ServiceManager] Component: ServiceManager status changed from: configured to: starting
+[2019-03-18T22:06:06.976630Z] NIO [INFO] [main.ServiceManager] Component: ServiceManager status changed from: starting to: started
+[2019-03-18T22:06:07.072842Z] NIO [WARNING] [pubkeeper.utils.websocket] Connection Failure: wss://fc797ed2-4e92-47b9-b167-3276c0c62e63.pubkeeper.nio.works:443/ws ('NoneType' object has no attribute 'index')
+[2019-03-18T22:06:07.073452Z] NIO [INFO] [pubkeeper.client] Disconnected from Pubkeeper
+[2019-03-18T22:06:07.166877Z] NIO [INFO] [pubkeeper.client] Disconnected from Pubkeeper
+[2019-03-18T22:06:07.552423Z] NIO [INFO] [main.ServiceManager] Service: CalculatePrimes with process identifier(pid): 70308 has started
+[2019-03-18T22:06:07.627763Z] NIO [INFO] [main.ServiceManager] Service: ClientMetrics with process identifier(pid): 70309 has started
+[2019-03-18T22:06:11.765627Z] NIO [WARNING] [main.Publisher] No pubkeeper connection, discarding 6 queued messages
+[2019-03-18T22:06:11.838729Z] NIO [WARNING] [main.Publisher] No pubkeeper connection, discarding 8 queued messages
+[2019-03-18T22:09:21.839093Z] NIO [INFO] [main.WebServer] Server 0.0.0.0:8188 stopped
+[2019-03-18T22:09:21.840170Z] NIO [INFO] [main.ServiceManager] Component: ServiceManager status changed from: started to: stopping
+[2019-03-18T22:09:21.840423Z] NIO [INFO] [main.ServiceManager] Stopping service: CalculatePrimes
+[2019-03-18T22:09:21.841866Z] NIO [WARNING] [main.Publisher] Unable to send signals, no pubkeeper connection
+[2019-03-18T22:09:21.845546Z] NIO [WARNING] [main.Publisher] Unable to send signals, no pubkeeper connection
+[2019-03-18T22:09:22.011417Z] NIO [INFO] [main.WebServer] Server 0.0.0.0:8188 stopped
+[2019-03-18T22:09:22.123991Z] NIO [INFO] [main.WebServer] Server 0.0.0.0:8188 stopped
+[2019-03-18T22:09:22.275985Z] NIO [INFO] [main.WebServer] Server 0.0.0.0:8188 stopped
+[2019-03-18T22:09:22.750457Z] NIO [INFO] [main.WebServer] Server 0.0.0.0:8188 stopped
+[2019-03-18T22:09:22.846992Z] NIO [INFO] [main.ServiceManager] Stopping service: ClientMetrics
+[2019-03-18T22:09:22.848735Z] NIO [WARNING] [main.Publisher] Unable to send signals, no pubkeeper connection
+[2019-03-18T22:09:22.866409Z] NIO [WARNING] [main.Publisher] Unable to send signals, no pubkeeper connection
+[2019-03-18T22:09:22.875785Z] NIO [INFO] [main.WebServer] Server 0.0.0.0:8188 stopped
+[2019-03-18T22:09:23.035931Z] NIO [INFO] [main.WebServer] Server 0.0.0.0:8188 stopped
+[2019-03-18T22:09:23.164116Z] NIO [INFO] [main.WebServer] Server 0.0.0.0:8188 stopped
+[2019-03-18T22:09:23.284158Z] NIO [INFO] [main.WebServer] Server 0.0.0.0:8188 stopped
+[2019-03-18T22:09:23.443981Z] NIO [INFO] [main.WebServer] Server 0.0.0.0:8188 stopped
+[2019-03-18T22:09:23.580102Z] NIO [INFO] [main.WebServer] Server 0.0.0.0:8188 stopped
+[2019-03-18T22:09:23.739867Z] NIO [INFO] [main.WebServer] Server 0.0.0.0:8188 stopped
+[2019-03-18T22:09:23.850772Z] NIO [INFO] [main.ServiceManager] Component: ServiceManager status changed from: stopping to: stopped
+[2019-03-18T22:09:23.851486Z] NIO [INFO] [main.WebServer] Server 0.0.0.0:8188 stopped
+[2019-03-18T22:09:23.852005Z] NIO [INFO] [main.WebServer] Server 0.0.0.0:8188 stopped
+[2019-03-18T22:09:23.853854Z] NIO [INFO] [pubkeeper.client] Pubkeeper Client Shutting Down
+[2019-03-18T22:09:23.854640Z] NIO [INFO] [pubkeeper.client] Pubkeeper Client Shutdown
+[2019-03-18T22:09:25.555139Z] NIO [WARNING] [pubkeeper.client] Installed pubkeeper.protocol.v1 has no handler in this client version, skipping
+[2019-03-18T22:09:25.556647Z] NIO [INFO] [pubkeeper.client] Pubkeeper Client Running (2 brews started)
+[2019-03-18T22:09:25.623070Z] NIO [INFO] [main.WebServer] Server configured on 0.0.0.0:8188
+[2019-03-18T22:09:25.623693Z] NIO [INFO] [main.ServiceManager] Setting status to created
+[2019-03-18T22:09:25.623907Z] NIO [INFO] [main.ServiceManager] Component: ServiceManager status changed from:  to: created
+[2019-03-18T22:09:25.684302Z] NIO [ERROR] [main.ResourceTypedCollection] Ignoring instance: 'PrimeConditions' with invalid type: 'ConditionalModifier'
+[2019-03-18T22:09:25.684983Z] NIO [ERROR] [main.ResourceTypedCollection] Ignoring instance: 'CheckForTimeout' with invalid type: 'SignalTimeout'
+[2019-03-18T22:09:25.685412Z] NIO [ERROR] [main.ResourceTypedCollection] Ignoring instance: 'BuildListOfPrimes' with invalid type: 'Buffer'
+[2019-03-18T22:09:25.686134Z] NIO [ERROR] [main.ResourceTypedCollection] Ignoring instance: 'CommandBufferEmit' with invalid type: 'NioCommand'
+[2019-03-18T22:09:25.686479Z] NIO [ERROR] [main.ResourceTypedCollection] Ignoring instance: 'JoinPrimes' with invalid type: 'Join'
+[2019-03-18T22:09:25.687377Z] NIO [ERROR] [main.ResourceTypedCollection] Ignoring instance: 'QueuePrimes' with invalid type: 'Queue'
+[2019-03-18T22:09:25.687940Z] NIO [INFO] [main.ServiceManager] Setting status to configuring
+[2019-03-18T22:09:25.688148Z] NIO [INFO] [main.ServiceManager] Component: ServiceManager status changed from: created to: configuring
+[2019-03-18T22:09:25.692567Z] NIO [INFO] [main.ServiceManager] Component: ServiceManager status changed from: configuring to: configured
+[2019-03-18T22:09:25.695591Z] NIO [INFO] [main.WebServer] Starting server on 0.0.0.0:8188
+[2019-03-18T22:09:25.802307Z] NIO [INFO] [main.WebServer] Server 0.0.0.0:8188 started on 0.0.0.0:8188
+[2019-03-18T22:09:25.804124Z] NIO [INFO] [main.WebServer] Web engine started
+[2019-03-18T22:09:25.804957Z] NIO [INFO] [main.ServiceManager] Component: ServiceManager status changed from: configured to: starting
+[2019-03-18T22:09:25.821671Z] NIO [ERROR] [main.BlockManager] No such block: MergeClient&UICall
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/niocore/core/block/manager.py", line 74, in fetch_block_template
+    typed_configuration = self.get_info(id)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/niocore/core/typed.py", line 129, in get_info
+    if self.instances is not None else None
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/niocore/core/api/collections/typed.py", line 145, in get_info
+    return self._target[id]
+KeyError: 'MergeClient&UICall'
+[2019-03-18T22:09:25.824317Z] NIO [ERROR] [main.ServiceManager] Service ClientMetrics failed to start
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/niocore/core/block/manager.py", line 74, in fetch_block_template
+    typed_configuration = self.get_info(id)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/niocore/core/typed.py", line 129, in get_info
+    if self.instances is not None else None
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/niocore/core/api/collections/typed.py", line 145, in get_info
+    return self._target[id]
+KeyError: 'MergeClient&UICall'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/niocore/core/service/manager.py", line 332, in start
+    self._start_service(item.config, not async_start)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/niocore/core/service/manager.py", line 405, in _start_service
+    core_pipe)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/niocore/core/service/manager.py", line 516, in _prepare_service_context
+    builder.prepare_context(context, configuration)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/niocore/core/service/builder/block.py", line 50, in prepare_context
+    context.blocks = self._get_service_blocks(configuration)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/niocore/core/service/builder/block.py", line 109, in _get_service_blocks
+    self._block_manager.fetch_block_template(source_id)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/niocore/core/block/manager.py", line 79, in fetch_block_template
+    raise MissingBlock("No such block: %s" % id, e)
+nio.router.base.MissingBlock: ('No such block: MergeClient&UICall', KeyError('MergeClient&UICall'))
+[2019-03-18T22:09:25.835106Z] NIO [INFO] [main.ServiceManager] Component: ServiceManager status changed from: starting to: started
+[2019-03-18T22:09:25.910974Z] NIO [WARNING] [pubkeeper.utils.websocket] Connection Failure: wss://fc797ed2-4e92-47b9-b167-3276c0c62e63.pubkeeper.nio.works:443/ws ('NoneType' object has no attribute 'index')
+[2019-03-18T22:09:25.911361Z] NIO [INFO] [pubkeeper.client] Disconnected from Pubkeeper
+[2019-03-18T22:09:26.027097Z] NIO [INFO] [pubkeeper.client] Disconnected from Pubkeeper
+[2019-03-18T22:09:26.372086Z] NIO [INFO] [main.ServiceManager] Service: CalculatePrimes with process identifier(pid): 70608 has started
+[2019-03-18T22:09:30.654157Z] NIO [WARNING] [main.Publisher] No pubkeeper connection, discarding 8 queued messages
+[2019-03-18T22:09:30.693807Z] NIO [WARNING] [main.Publisher] No pubkeeper connection, discarding 4 queued messages
+[2019-03-18T22:10:31.732353Z] NIO [INFO] [main.WebServer] Server 0.0.0.0:8188 stopped
+[2019-03-18T22:10:31.733708Z] NIO [INFO] [main.ServiceManager] Component: ServiceManager status changed from: started to: stopping
+[2019-03-18T22:10:31.733995Z] NIO [INFO] [main.ServiceManager] Stopping service: CalculatePrimes
+[2019-03-18T22:10:31.735391Z] NIO [WARNING] [main.Publisher] Unable to send signals, no pubkeeper connection
+[2019-03-18T22:10:31.739183Z] NIO [WARNING] [main.Publisher] Unable to send signals, no pubkeeper connection
+[2019-03-18T22:10:31.896010Z] NIO [INFO] [main.WebServer] Server 0.0.0.0:8188 stopped
+[2019-03-18T22:10:32.008382Z] NIO [INFO] [main.WebServer] Server 0.0.0.0:8188 stopped
+[2019-03-18T22:10:32.192855Z] NIO [INFO] [main.WebServer] Server 0.0.0.0:8188 stopped
+[2019-03-18T22:10:32.320810Z] NIO [INFO] [main.WebServer] Server 0.0.0.0:8188 stopped
+[2019-03-18T22:10:32.448617Z] NIO [INFO] [main.WebServer] Server 0.0.0.0:8188 stopped
+[2019-03-18T22:10:32.608414Z] NIO [INFO] [main.WebServer] Server 0.0.0.0:8188 stopped
+[2019-03-18T22:10:32.728778Z] NIO [INFO] [main.WebServer] Server 0.0.0.0:8188 stopped
+[2019-03-18T22:10:32.736729Z] NIO [INFO] [main.ServiceManager] Component: ServiceManager status changed from: stopping to: stopped
+[2019-03-18T22:10:32.737197Z] NIO [INFO] [main.WebServer] Server 0.0.0.0:8188 stopped
+[2019-03-18T22:10:32.737521Z] NIO [INFO] [main.WebServer] Server 0.0.0.0:8188 stopped
+[2019-03-18T22:10:32.738842Z] NIO [INFO] [pubkeeper.client] Pubkeeper Client Shutting Down
+[2019-03-18T22:10:32.739441Z] NIO [INFO] [pubkeeper.client] Pubkeeper Client Shutdown
+[2019-03-18T22:10:34.951594Z] NIO [WARNING] [pubkeeper.client] Installed pubkeeper.protocol.v1 has no handler in this client version, skipping
+[2019-03-18T22:10:34.952694Z] NIO [INFO] [pubkeeper.client] Pubkeeper Client Running (2 brews started)
+[2019-03-18T22:10:35.018010Z] NIO [INFO] [main.WebServer] Server configured on 0.0.0.0:8188
+[2019-03-18T22:10:35.018729Z] NIO [INFO] [main.ServiceManager] Setting status to created
+[2019-03-18T22:10:35.018958Z] NIO [INFO] [main.ServiceManager] Component: ServiceManager status changed from:  to: created
+[2019-03-18T22:10:35.077257Z] NIO [ERROR] [main.ResourceTypedCollection] Ignoring instance: 'PrimeConditions' with invalid type: 'ConditionalModifier'
+[2019-03-18T22:10:35.078095Z] NIO [ERROR] [main.ResourceTypedCollection] Ignoring instance: 'CheckForTimeout' with invalid type: 'SignalTimeout'
+[2019-03-18T22:10:35.078563Z] NIO [ERROR] [main.ResourceTypedCollection] Ignoring instance: 'BuildListOfPrimes' with invalid type: 'Buffer'
+[2019-03-18T22:10:35.079316Z] NIO [ERROR] [main.ResourceTypedCollection] Ignoring instance: 'CommandBufferEmit' with invalid type: 'NioCommand'
+[2019-03-18T22:10:35.079789Z] NIO [ERROR] [main.ResourceTypedCollection] Ignoring instance: 'JoinPrimes' with invalid type: 'Join'
+[2019-03-18T22:10:35.080684Z] NIO [ERROR] [main.ResourceTypedCollection] Ignoring instance: 'QueuePrimes' with invalid type: 'Queue'
+[2019-03-18T22:10:35.081282Z] NIO [INFO] [main.ServiceManager] Setting status to configuring
+[2019-03-18T22:10:35.081525Z] NIO [INFO] [main.ServiceManager] Component: ServiceManager status changed from: created to: configuring
+[2019-03-18T22:10:35.085987Z] NIO [INFO] [main.ServiceManager] Component: ServiceManager status changed from: configuring to: configured
+[2019-03-18T22:10:35.089017Z] NIO [INFO] [main.WebServer] Starting server on 0.0.0.0:8188
+[2019-03-18T22:10:35.195744Z] NIO [INFO] [main.WebServer] Server 0.0.0.0:8188 started on 0.0.0.0:8188
+[2019-03-18T22:10:35.196894Z] NIO [INFO] [main.WebServer] Web engine started
+[2019-03-18T22:10:35.197528Z] NIO [INFO] [main.ServiceManager] Component: ServiceManager status changed from: configured to: starting
+[2019-03-18T22:10:35.229936Z] NIO [INFO] [main.ServiceManager] Component: ServiceManager status changed from: starting to: started
+[2019-03-18T22:10:35.358418Z] NIO [WARNING] [pubkeeper.utils.websocket] Connection Failure: wss://fc797ed2-4e92-47b9-b167-3276c0c62e63.pubkeeper.nio.works:443/ws ('NoneType' object has no attribute 'index')
+[2019-03-18T22:10:35.358971Z] NIO [INFO] [pubkeeper.client] Disconnected from Pubkeeper
+[2019-03-18T22:10:35.431488Z] NIO [INFO] [pubkeeper.client] Disconnected from Pubkeeper
+[2019-03-18T22:10:35.774651Z] NIO [INFO] [main.ServiceManager] Service: CalculatePrimes with process identifier(pid): 70626 has started
+[2019-03-18T22:10:35.854340Z] NIO [INFO] [main.ServiceManager] Service: ClientMetrics with process identifier(pid): 70627 has started
+[2019-03-18T22:10:40.045342Z] NIO [WARNING] [main.Publisher] No pubkeeper connection, discarding 6 queued messages
+[2019-03-18T22:10:40.088582Z] NIO [WARNING] [main.Publisher] No pubkeeper connection, discarding 8 queued messages
+[2019-03-18T22:13:23.522945Z] NIO [ERROR] [main.ResourceTypedCollection] Ignoring instance: 'PrimeConditions' with invalid type: 'ConditionalModifier'
+[2019-03-18T22:13:23.523662Z] NIO [WARNING] [main.Publisher] Unable to send signals, no pubkeeper connection
+[2019-03-18T22:13:23.523950Z] NIO [ERROR] [main.ResourceTypedCollection] Ignoring instance: 'CheckForTimeout' with invalid type: 'SignalTimeout'
+[2019-03-18T22:13:23.524315Z] NIO [WARNING] [main.Publisher] Unable to send signals, no pubkeeper connection
+[2019-03-18T22:13:23.524641Z] NIO [ERROR] [main.ResourceTypedCollection] Ignoring instance: 'BuildListOfPrimes' with invalid type: 'Buffer'
+[2019-03-18T22:13:23.524939Z] NIO [WARNING] [main.Publisher] Unable to send signals, no pubkeeper connection
+[2019-03-18T22:13:23.525431Z] NIO [ERROR] [main.ResourceTypedCollection] Ignoring instance: 'CommandBufferEmit' with invalid type: 'NioCommand'
+[2019-03-18T22:13:23.525921Z] NIO [WARNING] [main.Publisher] Unable to send signals, no pubkeeper connection
+[2019-03-18T22:13:23.526467Z] NIO [ERROR] [main.ResourceTypedCollection] Ignoring instance: 'JoinPrimes' with invalid type: 'Join'
+[2019-03-18T22:13:23.526969Z] NIO [WARNING] [main.Publisher] Unable to send signals, no pubkeeper connection
+[2019-03-18T22:13:23.528168Z] NIO [ERROR] [main.ResourceTypedCollection] Ignoring instance: 'QueuePrimes' with invalid type: 'Queue'
+[2019-03-18T22:13:23.528657Z] NIO [WARNING] [main.Publisher] Unable to send signals, no pubkeeper connection
+[2019-03-18T22:13:28.729898Z] NIO [INFO] [main.ServiceManager] Stopping service: ClientMetrics
+[2019-03-18T22:13:28.731267Z] NIO [WARNING] [main.Publisher] Unable to send signals, no pubkeeper connection
+[2019-03-18T22:13:28.750551Z] NIO [WARNING] [main.Publisher] Unable to send signals, no pubkeeper connection
+[2019-03-18T22:13:30.284051Z] NIO [WARNING] [main.Publisher] Unable to send signals, no pubkeeper connection
+[2019-03-18T22:13:31.033230Z] NIO [WARNING] [main.Publisher] Unable to send signals, no pubkeeper connection
+[2019-03-18T22:13:31.035124Z] NIO [WARNING] [main.Publisher] Unable to send signals, no pubkeeper connection
+[2019-03-18T22:13:31.045815Z] NIO [INFO] [main.ServiceManager] Service: ClientMetrics with process identifier(pid): 71124 has started
+[2019-03-18T22:13:31.046302Z] NIO [WARNING] [main.Publisher] Unable to send signals, no pubkeeper connection
+[2019-03-18T22:13:36.542040Z] NIO [INFO] [main.ServiceManager] Stopping service: ClientMetrics
+[2019-03-18T22:13:36.543096Z] NIO [WARNING] [main.Publisher] Unable to send signals, no pubkeeper connection
+[2019-03-18T22:13:36.559940Z] NIO [WARNING] [main.Publisher] Unable to send signals, no pubkeeper connection
+[2019-03-18T22:13:43.468862Z] NIO [WARNING] [main.Publisher] Unable to send signals, no pubkeeper connection
+[2019-03-18T22:13:44.100666Z] NIO [WARNING] [main.Publisher] Unable to send signals, no pubkeeper connection
+[2019-03-18T22:13:44.101970Z] NIO [WARNING] [main.Publisher] Unable to send signals, no pubkeeper connection
+[2019-03-18T22:13:44.110497Z] NIO [INFO] [main.ServiceManager] Service: ClientMetrics with process identifier(pid): 71134 has started
+[2019-03-18T22:13:44.110844Z] NIO [WARNING] [main.Publisher] Unable to send signals, no pubkeeper connection
+[2019-03-18T22:13:50.283718Z] NIO [INFO] [main.ServiceManager] Stopping service: CalculatePrimes
+[2019-03-18T22:13:50.285036Z] NIO [WARNING] [main.Publisher] Unable to send signals, no pubkeeper connection
+[2019-03-18T22:13:50.288212Z] NIO [WARNING] [main.Publisher] Unable to send signals, no pubkeeper connection
+[2019-03-18T22:13:54.838368Z] NIO [WARNING] [main.Publisher] Unable to send signals, no pubkeeper connection
+[2019-03-18T22:13:55.415751Z] NIO [WARNING] [main.Publisher] Unable to send signals, no pubkeeper connection
+[2019-03-18T22:13:55.417204Z] NIO [WARNING] [main.Publisher] Unable to send signals, no pubkeeper connection
+[2019-03-18T22:13:55.417741Z] NIO [INFO] [main.ServiceManager] Service: CalculatePrimes with process identifier(pid): 71149 has started
+[2019-03-18T22:13:55.418669Z] NIO [WARNING] [main.Publisher] Unable to send signals, no pubkeeper connection
+[2019-03-18T22:14:15.081637Z] NIO [INFO] [main.WebServer] Server 0.0.0.0:8188 stopped
+[2019-03-18T22:14:15.082960Z] NIO [INFO] [main.ServiceManager] Component: ServiceManager status changed from: started to: stopping
+[2019-03-18T22:14:15.083261Z] NIO [INFO] [main.ServiceManager] Stopping service: ClientMetrics
+[2019-03-18T22:14:15.084594Z] NIO [WARNING] [main.Publisher] Unable to send signals, no pubkeeper connection
+[2019-03-18T22:14:15.100241Z] NIO [WARNING] [main.Publisher] Unable to send signals, no pubkeeper connection
+[2019-03-18T22:14:16.084655Z] NIO [INFO] [main.ServiceManager] Stopping service: CalculatePrimes
+[2019-03-18T22:14:16.086444Z] NIO [WARNING] [main.Publisher] Unable to send signals, no pubkeeper connection
+[2019-03-18T22:14:16.090737Z] NIO [WARNING] [main.Publisher] Unable to send signals, no pubkeeper connection
+[2019-03-18T22:14:17.087376Z] NIO [INFO] [main.ServiceManager] Component: ServiceManager status changed from: stopping to: stopped
+[2019-03-18T22:14:17.087975Z] NIO [INFO] [main.WebServer] Server 0.0.0.0:8188 stopped
+[2019-03-18T22:14:17.088367Z] NIO [INFO] [main.WebServer] Server 0.0.0.0:8188 stopped
+[2019-03-18T22:14:17.090079Z] NIO [INFO] [pubkeeper.client] Pubkeeper Client Shutting Down
+[2019-03-18T22:14:17.090851Z] NIO [INFO] [pubkeeper.client] Pubkeeper Client Shutdown
+[2019-03-18T22:15:52.734181Z] NIO [WARNING] [pubkeeper.client] Installed pubkeeper.protocol.v1 has no handler in this client version, skipping
+[2019-03-18T22:15:52.735254Z] NIO [INFO] [pubkeeper.client] Pubkeeper Client Running (2 brews started)
+[2019-03-18T22:15:52.799733Z] NIO [INFO] [main.WebServer] Server configured on 0.0.0.0:8188
+[2019-03-18T22:15:52.800414Z] NIO [INFO] [main.ServiceManager] Setting status to created
+[2019-03-18T22:15:52.800676Z] NIO [INFO] [main.ServiceManager] Component: ServiceManager status changed from:  to: created
+[2019-03-18T22:15:52.855740Z] NIO [ERROR] [main.ResourceTypedCollection] Ignoring instance: 'PrimeConditions' with invalid type: 'ConditionalModifier'
+[2019-03-18T22:15:52.856476Z] NIO [ERROR] [main.ResourceTypedCollection] Ignoring instance: 'CheckForTimeout' with invalid type: 'SignalTimeout'
+[2019-03-18T22:15:52.856900Z] NIO [ERROR] [main.ResourceTypedCollection] Ignoring instance: 'BuildListOfPrimes' with invalid type: 'Buffer'
+[2019-03-18T22:15:52.857256Z] NIO [ERROR] [main.ResourceTypedCollection] Ignoring instance: 'SubNewUI' with invalid type: 'Subscriber'
+[2019-03-18T22:15:52.857853Z] NIO [ERROR] [main.ResourceTypedCollection] Ignoring instance: 'CommandBufferEmit' with invalid type: 'NioCommand'
+[2019-03-18T22:15:52.858354Z] NIO [ERROR] [main.ResourceTypedCollection] Ignoring instance: 'JoinPrimes' with invalid type: 'Join'
+[2019-03-18T22:15:52.858706Z] NIO [ERROR] [main.ResourceTypedCollection] Ignoring instance: 'PublishPrimesComplete' with invalid type: 'Publisher'
+[2019-03-18T22:15:52.859051Z] NIO [ERROR] [main.ResourceTypedCollection] Ignoring instance: 'TestSub' with invalid type: 'LocalSubscriber'
+[2019-03-18T22:15:52.859355Z] NIO [ERROR] [main.ResourceTypedCollection] Ignoring instance: 'SubPrimeNumbers' with invalid type: 'Subscriber'
+[2019-03-18T22:15:52.859752Z] NIO [ERROR] [main.ResourceTypedCollection] Ignoring instance: 'SubscribeDivisionLimits' with invalid type: 'Subscriber'
+[2019-03-18T22:15:52.860105Z] NIO [ERROR] [main.ResourceTypedCollection] Ignoring instance: 'PubClientStatistics' with invalid type: 'Publisher'
+[2019-03-18T22:15:52.860367Z] NIO [ERROR] [main.ResourceTypedCollection] Ignoring instance: 'TestPub' with invalid type: 'LocalPublisher'
+[2019-03-18T22:15:52.860649Z] NIO [ERROR] [main.ResourceTypedCollection] Ignoring instance: 'QueuePrimes' with invalid type: 'Queue'
+[2019-03-18T22:15:52.861026Z] NIO [ERROR] [main.ResourceTypedCollection] Ignoring instance: 'PubClientState' with invalid type: 'Publisher'
+[2019-03-18T22:15:52.861371Z] NIO [INFO] [main.ServiceManager] Setting status to configuring
+[2019-03-18T22:15:52.861562Z] NIO [INFO] [main.ServiceManager] Component: ServiceManager status changed from: created to: configuring
+[2019-03-18T22:15:52.864373Z] NIO [INFO] [main.ServiceManager] Component: ServiceManager status changed from: configuring to: configured
+[2019-03-18T22:15:52.869577Z] NIO [INFO] [main.WebServer] Starting server on 0.0.0.0:8188
+[2019-03-18T22:15:52.976580Z] NIO [INFO] [main.WebServer] Server 0.0.0.0:8188 started on 0.0.0.0:8188
+[2019-03-18T22:15:52.978530Z] NIO [INFO] [main.WebServer] Web engine started
+[2019-03-18T22:15:52.979062Z] NIO [INFO] [main.ServiceManager] Component: ServiceManager status changed from: configured to: starting
+[2019-03-18T22:15:52.984104Z] NIO [ERROR] [main.BlockManager] No such block: PublishPrimesComplete
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/niocore/core/block/manager.py", line 74, in fetch_block_template
+    typed_configuration = self.get_info(id)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/niocore/core/typed.py", line 129, in get_info
+    if self.instances is not None else None
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/niocore/core/api/collections/typed.py", line 145, in get_info
+    return self._target[id]
+KeyError: 'PublishPrimesComplete'
+[2019-03-18T22:15:52.985058Z] NIO [ERROR] [main.ServiceManager] Service CalculatePrimes failed to start
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/niocore/core/block/manager.py", line 74, in fetch_block_template
+    typed_configuration = self.get_info(id)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/niocore/core/typed.py", line 129, in get_info
+    if self.instances is not None else None
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/niocore/core/api/collections/typed.py", line 145, in get_info
+    return self._target[id]
+KeyError: 'PublishPrimesComplete'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/niocore/core/service/manager.py", line 332, in start
+    self._start_service(item.config, not async_start)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/niocore/core/service/manager.py", line 405, in _start_service
+    core_pipe)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/niocore/core/service/manager.py", line 516, in _prepare_service_context
+    builder.prepare_context(context, configuration)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/niocore/core/service/builder/block.py", line 50, in prepare_context
+    context.blocks = self._get_service_blocks(configuration)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/niocore/core/service/builder/block.py", line 109, in _get_service_blocks
+    self._block_manager.fetch_block_template(source_id)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/niocore/core/block/manager.py", line 79, in fetch_block_template
+    raise MissingBlock("No such block: %s" % id, e)
+nio.router.base.MissingBlock: ('No such block: PublishPrimesComplete', KeyError('PublishPrimesComplete'))
+[2019-03-18T22:15:52.989788Z] NIO [ERROR] [main.BlockManager] No such block: SubscribeDivisionLimits
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/niocore/core/block/manager.py", line 74, in fetch_block_template
+    typed_configuration = self.get_info(id)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/niocore/core/typed.py", line 129, in get_info
+    if self.instances is not None else None
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/niocore/core/api/collections/typed.py", line 145, in get_info
+    return self._target[id]
+KeyError: 'SubscribeDivisionLimits'
+[2019-03-18T22:15:52.990147Z] NIO [ERROR] [main.ServiceManager] Service ClientMetrics failed to start
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/niocore/core/block/manager.py", line 74, in fetch_block_template
+    typed_configuration = self.get_info(id)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/niocore/core/typed.py", line 129, in get_info
+    if self.instances is not None else None
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/niocore/core/api/collections/typed.py", line 145, in get_info
+    return self._target[id]
+KeyError: 'SubscribeDivisionLimits'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/niocore/core/service/manager.py", line 332, in start
+    self._start_service(item.config, not async_start)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/niocore/core/service/manager.py", line 405, in _start_service
+    core_pipe)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/niocore/core/service/manager.py", line 516, in _prepare_service_context
+    builder.prepare_context(context, configuration)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/niocore/core/service/builder/block.py", line 50, in prepare_context
+    context.blocks = self._get_service_blocks(configuration)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/niocore/core/service/builder/block.py", line 109, in _get_service_blocks
+    self._block_manager.fetch_block_template(source_id)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/niocore/core/block/manager.py", line 79, in fetch_block_template
+    raise MissingBlock("No such block: %s" % id, e)
+nio.router.base.MissingBlock: ('No such block: SubscribeDivisionLimits', KeyError('SubscribeDivisionLimits'))
+[2019-03-18T22:15:52.990678Z] NIO [INFO] [main.ServiceManager] Component: ServiceManager status changed from: starting to: started
+[2019-03-18T22:15:53.147514Z] NIO [WARNING] [pubkeeper.utils.websocket] Connection Failure: wss://fc797ed2-4e92-47b9-b167-3276c0c62e63.pubkeeper.nio.works:443/ws ('NoneType' object has no attribute 'index')
+[2019-03-18T22:15:53.147912Z] NIO [INFO] [pubkeeper.client] Disconnected from Pubkeeper
+[2019-03-18T22:15:53.256218Z] NIO [INFO] [pubkeeper.client] Disconnected from Pubkeeper
+[2019-03-18T22:15:57.825231Z] NIO [WARNING] [main.Publisher] No pubkeeper connection, discarding 18 queued messages
+[2019-03-18T22:16:20.554297Z] NIO [INFO] [main.WebServer] Server 0.0.0.0:8188 stopped
+[2019-03-18T22:16:20.555302Z] NIO [INFO] [main.ServiceManager] Component: ServiceManager status changed from: started to: stopping
+[2019-03-18T22:16:20.555614Z] NIO [INFO] [main.ServiceManager] Component: ServiceManager status changed from: stopping to: stopped
+[2019-03-18T22:16:20.556003Z] NIO [INFO] [main.WebServer] Server 0.0.0.0:8188 stopped
+[2019-03-18T22:16:20.556334Z] NIO [INFO] [main.WebServer] Server 0.0.0.0:8188 stopped
+[2019-03-18T22:16:20.557903Z] NIO [INFO] [pubkeeper.client] Pubkeeper Client Shutting Down
+[2019-03-18T22:16:20.558485Z] NIO [INFO] [pubkeeper.client] Pubkeeper Client Shutdown
+[2019-03-18T22:18:20.725115Z] NIO [WARNING] [pubkeeper.client] Installed pubkeeper.protocol.v1 has no handler in this client version, skipping
+[2019-03-18T22:18:20.726243Z] NIO [INFO] [pubkeeper.client] Pubkeeper Client Running (2 brews started)
+[2019-03-18T22:18:20.793867Z] NIO [INFO] [main.WebServer] Server configured on 0.0.0.0:8188
+[2019-03-18T22:18:20.794463Z] NIO [INFO] [main.ServiceManager] Setting status to created
+[2019-03-18T22:18:20.794668Z] NIO [INFO] [main.ServiceManager] Component: ServiceManager status changed from:  to: created
+[2019-03-18T22:18:20.861009Z] NIO [ERROR] [main.ResourceTypedCollection] Ignoring instance: 'PrimeConditions' with invalid type: 'ConditionalModifier'
+[2019-03-18T22:18:20.861448Z] NIO [ERROR] [main.ResourceTypedCollection] Ignoring instance: 'CheckForTimeout' with invalid type: 'SignalTimeout'
+[2019-03-18T22:18:20.861789Z] NIO [ERROR] [main.ResourceTypedCollection] Ignoring instance: 'BuildListOfPrimes' with invalid type: 'Buffer'
+[2019-03-18T22:18:20.863055Z] NIO [ERROR] [main.ResourceTypedCollection] Ignoring instance: 'CommandBufferEmit' with invalid type: 'NioCommand'
+[2019-03-18T22:18:20.863338Z] NIO [ERROR] [main.ResourceTypedCollection] Ignoring instance: 'JoinPrimes' with invalid type: 'Join'
+[2019-03-18T22:18:20.863935Z] NIO [ERROR] [main.ResourceTypedCollection] Ignoring instance: 'QueuePrimes' with invalid type: 'Queue'
+[2019-03-18T22:18:20.864330Z] NIO [INFO] [main.ServiceManager] Setting status to configuring
+[2019-03-18T22:18:20.864505Z] NIO [INFO] [main.ServiceManager] Component: ServiceManager status changed from: created to: configuring
+[2019-03-18T22:18:20.866720Z] NIO [INFO] [main.ServiceManager] Component: ServiceManager status changed from: configuring to: configured
+[2019-03-18T22:18:20.869687Z] NIO [INFO] [main.WebServer] Starting server on 0.0.0.0:8188
+[2019-03-18T22:18:20.975605Z] NIO [INFO] [main.WebServer] Server 0.0.0.0:8188 started on 0.0.0.0:8188
+[2019-03-18T22:18:20.976572Z] NIO [INFO] [main.WebServer] Web engine started
+[2019-03-18T22:18:20.977066Z] NIO [INFO] [main.ServiceManager] Component: ServiceManager status changed from: configured to: starting
+[2019-03-18T22:18:21.011550Z] NIO [INFO] [main.ServiceManager] Component: ServiceManager status changed from: starting to: started
+[2019-03-18T22:18:21.134782Z] NIO [WARNING] [pubkeeper.utils.websocket] Connection Failure: wss://fc797ed2-4e92-47b9-b167-3276c0c62e63.pubkeeper.nio.works:443/ws ('NoneType' object has no attribute 'index')
+[2019-03-18T22:18:21.135378Z] NIO [INFO] [pubkeeper.client] Disconnected from Pubkeeper
+[2019-03-18T22:18:21.213988Z] NIO [INFO] [pubkeeper.client] Disconnected from Pubkeeper
+[2019-03-18T22:18:23.569054Z] NIO [INFO] [main.ServiceManager] Service: CalculatePrimes with process identifier(pid): 71429 has started
+[2019-03-18T22:18:23.643557Z] NIO [INFO] [main.ServiceManager] Service: ClientMetrics with process identifier(pid): 71430 has started
+[2019-03-18T22:18:25.817452Z] NIO [WARNING] [main.Publisher] No pubkeeper connection, discarding 6 queued messages
+[2019-03-18T22:18:25.871201Z] NIO [WARNING] [main.Publisher] No pubkeeper connection, discarding 8 queued messages
+[2019-03-18T22:18:40.242189Z] NIO [ERROR] [main.ResourceTypedCollection] Ignoring instance: 'PrimeConditions' with invalid type: 'ConditionalModifier'
+[2019-03-18T22:18:40.243011Z] NIO [WARNING] [main.Publisher] Unable to send signals, no pubkeeper connection
+[2019-03-18T22:18:40.243309Z] NIO [ERROR] [main.ResourceTypedCollection] Ignoring instance: 'CheckForTimeout' with invalid type: 'SignalTimeout'
+[2019-03-18T22:18:40.243671Z] NIO [WARNING] [main.Publisher] Unable to send signals, no pubkeeper connection
+[2019-03-18T22:18:40.244038Z] NIO [ERROR] [main.ResourceTypedCollection] Ignoring instance: 'BuildListOfPrimes' with invalid type: 'Buffer'
+[2019-03-18T22:18:40.244440Z] NIO [WARNING] [main.Publisher] Unable to send signals, no pubkeeper connection
+[2019-03-18T22:18:40.245058Z] NIO [ERROR] [main.ResourceTypedCollection] Ignoring instance: 'CommandBufferEmit' with invalid type: 'NioCommand'
+[2019-03-18T22:18:40.245482Z] NIO [WARNING] [main.Publisher] Unable to send signals, no pubkeeper connection
+[2019-03-18T22:18:40.245790Z] NIO [ERROR] [main.ResourceTypedCollection] Ignoring instance: 'JoinPrimes' with invalid type: 'Join'
+[2019-03-18T22:18:40.246179Z] NIO [WARNING] [main.Publisher] Unable to send signals, no pubkeeper connection
+[2019-03-18T22:18:40.246723Z] NIO [ERROR] [main.ResourceTypedCollection] Ignoring instance: 'QueuePrimes' with invalid type: 'Queue'
+[2019-03-18T22:18:40.247120Z] NIO [WARNING] [main.Publisher] Unable to send signals, no pubkeeper connection
+[2019-03-18T22:19:01.122727Z] NIO [INFO] [main.ServiceManager] Stopping service: CalculatePrimes
+[2019-03-18T22:19:01.123822Z] NIO [WARNING] [main.Publisher] Unable to send signals, no pubkeeper connection
+[2019-03-18T22:19:01.127060Z] NIO [WARNING] [main.Publisher] Unable to send signals, no pubkeeper connection
+[2019-03-18T22:19:04.194760Z] NIO [WARNING] [main.Publisher] Unable to send signals, no pubkeeper connection
+[2019-03-18T22:19:06.792287Z] NIO [WARNING] [main.Publisher] Unable to send signals, no pubkeeper connection
+[2019-03-18T22:19:06.794564Z] NIO [WARNING] [main.Publisher] Unable to send signals, no pubkeeper connection
+[2019-03-18T22:19:06.796255Z] NIO [WARNING] [main.Publisher] Unable to send signals, no pubkeeper connection
+[2019-03-18T22:19:06.796579Z] NIO [INFO] [main.ServiceManager] Service: CalculatePrimes with process identifier(pid): 71480 has started
+[2019-03-18T22:20:26.267846Z] NIO [INFO] [main.ServiceManager] Stopping service: CalculatePrimes
+[2019-03-18T22:20:26.269874Z] NIO [WARNING] [main.Publisher] Unable to send signals, no pubkeeper connection
+[2019-03-18T22:20:26.272585Z] NIO [WARNING] [main.Publisher] Unable to send signals, no pubkeeper connection
+[2019-03-18T22:20:27.733459Z] NIO [WARNING] [main.Publisher] Unable to send signals, no pubkeeper connection
+[2019-03-18T22:20:30.338356Z] NIO [WARNING] [main.Publisher] Unable to send signals, no pubkeeper connection
+[2019-03-18T22:20:30.340180Z] NIO [WARNING] [main.Publisher] Unable to send signals, no pubkeeper connection
+[2019-03-18T22:20:30.340869Z] NIO [INFO] [main.ServiceManager] Service: CalculatePrimes with process identifier(pid): 71575 has started
+[2019-03-18T22:20:30.341623Z] NIO [WARNING] [main.Publisher] Unable to send signals, no pubkeeper connection
+[2019-03-18T22:20:47.127999Z] NIO [INFO] [main.ServiceManager] Stopping service: CalculatePrimes
+[2019-03-18T22:20:47.129377Z] NIO [WARNING] [main.Publisher] Unable to send signals, no pubkeeper connection
+[2019-03-18T22:20:47.132504Z] NIO [WARNING] [main.Publisher] Unable to send signals, no pubkeeper connection
+[2019-03-18T22:20:52.748187Z] NIO [INFO] [main.ServiceManager] Stopping service: ClientMetrics
+[2019-03-18T22:20:52.749370Z] NIO [WARNING] [main.Publisher] Unable to send signals, no pubkeeper connection
+[2019-03-18T22:20:52.765101Z] NIO [WARNING] [main.Publisher] Unable to send signals, no pubkeeper connection
+[2019-03-18T22:23:19.447053Z] NIO [WARNING] [main.Publisher] Unable to send signals, no pubkeeper connection
+[2019-03-18T22:23:22.092372Z] NIO [WARNING] [main.Publisher] Unable to send signals, no pubkeeper connection
+[2019-03-18T22:23:22.093694Z] NIO [WARNING] [main.Publisher] Unable to send signals, no pubkeeper connection
+[2019-03-18T22:23:22.098156Z] NIO [INFO] [main.ServiceManager] Service: ClientMetrics with process identifier(pid): 71621 has started
+[2019-03-18T22:23:22.098512Z] NIO [WARNING] [main.Publisher] Unable to send signals, no pubkeeper connection
+[2019-03-18T22:23:25.604426Z] NIO [WARNING] [main.Publisher] Unable to send signals, no pubkeeper connection
+[2019-03-18T22:23:28.157331Z] NIO [WARNING] [main.Publisher] Unable to send signals, no pubkeeper connection
+[2019-03-18T22:23:28.159332Z] NIO [WARNING] [main.Publisher] Unable to send signals, no pubkeeper connection
+[2019-03-18T22:23:28.159762Z] NIO [INFO] [main.ServiceManager] Service: CalculatePrimes with process identifier(pid): 71628 has started
+[2019-03-18T22:23:28.160451Z] NIO [WARNING] [main.Publisher] Unable to send signals, no pubkeeper connection
+[2019-03-18T22:23:30.885308Z] NIO [INFO] [main.WebServer] Server 0.0.0.0:8188 stopped
+[2019-03-18T22:23:31.007308Z] NIO [INFO] [main.WebServer] Server 0.0.0.0:8188 stopped
+[2019-03-18T22:23:31.132883Z] NIO [INFO] [main.WebServer] Server 0.0.0.0:8188 stopped
+[2019-03-18T22:23:31.276442Z] NIO [INFO] [main.WebServer] Server 0.0.0.0:8188 stopped
+[2019-03-18T22:23:31.428509Z] NIO [INFO] [main.WebServer] Server 0.0.0.0:8188 stopped
+[2019-03-18T22:23:31.572411Z] NIO [INFO] [main.WebServer] Server 0.0.0.0:8188 stopped
+[2019-03-18T22:23:32.072244Z] NIO [INFO] [main.WebServer] Server 0.0.0.0:8188 stopped
+[2019-03-18T22:23:32.163539Z] NIO [INFO] [main.WebServer] Server 0.0.0.0:8188 stopped
+[2019-03-18T22:23:32.239888Z] NIO [INFO] [main.WebServer] Server 0.0.0.0:8188 stopped
+[2019-03-18T22:23:32.323329Z] NIO [INFO] [main.WebServer] Server 0.0.0.0:8188 stopped
+[2019-03-18T22:23:32.406921Z] NIO [INFO] [main.WebServer] Server 0.0.0.0:8188 stopped
+[2019-03-18T22:23:32.490231Z] NIO [INFO] [main.WebServer] Server 0.0.0.0:8188 stopped
+[2019-03-18T22:23:32.573694Z] NIO [INFO] [main.WebServer] Server 0.0.0.0:8188 stopped
+[2019-03-18T22:23:32.656817Z] NIO [INFO] [main.WebServer] Server 0.0.0.0:8188 stopped
+[2019-03-18T22:23:32.740360Z] NIO [INFO] [main.WebServer] Server 0.0.0.0:8188 stopped
+[2019-03-18T22:23:32.823836Z] NIO [INFO] [main.WebServer] Server 0.0.0.0:8188 stopped
+[2019-03-18T22:23:32.906636Z] NIO [INFO] [main.WebServer] Server 0.0.0.0:8188 stopped
+[2019-03-18T22:23:32.991055Z] NIO [INFO] [main.WebServer] Server 0.0.0.0:8188 stopped
+[2019-03-18T22:23:33.074162Z] NIO [INFO] [main.WebServer] Server 0.0.0.0:8188 stopped
+[2019-03-18T22:23:33.163345Z] NIO [INFO] [main.WebServer] Server 0.0.0.0:8188 stopped
+[2019-03-18T22:23:33.241065Z] NIO [INFO] [main.WebServer] Server 0.0.0.0:8188 stopped
+[2019-03-18T22:23:33.324521Z] NIO [INFO] [main.WebServer] Server 0.0.0.0:8188 stopped
+[2019-03-18T22:23:33.407821Z] NIO [INFO] [main.WebServer] Server 0.0.0.0:8188 stopped
+[2019-03-18T22:23:33.491160Z] NIO [INFO] [main.WebServer] Server 0.0.0.0:8188 stopped
+[2019-03-18T22:23:33.574430Z] NIO [INFO] [main.WebServer] Server 0.0.0.0:8188 stopped
+[2019-03-18T22:23:33.658123Z] NIO [INFO] [main.WebServer] Server 0.0.0.0:8188 stopped
+[2019-03-18T22:23:33.741263Z] NIO [INFO] [main.WebServer] Server 0.0.0.0:8188 stopped
+[2019-03-18T22:23:33.824825Z] NIO [INFO] [main.WebServer] Server 0.0.0.0:8188 stopped
+[2019-03-18T22:23:33.908413Z] NIO [INFO] [main.WebServer] Server 0.0.0.0:8188 stopped
+[2019-03-18T22:23:33.992065Z] NIO [INFO] [main.WebServer] Server 0.0.0.0:8188 stopped
+[2019-03-18T22:23:34.075597Z] NIO [INFO] [main.WebServer] Server 0.0.0.0:8188 stopped
+[2019-03-18T22:23:34.163093Z] NIO [INFO] [main.WebServer] Server 0.0.0.0:8188 stopped
+[2019-03-18T22:23:34.242364Z] NIO [INFO] [main.WebServer] Server 0.0.0.0:8188 stopped
+[2019-03-18T22:23:34.325738Z] NIO [INFO] [main.WebServer] Server 0.0.0.0:8188 stopped
+[2019-03-18T22:23:34.409018Z] NIO [INFO] [main.WebServer] Server 0.0.0.0:8188 stopped
+[2019-03-18T22:23:34.492432Z] NIO [INFO] [main.WebServer] Server 0.0.0.0:8188 stopped
+[2019-03-18T22:23:34.575666Z] NIO [INFO] [main.WebServer] Server 0.0.0.0:8188 stopped
+[2019-03-18T22:23:34.659008Z] NIO [INFO] [main.WebServer] Server 0.0.0.0:8188 stopped
+[2019-03-18T22:23:34.742231Z] NIO [INFO] [main.WebServer] Server 0.0.0.0:8188 stopped
+[2019-03-18T22:23:34.825671Z] NIO [INFO] [main.WebServer] Server 0.0.0.0:8188 stopped
+[2019-03-18T22:23:34.909368Z] NIO [INFO] [main.WebServer] Server 0.0.0.0:8188 stopped
+[2019-03-18T22:23:34.992541Z] NIO [INFO] [main.WebServer] Server 0.0.0.0:8188 stopped
+[2019-03-18T22:23:35.075877Z] NIO [INFO] [main.WebServer] Server 0.0.0.0:8188 stopped
+[2019-03-18T22:23:35.164310Z] NIO [INFO] [main.WebServer] Server 0.0.0.0:8188 stopped
+[2019-03-18T22:23:35.242734Z] NIO [INFO] [main.WebServer] Server 0.0.0.0:8188 stopped
+[2019-03-18T22:23:35.325787Z] NIO [INFO] [main.WebServer] Server 0.0.0.0:8188 stopped
+[2019-03-18T22:23:35.409654Z] NIO [INFO] [main.WebServer] Server 0.0.0.0:8188 stopped
+[2019-03-18T22:23:35.493486Z] NIO [INFO] [main.WebServer] Server 0.0.0.0:8188 stopped
+[2019-03-18T22:23:35.577531Z] NIO [INFO] [main.WebServer] Server 0.0.0.0:8188 stopped
+[2019-03-18T22:23:35.660941Z] NIO [INFO] [main.WebServer] Server 0.0.0.0:8188 stopped
+[2019-03-18T22:23:35.696409Z] NIO [INFO] [main.WebServer] Server 0.0.0.0:8188 stopped
+[2019-03-18T22:23:35.697593Z] NIO [INFO] [main.ServiceManager] Component: ServiceManager status changed from: started to: stopping
+[2019-03-18T22:23:35.697877Z] NIO [INFO] [main.ServiceManager] Stopping service: ClientMetrics
+[2019-03-18T22:23:35.699571Z] NIO [WARNING] [main.Publisher] Unable to send signals, no pubkeeper connection
+[2019-03-18T22:23:35.716175Z] NIO [WARNING] [main.Publisher] Unable to send signals, no pubkeeper connection
+[2019-03-18T22:23:35.744520Z] NIO [INFO] [main.WebServer] Server 0.0.0.0:8188 stopped
+[2019-03-18T22:23:35.829330Z] NIO [INFO] [main.WebServer] Server 0.0.0.0:8188 stopped
+[2019-03-18T22:23:35.912744Z] NIO [INFO] [main.WebServer] Server 0.0.0.0:8188 stopped
+[2019-03-18T22:23:35.995795Z] NIO [INFO] [main.WebServer] Server 0.0.0.0:8188 stopped
+[2019-03-18T22:23:36.080069Z] NIO [INFO] [main.WebServer] Server 0.0.0.0:8188 stopped
+[2019-03-18T22:23:36.164255Z] NIO [INFO] [main.WebServer] Server 0.0.0.0:8188 stopped
+[2019-03-18T22:23:36.248463Z] NIO [INFO] [main.WebServer] Server 0.0.0.0:8188 stopped
+[2019-03-18T22:23:36.332183Z] NIO [INFO] [main.WebServer] Server 0.0.0.0:8188 stopped
+[2019-03-18T22:23:36.416795Z] NIO [INFO] [main.WebServer] Server 0.0.0.0:8188 stopped
+[2019-03-18T22:23:36.500063Z] NIO [INFO] [main.WebServer] Server 0.0.0.0:8188 stopped
+[2019-03-18T22:23:36.582748Z] NIO [INFO] [main.WebServer] Server 0.0.0.0:8188 stopped
+[2019-03-18T22:23:36.667322Z] NIO [INFO] [main.WebServer] Server 0.0.0.0:8188 stopped
+[2019-03-18T22:23:36.701454Z] NIO [INFO] [main.ServiceManager] Stopping service: CalculatePrimes
+[2019-03-18T22:23:36.703719Z] NIO [WARNING] [main.Publisher] Unable to send signals, no pubkeeper connection
+[2019-03-18T22:23:36.708384Z] NIO [WARNING] [main.Publisher] Unable to send signals, no pubkeeper connection
+[2019-03-18T22:23:36.751287Z] NIO [INFO] [main.WebServer] Server 0.0.0.0:8188 stopped
+[2019-03-18T22:23:36.835568Z] NIO [INFO] [main.WebServer] Server 0.0.0.0:8188 stopped
+[2019-03-18T22:23:36.918632Z] NIO [INFO] [main.WebServer] Server 0.0.0.0:8188 stopped
+[2019-03-18T22:23:37.002829Z] NIO [INFO] [main.WebServer] Server 0.0.0.0:8188 stopped
+[2019-03-18T22:23:37.085626Z] NIO [INFO] [main.WebServer] Server 0.0.0.0:8188 stopped
+[2019-03-18T22:23:37.170262Z] NIO [INFO] [main.WebServer] Server 0.0.0.0:8188 stopped
+[2019-03-18T22:23:37.252621Z] NIO [INFO] [main.WebServer] Server 0.0.0.0:8188 stopped
+[2019-03-18T22:23:37.335939Z] NIO [INFO] [main.WebServer] Server 0.0.0.0:8188 stopped
+[2019-03-18T22:23:37.418985Z] NIO [INFO] [main.WebServer] Server 0.0.0.0:8188 stopped
+[2019-03-18T22:23:37.502661Z] NIO [INFO] [main.WebServer] Server 0.0.0.0:8188 stopped
+[2019-03-18T22:23:37.585407Z] NIO [INFO] [main.WebServer] Server 0.0.0.0:8188 stopped
+[2019-03-18T22:23:37.668942Z] NIO [INFO] [main.WebServer] Server 0.0.0.0:8188 stopped
+[2019-03-18T22:23:37.704294Z] NIO [INFO] [main.ServiceManager] Component: ServiceManager status changed from: stopping to: stopped
+[2019-03-18T22:23:37.705161Z] NIO [INFO] [main.WebServer] Server 0.0.0.0:8188 stopped
+[2019-03-18T22:23:37.705650Z] NIO [INFO] [main.WebServer] Server 0.0.0.0:8188 stopped
+[2019-03-18T22:23:37.707496Z] NIO [INFO] [pubkeeper.client] Pubkeeper Client Shutting Down
+[2019-03-18T22:23:37.708304Z] NIO [INFO] [pubkeeper.client] Pubkeeper Client Shutdown
+[2019-03-18T22:23:49.250761Z] NIO [WARNING] [pubkeeper.client] Installed pubkeeper.protocol.v1 has no handler in this client version, skipping
+[2019-03-18T22:23:49.252620Z] NIO [INFO] [pubkeeper.client] Pubkeeper Client Running (2 brews started)
+[2019-03-18T22:23:49.317067Z] NIO [INFO] [main.WebServer] Server configured on 0.0.0.0:8188
+[2019-03-18T22:23:49.317769Z] NIO [INFO] [main.ServiceManager] Setting status to created
+[2019-03-18T22:23:49.318002Z] NIO [INFO] [main.ServiceManager] Component: ServiceManager status changed from:  to: created
+[2019-03-18T22:23:49.381107Z] NIO [ERROR] [main.ResourceTypedCollection] Ignoring instance: 'PrimeConditions' with invalid type: 'ConditionalModifier'
+[2019-03-18T22:23:49.381591Z] NIO [ERROR] [main.ResourceTypedCollection] Ignoring instance: 'CheckForTimeout' with invalid type: 'SignalTimeout'
+[2019-03-18T22:23:49.381943Z] NIO [ERROR] [main.ResourceTypedCollection] Ignoring instance: 'BuildListOfPrimes' with invalid type: 'Buffer'
+[2019-03-18T22:23:49.382568Z] NIO [ERROR] [main.ResourceTypedCollection] Ignoring instance: 'CommandBufferEmit' with invalid type: 'NioCommand'
+[2019-03-18T22:23:49.383543Z] NIO [ERROR] [main.ResourceTypedCollection] Ignoring instance: 'JoinPrimes' with invalid type: 'Join'
+[2019-03-18T22:23:49.384142Z] NIO [ERROR] [main.ResourceTypedCollection] Ignoring instance: 'QueuePrimes' with invalid type: 'Queue'
+[2019-03-18T22:23:49.384546Z] NIO [INFO] [main.ServiceManager] Setting status to configuring
+[2019-03-18T22:23:49.384717Z] NIO [INFO] [main.ServiceManager] Component: ServiceManager status changed from: created to: configuring
+[2019-03-18T22:23:49.387642Z] NIO [INFO] [main.ServiceManager] Component: ServiceManager status changed from: configuring to: configured
+[2019-03-18T22:23:49.390818Z] NIO [INFO] [main.WebServer] Starting server on 0.0.0.0:8188
+[2019-03-18T22:23:49.495082Z] NIO [INFO] [main.WebServer] Server 0.0.0.0:8188 started on 0.0.0.0:8188
+[2019-03-18T22:23:49.496230Z] NIO [INFO] [main.WebServer] Web engine started
+[2019-03-18T22:23:49.496823Z] NIO [INFO] [main.ServiceManager] Component: ServiceManager status changed from: configured to: starting
+[2019-03-18T22:23:49.533272Z] NIO [INFO] [main.ServiceManager] Component: ServiceManager status changed from: starting to: started
+[2019-03-18T22:23:49.654221Z] NIO [WARNING] [pubkeeper.utils.websocket] Connection Failure: wss://fc797ed2-4e92-47b9-b167-3276c0c62e63.pubkeeper.nio.works:443/ws ('NoneType' object has no attribute 'index')
+[2019-03-18T22:23:49.654820Z] NIO [INFO] [pubkeeper.client] Disconnected from Pubkeeper
+[2019-03-18T22:23:49.732667Z] NIO [INFO] [pubkeeper.client] Disconnected from Pubkeeper
+[2019-03-18T22:23:52.095127Z] NIO [INFO] [main.ServiceManager] Service: CalculatePrimes with process identifier(pid): 71648 has started
+[2019-03-18T22:23:52.152624Z] NIO [INFO] [main.ServiceManager] Service: ClientMetrics with process identifier(pid): 71649 has started
+[2019-03-18T22:23:54.341190Z] NIO [WARNING] [main.Publisher] No pubkeeper connection, discarding 6 queued messages
+[2019-03-18T22:23:54.390470Z] NIO [WARNING] [main.Publisher] No pubkeeper connection, discarding 8 queued messages
+[2019-03-18T22:25:46.409121Z] NIO [INFO] [main.WebServer] Server 0.0.0.0:8188 stopped
+[2019-03-18T22:25:46.416086Z] NIO [INFO] [main.ServiceManager] Component: ServiceManager status changed from: started to: stopping
+[2019-03-18T22:25:46.416374Z] NIO [INFO] [main.ServiceManager] Stopping service: CalculatePrimes
+[2019-03-18T22:25:46.417702Z] NIO [WARNING] [main.Publisher] Unable to send signals, no pubkeeper connection
+[2019-03-18T22:25:46.420632Z] NIO [WARNING] [main.Publisher] Unable to send signals, no pubkeeper connection
+[2019-03-18T22:25:46.637831Z] NIO [INFO] [main.WebServer] Server 0.0.0.0:8188 stopped
+[2019-03-18T22:25:46.806059Z] NIO [INFO] [main.WebServer] Server 0.0.0.0:8188 stopped
+[2019-03-18T22:25:47.381783Z] NIO [INFO] [main.WebServer] Server 0.0.0.0:8188 stopped
+[2019-03-18T22:25:47.422788Z] NIO [INFO] [main.ServiceManager] Stopping service: ClientMetrics
+[2019-03-18T22:25:47.424839Z] NIO [WARNING] [main.Publisher] Unable to send signals, no pubkeeper connection
+[2019-03-18T22:25:47.441605Z] NIO [WARNING] [main.Publisher] Unable to send signals, no pubkeeper connection
+[2019-03-18T22:25:47.573471Z] NIO [INFO] [main.WebServer] Server 0.0.0.0:8188 stopped
+[2019-03-18T22:25:47.694185Z] NIO [INFO] [main.WebServer] Server 0.0.0.0:8188 stopped
+[2019-03-18T22:25:47.822019Z] NIO [INFO] [main.WebServer] Server 0.0.0.0:8188 stopped
+[2019-03-18T22:25:47.974037Z] NIO [INFO] [main.WebServer] Server 0.0.0.0:8188 stopped
+[2019-03-18T22:25:48.117937Z] NIO [INFO] [main.WebServer] Server 0.0.0.0:8188 stopped
+[2019-03-18T22:25:48.262083Z] NIO [INFO] [main.WebServer] Server 0.0.0.0:8188 stopped
+[2019-03-18T22:25:48.390144Z] NIO [INFO] [main.WebServer] Server 0.0.0.0:8188 stopped
+[2019-03-18T22:25:48.428427Z] NIO [INFO] [main.ServiceManager] Component: ServiceManager status changed from: stopping to: stopped
+[2019-03-18T22:25:48.428860Z] NIO [INFO] [main.WebServer] Server 0.0.0.0:8188 stopped
+[2019-03-18T22:25:48.429137Z] NIO [INFO] [main.WebServer] Server 0.0.0.0:8188 stopped
+[2019-03-18T22:25:48.430407Z] NIO [INFO] [pubkeeper.client] Pubkeeper Client Shutting Down
+[2019-03-18T22:25:48.431070Z] NIO [INFO] [pubkeeper.client] Pubkeeper Client Shutdown
+[2019-03-18T22:48:30.167957Z] NIO [WARNING] [pubkeeper.client] Installed pubkeeper.protocol.v1 has no handler in this client version, skipping
+[2019-03-18T22:48:30.169346Z] NIO [INFO] [pubkeeper.client] Pubkeeper Client Running (2 brews started)
+[2019-03-18T22:48:30.242193Z] NIO [INFO] [main.WebServer] Server configured on 0.0.0.0:8188
+[2019-03-18T22:48:30.242688Z] NIO [INFO] [main.ServiceManager] Setting status to created
+[2019-03-18T22:48:30.242888Z] NIO [INFO] [main.ServiceManager] Component: ServiceManager status changed from:  to: created
+[2019-03-18T22:48:30.319839Z] NIO [ERROR] [main.Discover] Failure loading module blocks.nio_command.nio_command_block
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/niocore/core/loader/discover.py", line 140, in _get_module
+    my_module = import_module(module_name)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1006, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 983, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 967, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/jrepp/Developer/n.io/demo_ndi_client/blocks/nio_command/nio_command_block.py", line 13, in <module>
+    from .oauth2_mixin.oauth2_base import OAuth2Exception
+ModuleNotFoundError: No module named 'blocks.nio_command.oauth2_mixin.oauth2_base'
+[2019-03-18T22:48:30.348068Z] NIO [ERROR] [main.ResourceTypedCollection] Ignoring instance: 'CommandBufferEmit' with invalid type: 'NioCommand'
+[2019-03-18T22:48:30.349197Z] NIO [INFO] [main.ServiceManager] Setting status to configuring
+[2019-03-18T22:48:30.349377Z] NIO [INFO] [main.ServiceManager] Component: ServiceManager status changed from: created to: configuring
+[2019-03-18T22:48:30.352280Z] NIO [INFO] [main.ServiceManager] Component: ServiceManager status changed from: configuring to: configured
+[2019-03-18T22:48:30.355559Z] NIO [INFO] [main.WebServer] Starting server on 0.0.0.0:8188
+[2019-03-18T22:48:30.457132Z] NIO [INFO] [main.WebServer] Server 0.0.0.0:8188 started on 0.0.0.0:8188
+[2019-03-18T22:48:30.458585Z] NIO [INFO] [main.WebServer] Web engine started
+[2019-03-18T22:48:30.459206Z] NIO [INFO] [main.ServiceManager] Component: ServiceManager status changed from: configured to: starting
+[2019-03-18T22:48:30.481750Z] NIO [INFO] [main.ServiceManager] Component: ServiceManager status changed from: starting to: started
+[2019-03-18T22:48:30.649052Z] NIO [WARNING] [pubkeeper.utils.websocket] Connection Failure: wss://fc797ed2-4e92-47b9-b167-3276c0c62e63.pubkeeper.nio.works:443/ws ('NoneType' object has no attribute 'index')
+[2019-03-18T22:48:30.649472Z] NIO [INFO] [pubkeeper.client] Disconnected from Pubkeeper
+[2019-03-18T22:48:30.727326Z] NIO [INFO] [pubkeeper.client] Disconnected from Pubkeeper
+[2019-03-18T22:48:33.081657Z] NIO [INFO] [main.ServiceManager] Service: CalculatePrimes with process identifier(pid): 72923 has started
+[2019-03-18T22:48:33.128567Z] NIO [INFO] [main.ServiceManager] Service: ClientMetrics with process identifier(pid): 72924 has started
+[2019-03-18T22:48:35.257917Z] NIO [WARNING] [main.Publisher] No pubkeeper connection, discarding 2 queued messages
+[2019-03-18T22:48:35.357702Z] NIO [WARNING] [main.Publisher] No pubkeeper connection, discarding 8 queued messages
+[2019-03-18T22:50:07.061030Z] NIO [INFO] [main.WebServer] Server 0.0.0.0:8188 stopped
+[2019-03-18T22:50:07.083625Z] NIO [INFO] [main.ServiceManager] Component: ServiceManager status changed from: started to: stopping
+[2019-03-18T22:50:07.083975Z] NIO [INFO] [main.ServiceManager] Stopping service: CalculatePrimes
+[2019-03-18T22:50:07.085360Z] NIO [WARNING] [main.Publisher] Unable to send signals, no pubkeeper connection
+[2019-03-18T22:50:07.089237Z] NIO [WARNING] [main.Publisher] Unable to send signals, no pubkeeper connection
+[2019-03-18T22:50:07.305493Z] NIO [INFO] [main.WebServer] Server 0.0.0.0:8188 stopped
+[2019-03-18T22:50:07.442230Z] NIO [INFO] [main.WebServer] Server 0.0.0.0:8188 stopped
+[2019-03-18T22:50:07.569602Z] NIO [INFO] [main.WebServer] Server 0.0.0.0:8188 stopped
+[2019-03-18T22:50:08.085399Z] NIO [INFO] [main.ServiceManager] Stopping service: ClientMetrics
+[2019-03-18T22:50:08.086986Z] NIO [WARNING] [main.Publisher] Unable to send signals, no pubkeeper connection
+[2019-03-18T22:50:08.103120Z] NIO [WARNING] [main.Publisher] Unable to send signals, no pubkeeper connection
+[2019-03-18T22:50:09.087855Z] NIO [INFO] [main.ServiceManager] Component: ServiceManager status changed from: stopping to: stopped
+[2019-03-18T22:50:09.092566Z] NIO [INFO] [main.WebServer] Server 0.0.0.0:8188 stopped
+[2019-03-18T22:50:09.093192Z] NIO [INFO] [main.WebServer] Server 0.0.0.0:8188 stopped
+[2019-03-18T22:50:09.095218Z] NIO [INFO] [pubkeeper.client] Pubkeeper Client Shutting Down
+[2019-03-18T22:50:09.095951Z] NIO [INFO] [pubkeeper.client] Pubkeeper Client Shutdown
+[2019-03-18T22:50:20.042949Z] NIO [WARNING] [pubkeeper.client] Installed pubkeeper.protocol.v1 has no handler in this client version, skipping
+[2019-03-18T22:50:20.043976Z] NIO [INFO] [pubkeeper.client] Pubkeeper Client Running (2 brews started)
+[2019-03-18T22:50:20.108936Z] NIO [INFO] [main.WebServer] Server configured on 0.0.0.0:8188
+[2019-03-18T22:50:20.109418Z] NIO [INFO] [main.ServiceManager] Setting status to created
+[2019-03-18T22:50:20.109612Z] NIO [INFO] [main.ServiceManager] Component: ServiceManager status changed from:  to: created
+[2019-03-18T22:50:20.162349Z] NIO [ERROR] [main.Discover] Failure loading module blocks.nio_command.nio_command_block
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages/niocore/core/loader/discover.py", line 140, in _get_module
+    my_module = import_module(module_name)
+  File "/Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1006, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 983, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 967, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 677, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/Users/jrepp/Developer/n.io/demo_ndi_client/blocks/nio_command/nio_command_block.py", line 13, in <module>
+    from .oauth2_mixin.oauth2_base import OAuth2Exception
+ModuleNotFoundError: No module named 'blocks.nio_command.oauth2_mixin.oauth2_base'
+[2019-03-18T22:50:20.181406Z] NIO [ERROR] [main.ResourceTypedCollection] Ignoring instance: 'CommandBufferEmit' with invalid type: 'NioCommand'
+[2019-03-18T22:50:20.182403Z] NIO [INFO] [main.ServiceManager] Setting status to configuring
+[2019-03-18T22:50:20.182602Z] NIO [INFO] [main.ServiceManager] Component: ServiceManager status changed from: created to: configuring
+[2019-03-18T22:50:20.185044Z] NIO [INFO] [main.ServiceManager] Component: ServiceManager status changed from: configuring to: configured
+[2019-03-18T22:50:20.188157Z] NIO [INFO] [main.WebServer] Starting server on 0.0.0.0:8188
+[2019-03-18T22:50:20.291223Z] NIO [INFO] [main.WebServer] Server 0.0.0.0:8188 started on 0.0.0.0:8188
+[2019-03-18T22:50:20.292210Z] NIO [INFO] [main.WebServer] Web engine started
+[2019-03-18T22:50:20.292679Z] NIO [INFO] [main.ServiceManager] Component: ServiceManager status changed from: configured to: starting
+[2019-03-18T22:50:20.323594Z] NIO [INFO] [main.ServiceManager] Component: ServiceManager status changed from: starting to: started
+[2019-03-18T22:50:20.407613Z] NIO [WARNING] [pubkeeper.utils.websocket] Connection Failure: wss://fc797ed2-4e92-47b9-b167-3276c0c62e63.pubkeeper.nio.works:443/ws ('NoneType' object has no attribute 'index')
+[2019-03-18T22:50:20.408036Z] NIO [INFO] [pubkeeper.client] Disconnected from Pubkeeper
+[2019-03-18T22:50:20.488052Z] NIO [INFO] [pubkeeper.client] Disconnected from Pubkeeper
+[2019-03-18T22:50:22.893876Z] NIO [INFO] [main.ServiceManager] Service: CalculatePrimes with process identifier(pid): 73048 has started
+[2019-03-18T22:50:22.974707Z] NIO [INFO] [main.ServiceManager] Service: ClientMetrics with process identifier(pid): 73049 has started
+[2019-03-18T22:50:25.134771Z] NIO [WARNING] [main.Publisher] No pubkeeper connection, discarding 2 queued messages
+[2019-03-18T22:50:25.186261Z] NIO [WARNING] [main.Publisher] No pubkeeper connection, discarding 8 queued messages
+[2019-03-18T22:50:59.339680Z] NIO [INFO] [main.WebServer] Server 0.0.0.0:8188 stopped
+[2019-03-18T22:50:59.388387Z] NIO [INFO] [main.ServiceManager] Component: ServiceManager status changed from: started to: stopping
+[2019-03-18T22:50:59.389235Z] NIO [INFO] [main.ServiceManager] Stopping service: CalculatePrimes
+[2019-03-18T22:50:59.391672Z] NIO [WARNING] [main.Publisher] Unable to send signals, no pubkeeper connection
+[2019-03-18T22:50:59.396188Z] NIO [WARNING] [main.Publisher] Unable to send signals, no pubkeeper connection
+[2019-03-18T22:50:59.511666Z] NIO [INFO] [main.WebServer] Server 0.0.0.0:8188 stopped
+[2019-03-18T22:50:59.647136Z] NIO [INFO] [main.WebServer] Server 0.0.0.0:8188 stopped
+[2019-03-18T22:50:59.783284Z] NIO [INFO] [main.WebServer] Server 0.0.0.0:8188 stopped
+[2019-03-18T22:50:59.951691Z] NIO [INFO] [main.WebServer] Server 0.0.0.0:8188 stopped
+[2019-03-18T22:51:00.095521Z] NIO [INFO] [main.WebServer] Server 0.0.0.0:8188 stopped
+[2019-03-18T22:51:00.255663Z] NIO [INFO] [main.WebServer] Server 0.0.0.0:8188 stopped
+[2019-03-18T22:51:00.394135Z] NIO [INFO] [main.ServiceManager] Stopping service: ClientMetrics
+[2019-03-18T22:51:00.395956Z] NIO [WARNING] [main.Publisher] Unable to send signals, no pubkeeper connection
+[2019-03-18T22:51:00.399322Z] NIO [INFO] [main.WebServer] Server 0.0.0.0:8188 stopped
+[2019-03-18T22:51:00.416737Z] NIO [WARNING] [main.Publisher] Unable to send signals, no pubkeeper connection
+[2019-03-18T22:51:00.543600Z] NIO [INFO] [main.WebServer] Server 0.0.0.0:8188 stopped
+[2019-03-18T22:51:00.687828Z] NIO [INFO] [main.WebServer] Server 0.0.0.0:8188 stopped
+[2019-03-18T22:51:00.847581Z] NIO [INFO] [main.WebServer] Server 0.0.0.0:8188 stopped
+[2019-03-18T22:51:00.975381Z] NIO [INFO] [main.WebServer] Server 0.0.0.0:8188 stopped
+[2019-03-18T22:51:01.127527Z] NIO [INFO] [main.WebServer] Server 0.0.0.0:8188 stopped
+[2019-03-18T22:51:01.279066Z] NIO [INFO] [main.WebServer] Server 0.0.0.0:8188 stopped
+[2019-03-18T22:51:01.401083Z] NIO [INFO] [main.ServiceManager] Component: ServiceManager status changed from: stopping to: stopped
+[2019-03-18T22:51:01.401823Z] NIO [INFO] [main.WebServer] Server 0.0.0.0:8188 stopped
+[2019-03-18T22:51:01.402320Z] NIO [INFO] [main.WebServer] Server 0.0.0.0:8188 stopped
+[2019-03-18T22:51:01.404408Z] NIO [INFO] [pubkeeper.client] Pubkeeper Client Shutting Down
+[2019-03-18T22:51:01.405134Z] NIO [INFO] [pubkeeper.client] Pubkeeper Client Shutdown
+[2019-03-18T22:51:31.795194Z] NIO [WARNING] [pubkeeper.client] Installed pubkeeper.protocol.v1 has no handler in this client version, skipping
+[2019-03-18T22:51:31.796343Z] NIO [INFO] [pubkeeper.client] Pubkeeper Client Running (2 brews started)
+[2019-03-18T22:51:31.865652Z] NIO [INFO] [main.WebServer] Server configured on 0.0.0.0:8188
+[2019-03-18T22:51:31.866272Z] NIO [INFO] [main.ServiceManager] Setting status to created
+[2019-03-18T22:51:31.866478Z] NIO [INFO] [main.ServiceManager] Component: ServiceManager status changed from:  to: created
+[2019-03-18T22:51:32.016724Z] NIO [INFO] [main.ServiceManager] Setting status to configuring
+[2019-03-18T22:51:32.017114Z] NIO [INFO] [main.ServiceManager] Component: ServiceManager status changed from: created to: configuring
+[2019-03-18T22:51:32.020109Z] NIO [INFO] [main.ServiceManager] Component: ServiceManager status changed from: configuring to: configured
+[2019-03-18T22:51:32.023499Z] NIO [INFO] [main.WebServer] Starting server on 0.0.0.0:8188
+[2019-03-18T22:51:32.124991Z] NIO [INFO] [main.WebServer] Server 0.0.0.0:8188 started on 0.0.0.0:8188
+[2019-03-18T22:51:32.126013Z] NIO [INFO] [main.WebServer] Web engine started
+[2019-03-18T22:51:32.126531Z] NIO [INFO] [main.ServiceManager] Component: ServiceManager status changed from: configured to: starting
+[2019-03-18T22:51:32.160870Z] NIO [INFO] [main.ServiceManager] Component: ServiceManager status changed from: starting to: started
+[2019-03-18T22:51:32.210740Z] NIO [WARNING] [pubkeeper.utils.websocket] Connection Failure: wss://fc797ed2-4e92-47b9-b167-3276c0c62e63.pubkeeper.nio.works:443/ws ('NoneType' object has no attribute 'index')
+[2019-03-18T22:51:32.211378Z] NIO [INFO] [pubkeeper.client] Disconnected from Pubkeeper
+[2019-03-18T22:51:32.332253Z] NIO [INFO] [pubkeeper.client] Disconnected from Pubkeeper
+[2019-03-18T22:51:34.774631Z] NIO [INFO] [main.ServiceManager] Service: CalculatePrimes with process identifier(pid): 73181 has started
+[2019-03-18T22:51:34.847211Z] NIO [INFO] [main.ServiceManager] Service: ClientMetrics with process identifier(pid): 73182 has started
+[2019-03-18T22:51:37.024948Z] NIO [WARNING] [main.Publisher] No pubkeeper connection, discarding 8 queued messages
+[2019-03-18T22:56:52.794037Z] NIO [INFO] [main.WebServer] Server 0.0.0.0:8188 stopped
+[2019-03-18T22:56:52.796178Z] NIO [INFO] [main.ServiceManager] Component: ServiceManager status changed from: started to: stopping
+[2019-03-18T22:56:52.796397Z] NIO [INFO] [main.ServiceManager] Stopping service: CalculatePrimes
+[2019-03-18T22:56:52.797797Z] NIO [WARNING] [main.Publisher] Unable to send signals, no pubkeeper connection
+[2019-03-18T22:56:52.801311Z] NIO [WARNING] [main.Publisher] Unable to send signals, no pubkeeper connection
+[2019-03-18T22:56:52.990382Z] NIO [INFO] [main.WebServer] Server 0.0.0.0:8188 stopped
+[2019-03-18T22:56:53.135350Z] NIO [INFO] [main.WebServer] Server 0.0.0.0:8188 stopped
+[2019-03-18T22:56:53.422453Z] NIO [INFO] [main.WebServer] Server 0.0.0.0:8188 stopped
+[2019-03-18T22:56:53.575252Z] NIO [INFO] [main.WebServer] Server 0.0.0.0:8188 stopped
+[2019-03-18T22:56:53.703709Z] NIO [INFO] [main.WebServer] Server 0.0.0.0:8188 stopped
+[2019-03-18T22:56:53.802995Z] NIO [INFO] [main.ServiceManager] Stopping service: ClientMetrics
+[2019-03-18T22:56:53.805000Z] NIO [WARNING] [main.Publisher] Unable to send signals, no pubkeeper connection
+[2019-03-18T22:56:53.823509Z] NIO [WARNING] [main.Publisher] Unable to send signals, no pubkeeper connection
+[2019-03-18T22:56:53.857305Z] NIO [INFO] [main.WebServer] Server 0.0.0.0:8188 stopped
+[2019-03-18T22:56:53.990537Z] NIO [INFO] [main.WebServer] Server 0.0.0.0:8188 stopped
+[2019-03-18T22:56:54.151102Z] NIO [INFO] [main.WebServer] Server 0.0.0.0:8188 stopped
+[2019-03-18T22:56:54.806706Z] NIO [INFO] [main.ServiceManager] Component: ServiceManager status changed from: stopping to: stopped
+[2019-03-18T22:56:54.807335Z] NIO [INFO] [main.WebServer] Server 0.0.0.0:8188 stopped
+[2019-03-18T22:56:54.807722Z] NIO [INFO] [main.WebServer] Server 0.0.0.0:8188 stopped
+[2019-03-18T22:56:54.809062Z] NIO [INFO] [pubkeeper.client] Pubkeeper Client Shutting Down
+[2019-03-18T22:56:54.809639Z] NIO [INFO] [pubkeeper.client] Pubkeeper Client Shutdown
+[2019-03-18T22:58:40.601926Z] NIO [WARNING] [pubkeeper.client] Installed pubkeeper.protocol.v1 has no handler in this client version, skipping
+[2019-03-18T22:58:40.602940Z] NIO [INFO] [pubkeeper.client] Pubkeeper Client Running (2 brews started)
+[2019-03-18T22:58:40.670474Z] NIO [INFO] [main.WebServer] Server configured on 0.0.0.0:8188
+[2019-03-18T22:58:40.670979Z] NIO [INFO] [main.ServiceManager] Setting status to created
+[2019-03-18T22:58:40.671175Z] NIO [INFO] [main.ServiceManager] Component: ServiceManager status changed from:  to: created
+[2019-03-18T22:58:40.862587Z] NIO [INFO] [main.ServiceManager] Setting status to configuring
+[2019-03-18T22:58:40.862893Z] NIO [INFO] [main.ServiceManager] Component: ServiceManager status changed from: created to: configuring
+[2019-03-18T22:58:40.866472Z] NIO [INFO] [main.ServiceManager] Component: ServiceManager status changed from: configuring to: configured
+[2019-03-18T22:58:40.869776Z] NIO [INFO] [main.WebServer] Starting server on 0.0.0.0:8188
+[2019-03-18T22:58:40.973255Z] NIO [INFO] [main.WebServer] Server 0.0.0.0:8188 started on 0.0.0.0:8188
+[2019-03-18T22:58:40.974174Z] NIO [INFO] [main.WebServer] Web engine started
+[2019-03-18T22:58:40.974645Z] NIO [INFO] [main.ServiceManager] Component: ServiceManager status changed from: configured to: starting
+[2019-03-18T22:58:41.011796Z] NIO [WARNING] [pubkeeper.utils.websocket] Connection Failure: wss://fc797ed2-4e92-47b9-b167-3276c0c62e63.pubkeeper.nio.works:443/ws ('NoneType' object has no attribute 'index')
+[2019-03-18T22:58:41.015555Z] NIO [INFO] [pubkeeper.client] Disconnected from Pubkeeper
+[2019-03-18T22:58:41.015810Z] NIO [INFO] [main.ServiceManager] Component: ServiceManager status changed from: starting to: started
+[2019-03-18T22:58:41.128122Z] NIO [INFO] [pubkeeper.client] Disconnected from Pubkeeper
+[2019-03-18T22:58:43.607302Z] NIO [INFO] [main.ServiceManager] Service: CalculatePrimes with process identifier(pid): 73986 has started
+[2019-03-18T22:58:43.671094Z] NIO [INFO] [main.ServiceManager] Service: ClientMetrics with process identifier(pid): 73987 has started
+[2019-03-18T22:58:45.872908Z] NIO [WARNING] [main.Publisher] No pubkeeper connection, discarding 8 queued messages
+[2019-03-18T22:59:36.784697Z] NIO [INFO] [main.WebServer] Server 0.0.0.0:8188 stopped
+[2019-03-18T22:59:36.804919Z] NIO [INFO] [main.ServiceManager] Component: ServiceManager status changed from: started to: stopping
+[2019-03-18T22:59:36.805541Z] NIO [INFO] [main.ServiceManager] Stopping service: CalculatePrimes
+[2019-03-18T22:59:36.808128Z] NIO [WARNING] [main.Publisher] Unable to send signals, no pubkeeper connection
+[2019-03-18T22:59:36.812020Z] NIO [WARNING] [main.Publisher] Unable to send signals, no pubkeeper connection
+[2019-03-18T22:59:37.807906Z] NIO [INFO] [main.ServiceManager] Stopping service: ClientMetrics
+[2019-03-18T22:59:37.809780Z] NIO [WARNING] [main.Publisher] Unable to send signals, no pubkeeper connection
+[2019-03-18T22:59:37.826046Z] NIO [WARNING] [main.Publisher] Unable to send signals, no pubkeeper connection
+[2019-03-18T22:59:38.815121Z] NIO [INFO] [main.ServiceManager] Component: ServiceManager status changed from: stopping to: stopped
+[2019-03-18T22:59:38.815884Z] NIO [INFO] [main.WebServer] Server 0.0.0.0:8188 stopped
+[2019-03-18T22:59:38.816425Z] NIO [INFO] [main.WebServer] Server 0.0.0.0:8188 stopped
+[2019-03-18T22:59:38.818572Z] NIO [INFO] [pubkeeper.client] Pubkeeper Client Shutting Down
+[2019-03-18T22:59:38.819387Z] NIO [INFO] [pubkeeper.client] Pubkeeper Client Shutdown
+[2019-03-18T22:59:59.496125Z] NIO [WARNING] [pubkeeper.client] Installed pubkeeper.protocol.v1 has no handler in this client version, skipping
+[2019-03-18T22:59:59.497292Z] NIO [INFO] [pubkeeper.client] Pubkeeper Client Running (2 brews started)
+[2019-03-18T22:59:59.572178Z] NIO [INFO] [main.WebServer] Server configured on 0.0.0.0:8188
+[2019-03-18T22:59:59.572763Z] NIO [INFO] [main.ServiceManager] Setting status to created
+[2019-03-18T22:59:59.572957Z] NIO [INFO] [main.ServiceManager] Component: ServiceManager status changed from:  to: created
+[2019-03-18T22:59:59.761481Z] NIO [INFO] [main.ServiceManager] Setting status to configuring
+[2019-03-18T22:59:59.761764Z] NIO [INFO] [main.ServiceManager] Component: ServiceManager status changed from: created to: configuring
+[2019-03-18T22:59:59.765079Z] NIO [INFO] [main.ServiceManager] Component: ServiceManager status changed from: configuring to: configured
+[2019-03-18T22:59:59.768481Z] NIO [INFO] [main.WebServer] Starting server on 0.0.0.0:8188
+[2019-03-18T22:59:59.871294Z] NIO [INFO] [main.WebServer] Server 0.0.0.0:8188 started on 0.0.0.0:8188
+[2019-03-18T22:59:59.872808Z] NIO [INFO] [main.WebServer] Web engine started
+[2019-03-18T22:59:59.873303Z] NIO [INFO] [main.ServiceManager] Component: ServiceManager status changed from: configured to: starting
+[2019-03-18T22:59:59.900247Z] NIO [WARNING] [pubkeeper.utils.websocket] Connection Failure: wss://fc797ed2-4e92-47b9-b167-3276c0c62e63.pubkeeper.nio.works:443/ws ('NoneType' object has no attribute 'index')
+[2019-03-18T22:59:59.901066Z] NIO [INFO] [main.ServiceManager] Component: ServiceManager status changed from: starting to: started
+[2019-03-18T22:59:59.902035Z] NIO [INFO] [pubkeeper.client] Disconnected from Pubkeeper
+[2019-03-18T23:00:00.006513Z] NIO [INFO] [pubkeeper.client] Disconnected from Pubkeeper
+[2019-03-18T23:00:02.508020Z] NIO [INFO] [main.ServiceManager] Service: CalculatePrimes with process identifier(pid): 74156 has started
+[2019-03-18T23:00:02.574874Z] NIO [INFO] [main.ServiceManager] Service: ClientMetrics with process identifier(pid): 74155 has started
+[2019-03-18T23:00:04.768801Z] NIO [WARNING] [main.Publisher] No pubkeeper connection, discarding 8 queued messages
+[2019-03-18T23:01:49.676426Z] NIO [INFO] [main.WebServer] Server 0.0.0.0:8188 stopped
+[2019-03-18T23:01:49.693831Z] NIO [INFO] [main.ServiceManager] Component: ServiceManager status changed from: started to: stopping
+[2019-03-18T23:01:49.694125Z] NIO [INFO] [main.ServiceManager] Stopping service: CalculatePrimes
+[2019-03-18T23:01:49.695283Z] NIO [WARNING] [main.Publisher] Unable to send signals, no pubkeeper connection
+[2019-03-18T23:01:49.698499Z] NIO [WARNING] [main.Publisher] Unable to send signals, no pubkeeper connection
+[2019-03-18T23:01:50.698181Z] NIO [INFO] [main.ServiceManager] Stopping service: ClientMetrics
+[2019-03-18T23:01:50.700070Z] NIO [WARNING] [main.Publisher] Unable to send signals, no pubkeeper connection
+[2019-03-18T23:01:50.717713Z] NIO [WARNING] [main.Publisher] Unable to send signals, no pubkeeper connection
+[2019-03-18T23:01:51.701183Z] NIO [INFO] [main.ServiceManager] Component: ServiceManager status changed from: stopping to: stopped
+[2019-03-18T23:01:51.701799Z] NIO [INFO] [main.WebServer] Server 0.0.0.0:8188 stopped
+[2019-03-18T23:01:51.702223Z] NIO [INFO] [main.WebServer] Server 0.0.0.0:8188 stopped
+[2019-03-18T23:01:51.703925Z] NIO [INFO] [pubkeeper.client] Pubkeeper Client Shutting Down
+[2019-03-18T23:01:51.704709Z] NIO [INFO] [pubkeeper.client] Pubkeeper Client Shutdown
+[2019-03-18T23:01:52.450272Z] NIO [WARNING] [pubkeeper.client] Installed pubkeeper.protocol.v1 has no handler in this client version, skipping
+[2019-03-18T23:01:52.451407Z] NIO [INFO] [pubkeeper.client] Pubkeeper Client Running (2 brews started)
+[2019-03-18T23:01:52.555679Z] NIO [INFO] [main.WebServer] Server configured on 0.0.0.0:8188
+[2019-03-18T23:01:52.556235Z] NIO [INFO] [main.ServiceManager] Setting status to created
+[2019-03-18T23:01:52.556441Z] NIO [INFO] [main.ServiceManager] Component: ServiceManager status changed from:  to: created
+[2019-03-18T23:01:52.753396Z] NIO [INFO] [main.ServiceManager] Setting status to configuring
+[2019-03-18T23:01:52.753668Z] NIO [INFO] [main.ServiceManager] Component: ServiceManager status changed from: created to: configuring
+[2019-03-18T23:01:52.757103Z] NIO [INFO] [main.ServiceManager] Component: ServiceManager status changed from: configuring to: configured
+[2019-03-18T23:01:52.760396Z] NIO [INFO] [main.WebServer] Starting server on 0.0.0.0:8188
+[2019-03-18T23:01:52.840695Z] NIO [WARNING] [pubkeeper.utils.websocket] Connection Failure: wss://fc797ed2-4e92-47b9-b167-3276c0c62e63.pubkeeper.nio.works:443/ws ('NoneType' object has no attribute 'index')
+[2019-03-18T23:01:52.841924Z] NIO [INFO] [pubkeeper.client] Disconnected from Pubkeeper
+[2019-03-18T23:01:52.865242Z] NIO [INFO] [main.WebServer] Server 0.0.0.0:8188 started on 0.0.0.0:8188
+[2019-03-18T23:01:52.866957Z] NIO [INFO] [main.WebServer] Web engine started
+[2019-03-18T23:01:52.867612Z] NIO [INFO] [main.ServiceManager] Component: ServiceManager status changed from: configured to: starting
+[2019-03-18T23:01:52.896115Z] NIO [INFO] [main.ServiceManager] Component: ServiceManager status changed from: starting to: started
+[2019-03-18T23:01:52.927318Z] NIO [INFO] [pubkeeper.client] Disconnected from Pubkeeper
+[2019-03-18T23:01:55.502045Z] NIO [INFO] [main.ServiceManager] Service: CalculatePrimes with process identifier(pid): 74343 has started
+[2019-03-18T23:01:55.553075Z] NIO [INFO] [main.ServiceManager] Service: ClientMetrics with process identifier(pid): 74344 has started
+[2019-03-18T23:01:57.758432Z] NIO [WARNING] [main.Publisher] No pubkeeper connection, discarding 8 queued messages
+[2019-03-18T23:02:31.450671Z] NIO [INFO] [main.WebServer] Server 0.0.0.0:8188 stopped
+[2019-03-18T23:02:31.474982Z] NIO [INFO] [main.ServiceManager] Component: ServiceManager status changed from: started to: stopping
+[2019-03-18T23:02:31.475349Z] NIO [INFO] [main.ServiceManager] Stopping service: CalculatePrimes
+[2019-03-18T23:02:31.477007Z] NIO [WARNING] [main.Publisher] Unable to send signals, no pubkeeper connection
+[2019-03-18T23:02:31.480794Z] NIO [WARNING] [main.Publisher] Unable to send signals, no pubkeeper connection
+[2019-03-18T23:02:32.480253Z] NIO [INFO] [main.ServiceManager] Stopping service: ClientMetrics
+[2019-03-18T23:02:32.481882Z] NIO [WARNING] [main.Publisher] Unable to send signals, no pubkeeper connection
+[2019-03-18T23:02:32.498654Z] NIO [WARNING] [main.Publisher] Unable to send signals, no pubkeeper connection
+[2019-03-18T23:02:33.485331Z] NIO [INFO] [main.ServiceManager] Component: ServiceManager status changed from: stopping to: stopped
+[2019-03-18T23:02:33.486209Z] NIO [INFO] [main.WebServer] Server 0.0.0.0:8188 stopped
+[2019-03-18T23:02:33.486890Z] NIO [INFO] [main.WebServer] Server 0.0.0.0:8188 stopped
+[2019-03-18T23:02:33.488712Z] NIO [INFO] [pubkeeper.client] Pubkeeper Client Shutting Down
+[2019-03-18T23:02:33.489449Z] NIO [INFO] [pubkeeper.client] Pubkeeper Client Shutdown

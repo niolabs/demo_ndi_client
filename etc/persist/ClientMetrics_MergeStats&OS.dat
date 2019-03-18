@@ -1,13 +1,14 @@
 {
     "_signals": {
-        "__dct__": [
+        "__defaultdict__": [
             [
                 null,
                 {
-                    "input_2": {},
-                    "input_1": {}
+                    "input_1": {},
+                    "input_2": {}
                 }
             ]
-        ]
+        ],
+        "type": null
     }
 }
