@@ -1,6 +1,6 @@
 [submodule "service_tests"]
 	path = service_tests
-	url = git@github.com:niolabs/service_tests.git
+	url = https://github.com/niolabs/service_tests.git
 [submodule "blocks/attribute_selector"]
 	path = blocks/attribute_selector
 	url = https://github.com/nio-blocks/attribute_selector.git
@@ -18,19 +18,19 @@
 	url = https://github.com/nio-blocks/filter.git
 [submodule "blocks/host_specs"]
 	path = blocks/host_specs
-	url = git@github.com:nio-blocks/host_specs.git
+	url = https://github.com/nio-blocks/host_specs.git
 [submodule "blocks/join"]
 	path = blocks/join
 	url = https://github.com/nio-blocks/join.git
 [submodule "blocks/logger"]
 	path = blocks/logger
-	url = git://github.com/nio-blocks/logger.git
+	url = https://github.com/nio-blocks/logger.git
 [submodule "blocks/merge_streams"]
 	path = blocks/merge_streams
 	url = https://github.com/nio-blocks/merge_streams.git
 [submodule "blocks/metrics"]
 	path = blocks/metrics
-	url = git://github.com/nio-blocks/metrics.git
+	url = https://github.com/nio-blocks/metrics.git
 [submodule "blocks/modifier"]
 	path = blocks/modifier
 	url = https://github.com/nio-blocks/modifier.git
@@ -45,10 +45,10 @@
 	url = https://github.com/nio-blocks/signal_timeout.git
 [submodule "blocks/simulator"]
 	path = blocks/simulator
-	url = git@github.com:nio-blocks/simulator.git
+	url = https://github.com/nio-blocks/simulator.git
 [submodule "blocks/sleep"]
-  path = blocks/sleep
-  url = git://github.com/nio-blocks/sleep.git
+	path = blocks/sleep
+	url = https://github.com/nio-blocks/sleep.git
 [submodule "blocks/state"]
-  path = blocks/state
-  url = git@github.com:nio-blocks/state.git
+	path = blocks/state
+	url = https://github.com/nio-blocks/state.git
