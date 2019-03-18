@@ -1,7 +1,0 @@
-{
-  "nio/HostSpecs": {
-    "language": "Python",
-    "url": "git://github.com/nio-blocks/host_specs.git",
-    "version": "0.1.0"
-  }
-}

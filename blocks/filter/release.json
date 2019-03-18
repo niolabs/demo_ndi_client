@@ -1,7 +1,0 @@
-{
-  "nio/Filter": {
-    "language": "Python",
-    "version": "2.0.0",
-    "url": "git://github.com/nio-blocks/filter.git"
-  }
-}
