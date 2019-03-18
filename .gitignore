@@ -71,7 +71,7 @@ docs/_build/
 
 # nio stuff
 logs/
-etc/persist/
+/etc/persist/
 nio.err
 etc/api_key.cfg
 /logs/
